@@ -4,7 +4,7 @@ date = 2024-07-14T07:07:07+01:00
 draft = false
 cover = { image = "register1.png" }
 +++
-Pitchat是一個由台灣獨立開發者開發，專用於Threads行銷使用的輔助工具，內容涵蓋了**Threads數據分析**、Threads抽獎工具、Threads排程發文與Threads內容發想的專業行銷工具。
+[Pitchat](https://pitchat.co) 是一個由台灣獨立開發者開發，專用於Threads行銷使用的輔助工具，內容涵蓋了**Threads數據分析**、Threads抽獎工具、Threads排程發文與Threads內容發想的專業行銷工具。
 
 ## 免費版本功能
 
