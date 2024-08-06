@@ -1,0 +1,68 @@
+baseURL: https://blog.pitchat.co/
+languageCode: zh-tw
+title: Pitchat
+copyright: "[2024 Pitchat](https://pitchat.co)"
+theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+hasCJKLanguage: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+defaultContentLanguage: zh
+
+languages:
+  zh:
+    languageName: "中文"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+    menus:
+      main:
+        - name: 首頁
+          url: "https://pitchat.co"
+          weight: 1
+        - name: 部落格
+          pageRef: /
+          weight: 2
+        - name: 搜尋
+          pageRef: search/
+          weight: 20
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  author: ["Pitchat"]
+
+  meta:
+      favicon: true
+
+  fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      keys: ["title", "permalink", "summary", "content"]
+      includeMatches: true
+
+  homeInfoParams:
+    Title: Pitchat - Threads行銷軟體服務
+    Content: Pitchat 是一個專為 Threads 行銷設計的輔助工具，由台灣獨立開發者開發。這款軟體提供了全面的行銷功能，包括 Threads 數據分析、Threads 抽獎工具、Threads 排程發文與 Threads 內容發想等，幫助您有效管理和優化 Threads 行銷策略。
+
+  socialIcons: 
+    - name: "threads"
+      url: "https://www.threads.net/@pitchat.co"
+    - name: "instagram"
+      url: "https://www.instagram.com/pitchat.co/"
+    - name: "facebook"
+      url: "https://www.messenger.com/t/119696284562783"
