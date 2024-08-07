@@ -30,44 +30,12 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
 </noscript>
 </head>
 
 <body class="list" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     }
 
@@ -76,7 +44,9 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Pitchat (Alt + H)">Pitchat</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Pitchat (Alt + H)">
+                <img src="http://localhost:1313/pitchat.png" alt="" aria-label="logo"
+                    height="30">Pitchat</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -115,11 +85,6 @@
             <li>
                 <a href="http://localhost:1313/" title="部落格">
                     <span class="active">部落格</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/search/" title="搜尋">
-                    <span>搜尋</span>
                 </a>
             </li>
         </ul>
@@ -162,6 +127,21 @@
 </div>
 
     </footer>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/posts/threads-management/managment.png" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Threads是什麼？品牌經營Threads必備的行銷工具
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Threads，台灣年輕人又喜歡稱作「脆」，是最新的品牌經營利器，由Facebook的母公司Meta開發。台灣目前在Threads上是第二大...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-08-01 07:07:07 +0100 +0100'>八月 1, 2024</span>&nbsp;·&nbsp;Pitchat</footer>
+  <a class="entry-link" aria-label="post link to Threads是什麼？品牌經營Threads必備的行銷工具" href="http://localhost:1313/posts/threads-management/"></a>
 </article>
 
 <article class="post-entry"> 

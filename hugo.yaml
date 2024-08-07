@@ -29,9 +29,6 @@ languages:
         - name: 部落格
           pageRef: /
           weight: 2
-        - name: 搜尋
-          pageRef: search/
-          weight: 20
 
 outputs:
   home:
@@ -41,6 +38,11 @@ outputs:
 
 params:
   author: ["Pitchat"]
+
+  label:
+      icon: "pitchat.png"
+
+  defaultTheme: light
 
   meta:
       favicon: true
