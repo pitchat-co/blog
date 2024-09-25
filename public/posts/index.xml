@@ -7,21 +7,28 @@
     <generator>Hugo -- 0.131.0</generator>
     <language>zh</language>
     <copyright>2024 Pitchat</copyright>
-    <lastBuildDate>Thu, 01 Aug 2024 07:07:07 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2024 07:07:07 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Threads（脆）排程發文攻略：輕鬆安排貼文時間的秘訣</title>
+      <link>http://localhost:1313/posts/threads-scheduler-guide/</link>
+      <pubDate>Wed, 25 Sep 2024 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/threads-scheduler-guide/</guid>
+      <description>Threads（脆）排程發文攻略：輕鬆安排貼文時間的秘訣 你是否也在為 Threads（在台灣暱稱為「脆」）缺少排程發文功能而苦惱？別擔心，本文</description>
+    </item>
+    <item>
+      <title>你也可以開始用 Threads 發廢文賺錢了！</title>
+      <link>http://localhost:1313/posts/threads-bonus-calculator/</link>
+      <pubDate>Fri, 09 Aug 2024 12:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/threads-bonus-calculator/</guid>
+      <description>你也聽說了嗎？Meta 旗下的最新社群媒體 Threads 推出 Threads Bonus 獎勵計劃，讓一般的個人使用者也可以透過發串文來賺取分潤，並且最高可以領到 5000 美元（大約15萬</description>
+    </item>
     <item>
       <title>Threads是什麼？品牌經營Threads必備的行銷工具</title>
       <link>http://localhost:1313/posts/threads-management/</link>
       <pubDate>Thu, 01 Aug 2024 07:07:07 +0100</pubDate>
       <guid>http://localhost:1313/posts/threads-management/</guid>
       <description>Threads，台灣年輕人又喜歡稱作「脆」，是最新的品牌經營利器，由Facebook的母公司Meta開發。台灣目前在Threads上是第二大</description>
-    </item>
-    <item>
-      <title>你也可以開始用 Threads 發廢文賺錢了！</title>
-      <link>http://localhost:1313/posts/threads-bonus-calculator/</link>
-      <pubDate>Thu, 01 Aug 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/threads-bonus-calculator/</guid>
-      <description>你也聽說了嗎？Meta 旗下的最新社群媒體 Threads 推出 Threads Bonus 獎勵計劃，讓一般的個人使用者也可以透過發串文來賺取分潤，並且最高可以領到 5000 美元（大約15萬</description>
     </item>
     <item>
       <title>你也在找免費的Threads抽獎工具嗎？</title>

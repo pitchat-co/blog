@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.131.0</generator>
     <language>zh</language>
     <copyright>2024 Pitchat</copyright>
-    <lastBuildDate>Fri, 09 Aug 2024 12:07:07 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2024 07:07:07 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Threads（脆）排程發文攻略：輕鬆安排貼文時間的秘訣</title>
+      <link>http://localhost:1313/posts/threads-scheduler-guide/</link>
+      <pubDate>Wed, 25 Sep 2024 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/threads-scheduler-guide/</guid>
+      <description>Threads（脆）排程發文攻略：輕鬆安排貼文時間的秘訣 你是否也在為 Threads（在台灣暱稱為「脆」）缺少排程發文功能而苦惱？別擔心，本文</description>
+    </item>
     <item>
       <title>你也可以開始用 Threads 發廢文賺錢了！</title>
       <link>http://localhost:1313/posts/threads-bonus-calculator/</link>
