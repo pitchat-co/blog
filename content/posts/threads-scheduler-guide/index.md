@@ -37,7 +37,7 @@ cover = { image = "post-editor.png" }
 
 ![Threads（脆）貼文編輯器 - 文字內容](content.png)
 
-2. 上傳高質量的圖片或吸引眼球的短視頻，提升貼文的視覺吸引力。
+2. 上傳高質量的圖片或吸引眼球的短影音，提升貼文的視覺吸引力。
 
 ![Threads（脆）貼文編輯器 - 媒體上傳](upload.png)
 
