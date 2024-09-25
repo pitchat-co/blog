@@ -1,10 +1,10 @@
 +++
-title = 'Threads（脆）排程發文攻略：輕鬆安排貼文時間的秘訣'
+title = 'Threads 排程發文攻略：輕鬆安排貼文時間的秘訣'
 date = 2024-09-25T07:07:07+01:00
 draft = false
 cover = { image = "post-editor.png" }
 +++
-# Threads（脆）排程發文攻略：輕鬆安排貼文時間的秘訣
+# Threads 排程發文攻略：輕鬆安排貼文時間的秘訣
 
 你是否也在為 Threads（在台灣暱稱為「脆」）缺少排程發文功能而苦惱？別擔心，本文將為你揭示如何輕鬆實現 Threads 排程發文，讓你的社群經營更上一層樓！
 
