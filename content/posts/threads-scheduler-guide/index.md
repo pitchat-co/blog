@@ -25,9 +25,9 @@ cover = { image = "post-editor.png" }
 
 ### 步驟二：進入排程貼文功能
 
-1. 在 Pitchat 平台選單中，找到並點選「貼文列表」。
+1. 在 Pitchat 平台選單中，找到並點選「排程貼文」。
 
-![Threads（脆）排程貼文列表](posts.png)
+![Threads（脆）排程貼文](posts.png)
 
 2. 點擊醒目的「＋排程貼文」按鈕。
 
