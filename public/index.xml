@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.131.0</generator>
     <language>zh</language>
     <copyright>2024 Pitchat</copyright>
-    <lastBuildDate>Wed, 25 Sep 2024 07:07:07 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 25 Oct 2024 16:39:19 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Threads 數據分析：提升您的社交媒體策略</title>
+      <link>http://localhost:1313/posts/threads-analysis/</link>
+      <pubDate>Fri, 25 Oct 2024 16:39:19 +0800</pubDate>
+      <guid>http://localhost:1313/posts/threads-analysis/</guid>
+      <description>Threads 最近推出了官方的數據洞察功能，雖然提供的數據很有限，但這對於希望深入分析數據的用戶來說，無疑是一個重要的進展。本文將探討如何利用這些數據來</description>
+    </item>
     <item>
       <title>Threads 排程發文攻略：輕鬆安排貼文時間的秘訣</title>
       <link>http://localhost:1313/posts/threads-scheduler-guide/</link>
