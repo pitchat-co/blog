@@ -2,7 +2,7 @@
 title = 'Threads 數據分析：提升您的社交媒體策略'
 date = 2024-10-25T16:39:19+08:00
 draft = false
-cover = { image = "analysis-index.jpeg" }
+cover = { image = "analysis-image.jpeg" }
 +++
 Threads 最近推出了官方的數據洞察功能，雖然提供的數據很有限，但這對於希望深入分析數據的用戶來說，無疑是一個重要的進展。本文將探討如何利用這些數據來優化您的社交媒體策略，特別是針對 Threads 數據分析 的應用。
 
