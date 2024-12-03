@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.131.0</generator>
     <language>zh</language>
     <copyright>2024 Pitchat</copyright>
-    <lastBuildDate>Fri, 25 Oct 2024 16:39:19 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 03 Dec 2024 07:07:07 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Threads 演算法改變了什麼？</title>
+      <link>http://localhost:1313/posts/threads-algorithm-change/</link>
+      <pubDate>Tue, 03 Dec 2024 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/threads-algorithm-change/</guid>
+      <description>Instagram 執行長 Mosseri 於 2024 年 11 月 21 日宣布將調整 Threads 推薦演算法的比例，優先推送用戶追蹤對象的內容。這項改變對創作者產生重大影響，特別是那些期望透過 Threads 打開知名</description>
+    </item>
     <item>
       <title>Threads 數據分析：提升您的社交媒體策略</title>
       <link>http://localhost:1313/posts/threads-analysis/</link>

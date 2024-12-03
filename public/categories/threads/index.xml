@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Threads on Pitchat</title>
+    <link>http://localhost:1313/categories/threads/</link>
+    <description>Recent content in Threads on Pitchat</description>
+    <generator>Hugo -- 0.131.0</generator>
+    <language>zh</language>
+    <copyright>2024 Pitchat</copyright>
+    <lastBuildDate>Mon, 02 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/threads/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Threads數據分析：功能升級與市場競爭背景解析</title>
+      <link>http://localhost:1313/posts/threads-algorithm-change/</link>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/threads-algorithm-change/</guid>
+      <description>深入探討Meta旗下Threads平台功能升級背後的策略意圖，從數據分析角度解讀其應對市場競爭的關鍵動作，並推薦Pitchat數據分析功能助力您的社群營銷策略。</description>
+    </item>
+  </channel>
+</rss>
