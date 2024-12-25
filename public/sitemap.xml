@@ -4,41 +4,69 @@
   <url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-12-13T12:07:07+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-12-13T12:07:07+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/posts/threads-image-splitter/</loc>
     <lastmod>2024-12-13T12:07:07+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/posts/threads-marketing/</loc>
     <lastmod>2024-12-08T07:07:07+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/posts/threads-algorithm-change/</loc>
     <lastmod>2024-12-03T07:07:07+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/posts/threads-analysis/</loc>
     <lastmod>2024-10-25T16:39:19+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/posts/threads-scheduler-guide/</loc>
     <lastmod>2024-09-25T07:07:07+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/posts/threads-bonus-calculator/</loc>
     <lastmod>2024-08-09T12:07:07+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/posts/threads-management/</loc>
     <lastmod>2024-08-01T07:07:07+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/posts/free-threads-lottery-tool-guide/</loc>
     <lastmod>2024-07-14T07:07:07+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/posts/how-to-register-pithcat/</loc>
     <lastmod>2024-07-14T07:07:07+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

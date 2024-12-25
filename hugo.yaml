@@ -14,6 +14,12 @@ enableEmoji: true
 pygmentsUseClasses: true
 defaultContentLanguage: zh
 
+sitemap:
+  changefreq: 'daily'
+  filename: 'sitemap.xml'
+  priority: 0.5
+
+
 languages:
   zh:
     languageName: "中文"
@@ -35,6 +41,7 @@ outputs:
     - HTML
     - RSS
     - JSON
+    - SITEMAP
 
 params:
   author: ["Pitchat"]
@@ -68,3 +75,12 @@ params:
       url: "https://www.instagram.com/pitchat.co/"
     - name: "facebook"
       url: "https://www.messenger.com/t/119696284562783"
+
+  sitemap:
+    # 為不同類型的頁面設定不同的更新頻率
+    categories:
+      changefreq: 'weekly'
+      priority: 0.8
+    posts:
+      changefreq: 'monthly'
+      priority: 0.6
