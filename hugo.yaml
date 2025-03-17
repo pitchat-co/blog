@@ -41,6 +41,7 @@ outputs:
     - HTML
     - RSS
     - JSON
+    - SITEMAP
 
 params:
   author: ["Pitchat"]
