@@ -14,8 +14,7 @@ enableEmoji: true
 pygmentsUseClasses: true
 defaultContentLanguage: zh
 
-disableKinds:
-  - "sitemap"
+disableKinds: ["sitemap"]
 
 sitemap:
   changefreq: 'daily'
@@ -44,7 +43,6 @@ outputs:
     - HTML
     - RSS
     - JSON
-    - SITEMAP
 
 params:
   author: ["Pitchat"]
