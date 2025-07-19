@@ -55,13 +55,13 @@ Pitchat 的介面設計非常直觀，即使是第一次使用也能快速上手
 
 由於每個社群平台的媒體格式與字數限制不同，了解同步規則能幫助您更順利地發布內容。
 
-| 平台 | 圖片支援 | 影片支援 | 圖片+影片混合 | 備註 |
-| --- | --- | --- | --- | --- |
-| **Threads** | ✅ | ✅ | ✅ | 內容的來源平台。 |
-| **Instagram** | ✅ | ✅ | ✅ | 圖片/影片擇一。詳細規則請參考 [Instagram 同步發布](https://www.google.com/search?q=%23) |
-| **Facebook** | ✅ | ✅ | ❌ | 混合內容**優先同步影片**。 |
-| **LinkedIn** | ✅ | ✅ | ❌ | 混合內容**優先同步影片**。 |
-| **Discord** | ✅ | ❌ | ❌ | **僅同步圖片**，影片會被忽略。 |
+| 平台 | 圖片支援 | 影片支援 | 圖片+影片混合 | 備註                                                                   |
+| --- | --- | --- | --- |----------------------------------------------------------------------|
+| **Threads** | ✅ | ✅ | ✅ | 內容的來源平台。                                                             |
+| **Instagram** | ✅ | ✅ | ✅ | 支援混合內容。詳細規則請參考 [Instagram 同步發布](https://docs.pitchat.co/docs/instagram-sync-publishing/) |
+| **Facebook** | ✅ | ✅ | ❌ | 混合內容**優先同步影片**。                                                      |
+| **LinkedIn** | ✅ | ✅ | ❌ | 混合內容**優先同步影片**。                                                      |
+| **Discord** | ✅ | ❌ | ❌ | **僅同步圖片**，影片會被忽略。                                                    |
 
 **重點提醒：** 當您在 Threads 的貼文同時包含圖片和影片時，同步到 Instagram、Facebook 和 LinkedIn 將會以**影片**為優先，或可能導致發布失敗。
 
@@ -70,7 +70,7 @@ Pitchat 的介面設計非常直觀，即使是第一次使用也能快速上手
 **Q1：為什麼我的貼文同步到 Instagram 失敗了？**
 
 - **授權過期：** 請至帳號綁定頁面，檢查 Instagram 的授權狀態是否正常，必要時請重新授權。
-- **格式不符：** Instagram 對影片的長度、尺寸有嚴格要求。請確認您的影片符合 [IG 的規範](https://www.google.com/search?q=%23&authuser=3)。
+- **格式不符：** Instagram 對影片的長度、尺寸有嚴格要求。請確認您的影片符合 [IG 的規範](https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-user/media#creating)。
 
 **Q2：我該如何優化我的跨平台貼文內容？**
 
@@ -83,4 +83,4 @@ Pitchat 的介面設計非常直觀，即使是第一次使用也能快速上手
 
 **立即開始使用 Pitchat，體驗前所未有的社群管理效率！**
 
-[👉 點此免費試用 Pitchat，開啟高效社群同步之旅！](https://www.google.com/search?q=%23&authuser=3)
+[👉 點此免費試用 Pitchat，開啟高效社群同步之旅！](https://pitchat.co)
