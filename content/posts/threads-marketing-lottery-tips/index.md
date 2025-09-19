@@ -1,6 +1,6 @@
 +++
 title = '免費公開最新 Threads 抽獎攻略'
-date = 2025-09-06T08:08:07+01:00
+date = 2025-09-10T08:08:07+01:00
 draft = false
 cover = { image = "cover.png" }
 +++
@@ -50,7 +50,7 @@ cover = { image = "cover.png" }
 
 為了維護大家的權益，我們調整了使用規則：
 
-**只要你的抽獎貼文同時包含「Threads」、「抽獎工具」和「[https://pitchat.co](https://pitchat.co)」這三個關鍵字，就能直接使用我們的抽獎功能，完全免費！**
+**只要你的抽獎貼文同時包含「**抽獎工具**」和「[https://pitchat.co](https://pitchat.co)」這兩個關鍵字，就能直接使用我們的抽獎功能，完全免費！**
 
 _請注意這是一個限量的免費活動。_
 
