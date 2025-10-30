@@ -18,6 +18,14 @@
 &lt;p&gt;我們觀察了許多品牌和創作者使用 Pitchat 工具舉辦的抽獎活動，發現了一些讓參與度爆棚的小秘訣。不過在開始之前，記得先確認你的獎品符合台灣相關法規喔！如果不確定的話，建議先諮詢法律專家。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>透明的抽獎流程：公平、效率、體驗的最佳化</title>
+      <link>http://localhost:1313/posts/how-pitchat-makes-lottery-transparent-/</link>
+      <pubDate>Mon, 08 Sep 2025 08:08:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/how-pitchat-makes-lottery-transparent-/</guid>
+      <description>&lt;p&gt;在社群平台舉辦抽獎活動時，許多參與者會關心抽獎是否公平。然而，由於 API 限制、處理流程不透明等因素，完全公平的抽獎在實務上很難達成。&lt;/p&gt;
+&lt;p&gt;Pitchat 採取不同的思路：與其追求難以達成的「絕對公平」，我們選擇透過「透明」來建立信任，實現「流程上的公平」。所有抽獎步驟都在你的瀏覽器中執行，過程即時可見；我們公開每個步驟的運作邏輯，讓你理解而非盲目相信。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>在脆 Threads 上看見想看見的</title>
       <link>http://localhost:1313/posts/seeing-what-you-want-to-see-on-threads/</link>
       <pubDate>Fri, 05 Sep 2025 18:08:07 +0100</pubDate>
