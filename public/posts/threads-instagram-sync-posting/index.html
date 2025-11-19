@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh" dir="auto">
+<html lang="zh" dir="auto" data-theme="light">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="還在為多平台發文煩惱？學習如何使用 Pitchat 將 Threads 內容一鍵同步到 Instagram、Facebook 等平台。本篇提供完整教學、規則詳解與進階技巧，大幅提升您的社群經營效率。">
 <meta name="author" content="Pitchat">
 <link rel="canonical" href="http://localhost:1313/posts/threads-instagram-sync-posting/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.a8501b4e1544bf104a4e2647be64df3637f95b6ac25a4298047d87fe0eacffa1.css" integrity="sha256-qFAbThVEvxBKTiZHvmTfNjf5W2rCWkKYBH2H/g6s/6E=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -28,24 +28,22 @@
 
     </style>
 </noscript>
-</head>
-
-<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
+        document.querySelector("html").dataset.theme = 'dark';
     }
 
 </script>
-
-<header class="header">
+</head>
+<body id="top">
+    <header class="header">
     <nav class="nav">
         <div class="logo">
             <a href="http://localhost:1313/" accesskey="h" title="Pitchat (Alt + H)">
                 <img src="http://localhost:1313/pitchat.png" alt="" aria-label="logo"
                     height="30">Pitchat</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -95,12 +93,12 @@
     <h1 class="post-title entry-hint-parent">
       Threads Instagram同步發文：輕鬆掌握跨平台社群經營秘訣
     </h1>
-    <div class="post-meta"><span title='2025-07-15 08:07:07 +0100 +0100'>七月 15, 2025</span>&nbsp;·&nbsp;Pitchat
+    <div class="post-meta"><span title='2025-07-15 08:07:07 +0100 +0100'>2025年7月15日</span>&nbsp;·&nbsp;<span>Pitchat</span>
 
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" src="http://localhost:1313/posts/threads-instagram-sync-posting/image3.png" alt="">
+            <img loading="eager" src="http://localhost:1313/posts/threads-instagram-sync-posting/image3.png" alt="">
         
 </figure>
   <div class="post-content"><p>還在為多平台發文煩惱？學習如何使用 Pitchat 將 Threads 內容一鍵同步到 Instagram、Facebook 等平台。本篇提供完整教學、規則詳解與進階技巧，大幅提升您的社群經營效率。</p>
@@ -108,8 +106,7 @@
 <h2 id="還在手動複製貼上用-pitchat-實現-threads-instagram-同步發文效率翻倍"><strong>還在手動複製貼上？用 Pitchat 實現 Threads Instagram 同步發文，效率翻倍！</strong><a hidden class="anchor" aria-hidden="true" href="#還在手動複製貼上用-pitchat-實現-threads-instagram-同步發文效率翻倍">#</a></h2>
 <p>身為社群管理者、內容創作者或品牌經營者，您是否也覺得在不同社群平台間切換、重複發布相同內容，既耗時又繁瑣？特別是在 Threads 興起後，如何將上面的精彩內容快速分享到 Instagram、Facebook 等既有平台，成為了一大挑戰。</p>
 <p>別擔心！<strong>Pitchat</strong> 的「<strong>多平台自動同步發文</strong>」功能就是您的最佳解決方案。您只需要在 Threads 發布一次貼文，就能將內容即時同步至 Instagram、Facebook、LinkedIn 和 Discord。這不僅能大幅節省您的寶貴時間，更能有效提升內容曝光，讓您的社群經營事半功倍！</p>
-<p><img loading="lazy" src="image3.png" alt="一鍵同步多個社群媒體平台"  />
-</p>
+<p><img alt="一鍵同步多個社群媒體平台" loading="lazy" src="/posts/threads-instagram-sync-posting/image3.png"></p>
 <h3 id="為什麼你需要-threads-跨平台同步發文pitchat-的核心優勢"><strong>為什麼你需要 Threads 跨平台同步發文？Pitchat 的核心優勢</strong><a hidden class="anchor" aria-hidden="true" href="#為什麼你需要-threads-跨平台同步發文pitchat-的核心優勢">#</a></h3>
 <p>在深入教學前，讓我們先了解為什麼這個功能如此強大：</p>
 <ul>
@@ -118,8 +115,7 @@
 <li><strong>維持品牌一致性：</strong> 確保所有平台的訊息同步，建立穩定、專業的品牌形象。</li>
 <li><strong>操作直覺簡單：</strong> 無需複雜設定，在發文介面勾選即可，帳號綁定一次搞定。</li>
 </ul>
-<p><img loading="lazy" src="image.png" alt="預約排程多平台"  />
-</p>
+<p><img alt="預約排程多平台" loading="lazy" src="/posts/threads-instagram-sync-posting/image.png"></p>
 <h3 id="一圖看懂pitchat-同步發文介面與操作指南"><strong>一圖看懂！Pitchat 同步發文介面與操作指南</strong><a hidden class="anchor" aria-hidden="true" href="#一圖看懂pitchat-同步發文介面與操作指南">#</a></h3>
 <p>Pitchat 的介面設計非常直觀，即使是第一次使用也能快速上手。</p>
 <ol>
@@ -128,8 +124,7 @@
 <li><strong>一鍵啟用：</strong> 只需用滑鼠<strong>點擊您想同步的平台圖示</strong>，例如點亮 Instagram 的圖示。</li>
 <li><strong>發布內容：</strong> 按下發送後，Pitchat 就會自動將您的貼文同步到所有選定的平台。</li>
 </ol>
-<p><img loading="lazy" src="image1.png" alt="開啟Instagram Facebook平台同步"  />
-</p>
+<p><img alt="開啟Instagram Facebook平台同步" loading="lazy" src="/posts/threads-instagram-sync-posting/image1.png"></p>
 <h3 id="首次設定必看threads-instagram-帳號綁定教學"><strong>首次設定必看：Threads Instagram 帳號綁定教學</strong><a hidden class="anchor" aria-hidden="true" href="#首次設定必看threads-instagram-帳號綁定教學">#</a></h3>
 <p>在享受一鍵同步的便利前，您需要先完成帳號綁定。別擔心，過程非常簡單：</p>
 <ul>
@@ -140,8 +135,7 @@
 <li><strong>步驟三：驗證與確認</strong>
 完成授權後，系統會自動返回 Pitchat 並顯示「已連接」狀態，代表您的 Instagram 已成功綁定！</li>
 </ul>
-<p><img loading="lazy" src="image2.png" alt="Instagram Facebook Linkedin Discord授權頁面"  />
-</p>
+<p><img alt="Instagram Facebook Linkedin Discord授權頁面" loading="lazy" src="/posts/threads-instagram-sync-posting/image2.png"></p>
 <h3 id="發文前必讀各平台同步規則詳解"><strong>發文前必讀：各平台同步規則詳解</strong><a hidden class="anchor" aria-hidden="true" href="#發文前必讀各平台同步規則詳解">#</a></h3>
 <p>由於每個社群平台的媒體格式與字數限制不同，了解同步規則能幫助您更順利地發布內容。</p>
 <table>
@@ -220,7 +214,7 @@
     </main>
     
 <footer class="footer">
-        <span><a href="https://pitchat.co">2024 Pitchat</a></span> · 
+        <span><a href="https://pitchat.co">2025 Pitchat</a></span> · 
 
     <span>
         Powered by
@@ -235,9 +229,14 @@
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -278,11 +277,12 @@
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })

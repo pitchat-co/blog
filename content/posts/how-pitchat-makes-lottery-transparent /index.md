@@ -7,10 +7,10 @@ cover = { image = "cover.png" }
 
 在社群平台舉辦抽獎活動時，許多參與者會關心抽獎是否公平。然而，由於 API 限制、處理流程不透明等因素，完全公平的抽獎在實務上很難達成。
 
-Pitchat 採取不同的思路：與其追求難以達成的「絕對公平」，我們選擇透過「透明」來建立信任，實現「流程上的公平」。所有抽獎步驟都在你的瀏覽器中執行，過程即時可見；我們公開每個步驟的運作邏輯，讓你理解而非盲目相信。
+[Pitchat](https://app.pitchat.co?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=how-pitchat-makes-lottery-transparent) 採取不同的思路：與其追求難以達成的「絕對公平」，我們選擇透過「透明」來建立信任，實現「流程上的公平」。所有抽獎步驟都在你的瀏覽器中執行，過程即時可見；我們公開每個步驟的運作邏輯，讓你理解而非盲目相信。
 
 本文將詳細解說 Pitchat 的三階段抽獎流程：抽樣建立抽獎名單、條件篩選、隨機抽獎，以及我們如何在公平、效率、體驗間取得平衡。你將了解每個設計決策背後的理由，以及為什麼透明度比承諾更有價值。
-a
+
 ## 為什麼我們強調「透明」？
 
 當談到抽獎時，你的第一個反應會是什麼？可能會是「公平嗎」？這是合理的疑問。然而，實現「完全公平」的抽獎，在實務上面臨著許多難題。
@@ -84,7 +84,7 @@ a
 
 ---
 
-## 抽獎流程三階段詳解（以 Instagram 為例）
+## 抽獎流程三階段詳解（以 [Instagram 抽獎](https://app.pitchat.co/instagram?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=how-pitchat-makes-lottery-transparent)為例）
 
 我們將抽獎過程分為三個清晰的階段。每個階段都有特定的目標和篩選條件。
 
@@ -321,3 +321,9 @@ a
 我們相信 **透明度比承諾更有價值**。當你理解了整個流程的每一步——從 API 讀取、第一階段篩選、水塘抽樣、到最終的隨機抽獎——你不需要盲目相信我們。相反，你可以基於理解而自信地相信這個系統。
 
 這就是 Pitchat 抽獎的核心理念。
+
+---
+
+Pitchat 提供包含 **[Instagram 抽獎](https://app.pitchat.co/instagram?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=how-pitchat-makes-lottery-transparent)**、**[Threads 抽獎](https://app.pitchat.co/threads?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=how-pitchat-makes-lottery-transparent)、[Facebook 抽獎](https://app.pitchat.co/facebook?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=how-pitchat-makes-lottery-transparent)、[YouTube 抽獎](https://app.pitchat.co/youtube?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=how-pitchat-makes-lottery-transparent)** 還有 [其他](https://app.pitchat.co/giveaway?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=how-pitchat-makes-lottery-transparent) 社群平台的抽獎工具，滿足你對熱門社群平台的抽獎需求。
+
+想要讓輕鬆舉辦成功的抽獎活動，立即前往 [Pitchat 官網](https://app.pitchat.co?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=how-pitchat-makes-lottery-transparent)，讓你的抽獎活動更有效率！

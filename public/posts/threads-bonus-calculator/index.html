@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh" dir="auto">
+<html lang="zh" dir="auto" data-theme="light">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="你也聽說了嗎？Meta 旗下的最新社群媒體 Threads 推出 Threads Bonus 獎勵計劃，讓一般的個人使用者也可以透過發串文來賺取分潤，並且最高可以領到 5000 美元（大約15萬台幣）。">
 <meta name="author" content="Pitchat">
 <link rel="canonical" href="http://localhost:1313/posts/threads-bonus-calculator/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.a8501b4e1544bf104a4e2647be64df3637f95b6ac25a4298047d87fe0eacffa1.css" integrity="sha256-qFAbThVEvxBKTiZHvmTfNjf5W2rCWkKYBH2H/g6s/6E=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -28,24 +28,22 @@
 
     </style>
 </noscript>
-</head>
-
-<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
+        document.querySelector("html").dataset.theme = 'dark';
     }
 
 </script>
-
-<header class="header">
+</head>
+<body id="top">
+    <header class="header">
     <nav class="nav">
         <div class="logo">
             <a href="http://localhost:1313/" accesskey="h" title="Pitchat (Alt + H)">
                 <img src="http://localhost:1313/pitchat.png" alt="" aria-label="logo"
                     height="30">Pitchat</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -95,12 +93,12 @@
     <h1 class="post-title entry-hint-parent">
       你也可以開始用 Threads 發廢文賺錢了！
     </h1>
-    <div class="post-meta"><span title='2024-08-09 12:07:07 +0100 +0100'>八月 9, 2024</span>&nbsp;·&nbsp;Pitchat
+    <div class="post-meta"><span title='2024-08-09 12:07:07 +0100 +0100'>2024年8月9日</span>&nbsp;·&nbsp;<span>Pitchat</span>
 
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" src="http://localhost:1313/posts/threads-bonus-calculator/threads-bonus.png" alt="">
+            <img loading="eager" src="http://localhost:1313/posts/threads-bonus-calculator/threads-bonus.png" alt="">
         
 </figure>
   <div class="post-content"><p>你也聽說了嗎？Meta 旗下的最新社群媒體 Threads 推出 Threads Bonus 獎勵計劃，讓一般的個人使用者也可以透過發串文來賺取分潤，並且最高可以領到 5000 美元（大約15萬台幣）。</p>
@@ -132,7 +130,7 @@
     </main>
     
 <footer class="footer">
-        <span><a href="https://pitchat.co">2024 Pitchat</a></span> · 
+        <span><a href="https://pitchat.co">2025 Pitchat</a></span> · 
 
     <span>
         Powered by
@@ -147,9 +145,14 @@
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -190,11 +193,12 @@
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })

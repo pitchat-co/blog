@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh" dir="auto">
+<html lang="zh" dir="auto" data-theme="light">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="Posts - Pitchat">
 <meta name="author" content="Pitchat">
 <link rel="canonical" href="http://localhost:1313/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.a8501b4e1544bf104a4e2647be64df3637f95b6ac25a4298047d87fe0eacffa1.css" integrity="sha256-qFAbThVEvxBKTiZHvmTfNjf5W2rCWkKYBH2H/g6s/6E=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml" title="rss">
 <link rel="alternate" hreflang="zh" href="http://localhost:1313/posts/">
 <noscript>
     <style>
@@ -29,24 +29,22 @@
 
     </style>
 </noscript>
-</head>
-
-<body class="list" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
+        document.querySelector("html").dataset.theme = 'dark';
     }
 
 </script>
-
-<header class="header">
+</head>
+<body class="list" id="top">
+    <header class="header">
     <nav class="nav">
         <div class="logo">
             <a href="http://localhost:1313/" accesskey="h" title="Pitchat (Alt + H)">
                 <img src="http://localhost:1313/pitchat.png" alt="" aria-label="logo"
                     height="30">Pitchat</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -97,7 +95,7 @@
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/posts/threads-marketing-lottery-tips/cover.png" alt="">
+            <img loading="lazy" src="http://localhost:1313/posts/threads-marketing-lottery-tips/cover.png" alt="">
 </figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">免費公開最新 Threads 抽獎攻略
@@ -108,13 +106,47 @@
 我們觀察了許多品牌和創作者使用 Pitchat 工具舉辦的抽獎活動，發現了一些讓參與度爆棚的小秘訣。不過在開始之前，記得先確認你的獎品符合台灣相關法規喔！如果不確定的話，建議先諮詢法律專家。
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-09-10 08:08:07 +0100 +0100'>九月 10, 2025</span>&nbsp;·&nbsp;Pitchat</footer>
+  <footer class="entry-footer"><span title='2025-09-10 08:08:07 +0100 +0100'>2025年9月10日</span>&nbsp;·&nbsp;<span>Pitchat</span></footer>
   <a class="entry-link" aria-label="post link to 免費公開最新 Threads 抽獎攻略" href="http://localhost:1313/posts/threads-marketing-lottery-tips/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/posts/seeing-what-you-want-to-see-on-threads/cover.png" alt="">
+            <img loading="lazy" src="http://localhost:1313/posts/how-pitchat-makes-lottery-transparent-/cover.png" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">透明的抽獎流程：公平、效率、體驗的最佳化
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>在社群平台舉辦抽獎活動時，許多參與者會關心抽獎是否公平。然而，由於 API 限制、處理流程不透明等因素，完全公平的抽獎在實務上很難達成。
+Pitchat 採取不同的思路：與其追求難以達成的「絕對公平」，我們選擇透過「透明」來建立信任，實現「流程上的公平」。所有抽獎步驟都在你的瀏覽器中執行，過程即時可見；我們公開每個步驟的運作邏輯，讓你理解而非盲目相信。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-09-08 08:08:07 +0100 +0100'>2025年9月8日</span>&nbsp;·&nbsp;<span>Pitchat</span></footer>
+  <a class="entry-link" aria-label="post link to 透明的抽獎流程：公平、效率、體驗的最佳化" href="http://localhost:1313/posts/how-pitchat-makes-lottery-transparent-/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+            <img loading="lazy" src="http://localhost:1313/posts/instagram-giveaway-tool/cover.png" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">【2025 IG 抽獎神器】留言抽獎工具推薦！Instagram 抽獎活動必備！
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Instagram (IG) 抽獎活動是獲取新粉絲、創造高互動的常見的行銷活動。然而，隨著活動規模擴大，執行上很快就會面臨幾個核心困境：
+留言數量上限： 熱門的抽獎活動，可能受到 IG 免費抽獎工具的限制。 缺乏篩選規則： 針對不同活動目的，沒有對應的過濾條件進行篩選。 抽獎公平性： 無法提供公開透明的抽獎流程證明，可能讓活動結果受到質疑。 Pitchat 抽獎系統為解決這些抽獎問題，設計了一套為專業的 IG 抽獎工具，為你的活動提供公開透明的抽獎神器，可以完整協助你抽獎的小幫手，讓你的抽獎活動更有效率。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-09-08 08:08:07 +0200 +0200'>2025年9月8日</span>&nbsp;·&nbsp;<span>Pitchat</span></footer>
+  <a class="entry-link" aria-label="post link to 【2025 IG 抽獎神器】留言抽獎工具推薦！Instagram 抽獎活動必備！" href="http://localhost:1313/posts/instagram-giveaway-tool/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+            <img loading="lazy" src="http://localhost:1313/posts/seeing-what-you-want-to-see-on-threads/cover.png" alt="">
 </figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">在脆 Threads 上看見想看見的
@@ -124,13 +156,13 @@
     <p>知道很多使用者其實不喜歡 Threads 的演算法，常常滑段時間後會覺得上面的發言比較偏頗，也許今天的你心血來潮希望看些有深度的內容，卻容易被迷因梗圖吸引注意力，回過神就突然發現版面上都是 Rickrolling，相信我這並不是你的錯，但其實也不是 Threads 演算法的錯。
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-09-05 18:08:07 +0100 +0100'>九月 5, 2025</span>&nbsp;·&nbsp;Pitchat</footer>
+  <footer class="entry-footer"><span title='2025-09-05 18:08:07 +0100 +0100'>2025年9月5日</span>&nbsp;·&nbsp;<span>Pitchat</span></footer>
   <a class="entry-link" aria-label="post link to 在脆 Threads 上看見想看見的" href="http://localhost:1313/posts/seeing-what-you-want-to-see-on-threads/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/posts/threads-instagram-sync-posting/image3.png" alt="">
+            <img loading="lazy" src="http://localhost:1313/posts/threads-instagram-sync-posting/image3.png" alt="">
 </figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Threads Instagram同步發文：輕鬆掌握跨平台社群經營秘訣
@@ -140,13 +172,13 @@
     <p>還在為多平台發文煩惱？學習如何使用 Pitchat 將 Threads 內容一鍵同步到 Instagram、Facebook 等平台。本篇提供完整教學、規則詳解與進階技巧，大幅提升您的社群經營效率。
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-07-15 08:07:07 +0100 +0100'>七月 15, 2025</span>&nbsp;·&nbsp;Pitchat</footer>
+  <footer class="entry-footer"><span title='2025-07-15 08:07:07 +0100 +0100'>2025年7月15日</span>&nbsp;·&nbsp;<span>Pitchat</span></footer>
   <a class="entry-link" aria-label="post link to Threads Instagram同步發文：輕鬆掌握跨平台社群經營秘訣" href="http://localhost:1313/posts/threads-instagram-sync-posting/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/posts/threads-keywords-auto-reply/threads-auto-reply-cover.png" alt="">
+            <img loading="lazy" src="http://localhost:1313/posts/threads-keywords-auto-reply/threads-auto-reply-cover.png" alt="">
 </figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Threads (脆) 關鍵字自動回覆：提升互動效率的智能解決方案
@@ -156,13 +188,13 @@
     <p>在現今競爭激烈的社群媒體環境中，Threads (脆) 關鍵字自動回覆功能已成為提升帳號互動率的必備工具。Pitchat 的自動回覆功能讓您即使不在線上，也能與粉絲保持良好互動，有效提升帳號活躍度和參與度。
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-04-02 08:07:07 +0800 CST'>四月 2, 2025</span>&nbsp;·&nbsp;Pitchat</footer>
+  <footer class="entry-footer"><span title='2025-04-02 08:07:07 +0800 CST'>2025年4月2日</span>&nbsp;·&nbsp;<span>Pitchat</span></footer>
   <a class="entry-link" aria-label="post link to Threads (脆) 關鍵字自動回覆：提升互動效率的智能解決方案" href="http://localhost:1313/posts/threads-keywords-auto-reply/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/posts/threads-image-splitter/cover.png" alt="">
+            <img loading="lazy" src="http://localhost:1313/posts/threads-image-splitter/cover.png" alt="">
 </figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">提升您的品牌影響力：深入了解 Threads 行銷策略
@@ -172,13 +204,13 @@
     <p>在當今社交媒體競爭激烈的環境中，品牌如何有效地吸引目標受眾成為成功的關鍵。Threads 行銷作為一種創新的行銷策略，正迅速崛起，成為品牌推廣的利器。本文將深入探討 Threads 行銷的優勢，並介紹由專業行銷工具 Pitchat 開發的 Threads 圖片分割器，助您輕鬆提升行銷效果。
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-12-13 12:07:07 +0100 +0100'>十二月 13, 2024</span>&nbsp;·&nbsp;Pitchat</footer>
+  <footer class="entry-footer"><span title='2024-12-13 12:07:07 +0100 +0100'>2024年12月13日</span>&nbsp;·&nbsp;<span>Pitchat</span></footer>
   <a class="entry-link" aria-label="post link to 提升您的品牌影響力：深入了解 Threads 行銷策略" href="http://localhost:1313/posts/threads-image-splitter/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/posts/threads-marketing/cover.jpg" alt="">
+            <img loading="lazy" src="http://localhost:1313/posts/threads-marketing/cover.jpg" alt="">
 </figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Threads 行銷實戰指南：從演算法分析到內容策略打造強大品牌影響力
@@ -188,13 +220,13 @@
     <p>在近年來新興的社群媒體平台中，Threads 正逐漸嶄露頭角。許多喜歡文字創作的使用者，都希望能透過這個新平台建立自己的影響力並進行 Threads 行銷。然而，Threads 本身仍在探索階段，其獨特的演算法特性與用戶互動模式，為行銷策略的制定帶來挑戰與契機。
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-12-08 07:07:07 +0100 +0100'>十二月 8, 2024</span>&nbsp;·&nbsp;Pitchat</footer>
+  <footer class="entry-footer"><span title='2024-12-08 07:07:07 +0100 +0100'>2024年12月8日</span>&nbsp;·&nbsp;<span>Pitchat</span></footer>
   <a class="entry-link" aria-label="post link to Threads 行銷實戰指南：從演算法分析到內容策略打造強大品牌影響力" href="http://localhost:1313/posts/threads-marketing/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/posts/threads-algorithm-change/cover.jpg" alt="">
+            <img loading="lazy" src="http://localhost:1313/posts/threads-algorithm-change/cover.jpg" alt="">
 </figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Threads 演算法改變了什麼？
@@ -204,13 +236,13 @@
     <p>Instagram 執行長 Mosseri 於 2024 年 11 月 21 日宣布將調整 Threads 推薦演算法的比例，優先推送用戶追蹤對象的內容。這項改變對創作者產生重大影響，特別是那些期望透過 Threads 打開知名度的內容創作者，將面臨更大的挑戰。
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-12-03 07:07:07 +0100 +0100'>十二月 3, 2024</span>&nbsp;·&nbsp;Pitchat</footer>
+  <footer class="entry-footer"><span title='2024-12-03 07:07:07 +0100 +0100'>2024年12月3日</span>&nbsp;·&nbsp;<span>Pitchat</span></footer>
   <a class="entry-link" aria-label="post link to Threads 演算法改變了什麼？" href="http://localhost:1313/posts/threads-algorithm-change/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/posts/threads-analysis/analysis-image.jpeg" alt="">
+            <img loading="lazy" src="http://localhost:1313/posts/threads-analysis/analysis-image.jpeg" alt="">
 </figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Threads 數據分析：提升您的社交媒體策略
@@ -220,40 +252,8 @@
     <p>Threads 最近推出了官方的數據洞察功能，雖然提供的數據很有限，但這對於希望深入分析數據的用戶來說，無疑是一個重要的進展。本文將探討如何利用這些數據來優化您的社交媒體策略，特別是針對 Threads 數據分析 的應用。
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-10-25 16:39:19 +0800 CST'>十月 25, 2024</span>&nbsp;·&nbsp;Pitchat</footer>
+  <footer class="entry-footer"><span title='2024-10-25 16:39:19 +0800 CST'>2024年10月25日</span>&nbsp;·&nbsp;<span>Pitchat</span></footer>
   <a class="entry-link" aria-label="post link to Threads 數據分析：提升您的社交媒體策略" href="http://localhost:1313/posts/threads-analysis/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/posts/threads-scheduler-guide/post-editor.png" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Threads 排程發文攻略：輕鬆安排貼文時間的秘訣
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Threads 排程發文攻略：輕鬆安排貼文時間的秘訣 你是否也在為 Threads（在台灣暱稱為「脆」）缺少排程發文功能而苦惱？別擔心，本文將為你揭示如何輕鬆實現 Threads 排程發文，讓你的社群經營更上一層樓！
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-09-25 07:07:07 +0100 +0100'>九月 25, 2024</span>&nbsp;·&nbsp;Pitchat</footer>
-  <a class="entry-link" aria-label="post link to Threads 排程發文攻略：輕鬆安排貼文時間的秘訣" href="http://localhost:1313/posts/threads-scheduler-guide/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/posts/threads-bonus-calculator/threads-bonus.png" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">你也可以開始用 Threads 發廢文賺錢了！
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>你也聽說了嗎？Meta 旗下的最新社群媒體 Threads 推出 Threads Bonus 獎勵計劃，讓一般的個人使用者也可以透過發串文來賺取分潤，並且最高可以領到 5000 美元（大約15萬台幣）。
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-08-09 12:07:07 +0100 +0100'>八月 9, 2024</span>&nbsp;·&nbsp;Pitchat</footer>
-  <a class="entry-link" aria-label="post link to 你也可以開始用 Threads 發廢文賺錢了！" href="http://localhost:1313/posts/threads-bonus-calculator/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -264,7 +264,7 @@
     </main>
     
 <footer class="footer">
-        <span><a href="https://pitchat.co">2024 Pitchat</a></span> · 
+        <span><a href="https://pitchat.co">2025 Pitchat</a></span> · 
 
     <span>
         Powered by
@@ -279,9 +279,14 @@
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -322,11 +327,12 @@
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })
