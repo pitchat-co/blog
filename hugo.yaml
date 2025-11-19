@@ -14,7 +14,7 @@ enableEmoji: true
 pygmentsUseClasses: true
 defaultContentLanguage: zh
 
-disableKinds: ["sitemap"]
+# disableKinds: ["sitemap"]
 
 sitemap:
   changefreq: 'daily'
@@ -85,3 +85,5 @@ params:
     posts:
       changefreq: 'monthly'
       priority: 0.6
+  
+  googleAnalytics4: 'G-0XK2GTG7KT'
