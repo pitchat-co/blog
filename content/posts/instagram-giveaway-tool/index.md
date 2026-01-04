@@ -1,6 +1,7 @@
 +++
-title = '【2025 IG 抽獎神器】留言抽獎工具推薦！Instagram 抽獎活動必備！'
+title = '【2026 IG 抽獎神器】留言抽獎工具推薦！Instagram 抽獎活動必備！'
 date = 2025-09-08T08:08:07+02:00
+lastmod = 2026-01-04T12:00:00+08:00
 draft = false
 cover = { image = "cover.png" }
 +++
