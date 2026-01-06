@@ -70,4 +70,4 @@ cover = { image = "lottery1.png" }
 
 記住，成功的抽獎活動不僅在於工具，更在於你如何與粉絲互動。善用這個工具，結合有趣的內容和吸引人的獎品，相信你一定能夠在Threads平台上創造出令人驚艷的營銷活動！
 
-[立即開始你的第一次Threads抽獎活動](https://pitchat.co)
+[立即開始你的第一次Threads抽獎活動](https://pitchat.co/threads/lottery)
