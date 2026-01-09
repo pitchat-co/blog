@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>脆&#43;IG on Pitchat</title>
-    <link>http://localhost:1313/tags/%E8%84%86&#43;ig/</link>
+    <link>https://blog.pitchat.co/tags/%E8%84%86&#43;ig/</link>
     <description>Recent content in 脆&#43;IG on Pitchat</description>
-    <generator>Hugo -- 0.147.7</generator>
-    <language>zh</language>
+    <generator>Hugo -- 0.153.0</generator>
+    <language>zh-tw</language>
     <copyright>2025 Pitchat</copyright>
-    <lastBuildDate>Tue, 06 Jan 2026 10:46:07 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E8%84%86+ig/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Jan 2026 10:46:07 +0800</lastBuildDate>
+    <atom:link href="https://blog.pitchat.co/tags/%E8%84%86+ig/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>脆&#43;IG 跨平台一次抽獎！Threads x Instagram 雙平台留言抽獎教學</title>
-      <link>http://localhost:1313/posts/threads-ig-cross-platform-lottery/</link>
-      <pubDate>Tue, 06 Jan 2026 10:46:07 +0800</pubDate>
-      <guid>http://localhost:1313/posts/threads-ig-cross-platform-lottery/</guid>
-      <description>&lt;p&gt;你是否曾經在舉辦抽獎活動時煩惱：「Threads 跟 Instagram 都有粉絲，到底要選哪個平台辦活動？」現在，這個問題有解了！Pitchat 推出業界首創的「&lt;strong&gt;脆+ig 跨平台一次抽獎&lt;/strong&gt;」功能，讓你同時從 Threads 和 Instagram 兩個平台的留言中抽出幸運兒，不用再二擇一！&lt;/p&gt;</description>
+      <title>2026抽獎幫手 脆&#43;IG 跨平台抽獎一次設定，通通搞定！</title>
+      <link>https://blog.pitchat.co/posts/threads-ig-cross-platform-lottery/</link>
+      <pubDate>Mon, 05 Jan 2026 10:46:07 +0800</pubDate>
+      <guid>https://blog.pitchat.co/posts/threads-ig-cross-platform-lottery/</guid>
+      <description>&lt;p&gt;你是否曾經在舉辦抽獎活動時煩惱：「Threads 跟 Instagram 都有粉絲，到底要選哪個平台辦活動？」現在，這個問題有解了！Pitchat 推出業界首創的「&lt;strong&gt;脆+ig 跨平台一次抽獎&lt;/strong&gt;」功能，讓你同時從 Threads 和 Instagram 兩個平台的貼文中抽出幸運兒，不用再二擇一！&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

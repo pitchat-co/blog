@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Pitchat</title>
-    <link>http://localhost:1313/</link>
+    <link>https://blog.pitchat.co/</link>
     <description>Recent content on Pitchat</description>
-    <generator>Hugo -- 0.147.7</generator>
-    <language>zh</language>
+    <generator>Hugo -- 0.153.0</generator>
+    <language>zh-tw</language>
     <copyright>2025 Pitchat</copyright>
     <lastBuildDate>Mon, 05 Jan 2026 10:46:07 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.pitchat.co/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2026抽獎幫手 脆&#43;IG 跨平台抽獎一次設定，通通搞定！</title>
-      <link>http://localhost:1313/posts/threads-ig-cross-platform-lottery/</link>
+      <link>https://blog.pitchat.co/posts/threads-ig-cross-platform-lottery/</link>
       <pubDate>Mon, 05 Jan 2026 10:46:07 +0800</pubDate>
-      <guid>http://localhost:1313/posts/threads-ig-cross-platform-lottery/</guid>
+      <guid>https://blog.pitchat.co/posts/threads-ig-cross-platform-lottery/</guid>
       <description>&lt;p&gt;你是否曾經在舉辦抽獎活動時煩惱：「Threads 跟 Instagram 都有粉絲，到底要選哪個平台辦活動？」現在，這個問題有解了！Pitchat 推出業界首創的「&lt;strong&gt;脆+ig 跨平台一次抽獎&lt;/strong&gt;」功能，讓你同時從 Threads 和 Instagram 兩個平台的貼文中抽出幸運兒，不用再二擇一！&lt;/p&gt;</description>
     </item>
     <item>
       <title>免費公開最新 Threads 抽獎攻略</title>
-      <link>http://localhost:1313/posts/threads-marketing-lottery-tips/</link>
+      <link>https://blog.pitchat.co/posts/threads-marketing-lottery-tips/</link>
       <pubDate>Wed, 10 Sep 2025 08:08:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/threads-marketing-lottery-tips/</guid>
+      <guid>https://blog.pitchat.co/posts/threads-marketing-lottery-tips/</guid>
       <description>&lt;p&gt;想在 Threads 上舉辦抽獎活動卻不知道怎麼開始嗎？別擔心！今天就來分享一些實戰經驗，教你如何設計一場成功的 &lt;strong&gt;Threads 抽獎&lt;/strong&gt;活動。&lt;/p&gt;
 &lt;p&gt;我們觀察了許多品牌和創作者使用 Pitchat 工具舉辦的抽獎活動，發現了一些讓參與度爆棚的小秘訣。不過在開始之前，記得先確認你的獎品符合台灣相關法規喔！如果不確定的話，建議先諮詢法律專家。&lt;/p&gt;</description>
     </item>
     <item>
       <title>透明的抽獎流程：公平、效率、體驗的最佳化</title>
-      <link>http://localhost:1313/posts/how-pitchat-makes-lottery-transparent-/</link>
+      <link>https://blog.pitchat.co/posts/how-pitchat-makes-lottery-transparent-/</link>
       <pubDate>Mon, 08 Sep 2025 08:08:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/how-pitchat-makes-lottery-transparent-/</guid>
+      <guid>https://blog.pitchat.co/posts/how-pitchat-makes-lottery-transparent-/</guid>
       <description>&lt;p&gt;在社群平台舉辦抽獎活動時，許多參與者會關心抽獎是否公平。然而，由於 API 限制、處理流程不透明等因素，完全公平的抽獎在實務上很難達成。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://app.pitchat.co?r=blog&amp;amp;utm_source=blog&amp;amp;utm_medium=blog&amp;amp;utm_campaign=how-pitchat-makes-lottery-transparent&#34;&gt;Pitchat&lt;/a&gt; 採取不同的思路：與其追求難以達成的「絕對公平」，我們選擇透過「透明」來建立信任，實現「流程上的公平」。所有抽獎步驟都在你的瀏覽器中執行，過程即時可見；我們公開每個步驟的運作邏輯，讓你理解而非盲目相信。&lt;/p&gt;</description>
     </item>
     <item>
       <title>【2026 IG 抽獎神器】留言抽獎工具推薦！Instagram 抽獎活動必備！</title>
-      <link>http://localhost:1313/posts/instagram-giveaway-tool/</link>
+      <link>https://blog.pitchat.co/posts/instagram-giveaway-tool/</link>
       <pubDate>Mon, 08 Sep 2025 08:08:07 +0200</pubDate>
-      <guid>http://localhost:1313/posts/instagram-giveaway-tool/</guid>
+      <guid>https://blog.pitchat.co/posts/instagram-giveaway-tool/</guid>
       <description>&lt;p&gt;Instagram (IG) 抽獎活動是獲取新粉絲、創造高互動的常見的行銷活動。然而，隨著活動規模擴大，執行上很快就會面臨幾個核心困境：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;留言數量上限：&lt;/strong&gt; 熱門的抽獎活動，可能受到 IG 免費抽獎工具的限制。&lt;/li&gt;
@@ -47,94 +47,94 @@
     </item>
     <item>
       <title>【2026 YT抽獎工具】YouTube抽獎神器推薦！創作者必備！</title>
-      <link>http://localhost:1313/posts/youtube-giveaway-tool/</link>
+      <link>https://blog.pitchat.co/posts/youtube-giveaway-tool/</link>
       <pubDate>Sun, 07 Sep 2025 08:08:07 +0200</pubDate>
-      <guid>http://localhost:1313/posts/youtube-giveaway-tool/</guid>
+      <guid>https://blog.pitchat.co/posts/youtube-giveaway-tool/</guid>
       <description>&lt;p&gt;身為 YouTube 創作者，你一定知道抽獎活動是提升頻道互動的利器。無論是慶祝訂閱里程碑、新影片上線，還是回饋忠實觀眾，YT 抽獎都能有效帶動留言數與觀看時間。&lt;/p&gt;</description>
     </item>
     <item>
       <title>在脆 Threads 上看見想看見的</title>
-      <link>http://localhost:1313/posts/seeing-what-you-want-to-see-on-threads/</link>
+      <link>https://blog.pitchat.co/posts/seeing-what-you-want-to-see-on-threads/</link>
       <pubDate>Fri, 05 Sep 2025 18:08:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/seeing-what-you-want-to-see-on-threads/</guid>
+      <guid>https://blog.pitchat.co/posts/seeing-what-you-want-to-see-on-threads/</guid>
       <description>&lt;p&gt;知道很多使用者其實不喜歡 &lt;strong&gt;Threads 的演算法&lt;/strong&gt;，常常滑段時間後會覺得上面的發言比較偏頗，也許今天的你心血來潮希望看些有深度的內容，卻容易被迷因梗圖吸引注意力，回過神就突然發現版面上都是 Rickrolling，相信我這並不是你的錯，但其實也不是 &lt;strong&gt;Threads 演算法&lt;/strong&gt;的錯。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Threads Instagram同步發文：輕鬆掌握跨平台社群經營秘訣</title>
-      <link>http://localhost:1313/posts/threads-instagram-sync-posting/</link>
+      <link>https://blog.pitchat.co/posts/threads-instagram-sync-posting/</link>
       <pubDate>Tue, 15 Jul 2025 08:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/threads-instagram-sync-posting/</guid>
+      <guid>https://blog.pitchat.co/posts/threads-instagram-sync-posting/</guid>
       <description>&lt;p&gt;還在為多平台發文煩惱？學習如何使用 Pitchat 將 Threads 內容一鍵同步到 Instagram、Facebook 等平台。本篇提供完整教學、規則詳解與進階技巧，大幅提升您的社群經營效率。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Threads (脆) 關鍵字自動回覆：提升互動效率的智能解決方案</title>
-      <link>http://localhost:1313/posts/threads-keywords-auto-reply/</link>
+      <link>https://blog.pitchat.co/posts/threads-keywords-auto-reply/</link>
       <pubDate>Wed, 02 Apr 2025 08:07:07 +0800</pubDate>
-      <guid>http://localhost:1313/posts/threads-keywords-auto-reply/</guid>
+      <guid>https://blog.pitchat.co/posts/threads-keywords-auto-reply/</guid>
       <description>&lt;p&gt;在現今競爭激烈的社群媒體環境中，&lt;strong&gt;Threads (脆) 關鍵字自動回覆&lt;/strong&gt;功能已成為提升帳號互動率的必備工具。Pitchat 的自動回覆功能讓您即使不在線上，也能與粉絲保持良好互動，有效提升帳號活躍度和參與度。&lt;/p&gt;</description>
     </item>
     <item>
       <title>提升您的品牌影響力：深入了解 Threads 行銷策略</title>
-      <link>http://localhost:1313/posts/threads-image-splitter/</link>
+      <link>https://blog.pitchat.co/posts/threads-image-splitter/</link>
       <pubDate>Fri, 13 Dec 2024 12:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/threads-image-splitter/</guid>
+      <guid>https://blog.pitchat.co/posts/threads-image-splitter/</guid>
       <description>&lt;p&gt;在當今社交媒體競爭激烈的環境中，品牌如何有效地吸引目標受眾成為成功的關鍵。&lt;strong&gt;Threads 行銷&lt;/strong&gt;作為一種創新的行銷策略，正迅速崛起，成為品牌推廣的利器。本文將深入探討 Threads 行銷的優勢，並介紹由專業行銷工具 Pitchat 開發的 &lt;a href=&#34;https://pitchat.co/threads/image-split&#34;&gt;&lt;strong&gt;Threads 圖片分割器&lt;/strong&gt;&lt;/a&gt;，助您輕鬆提升行銷效果。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Threads 行銷實戰指南：從演算法分析到內容策略打造強大品牌影響力</title>
-      <link>http://localhost:1313/posts/threads-marketing/</link>
+      <link>https://blog.pitchat.co/posts/threads-marketing/</link>
       <pubDate>Sun, 08 Dec 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/threads-marketing/</guid>
+      <guid>https://blog.pitchat.co/posts/threads-marketing/</guid>
       <description>&lt;p&gt;在近年來新興的社群媒體平台中，&lt;strong&gt;Threads&lt;/strong&gt; 正逐漸嶄露頭角。許多喜歡文字創作的使用者，都希望能透過這個新平台建立自己的影響力並進行 &lt;strong&gt;Threads 行銷&lt;/strong&gt;。然而，Threads 本身仍在探索階段，其獨特的演算法特性與用戶互動模式，為行銷策略的制定帶來挑戰與契機。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Threads 演算法改變了什麼？</title>
-      <link>http://localhost:1313/posts/threads-algorithm-change/</link>
+      <link>https://blog.pitchat.co/posts/threads-algorithm-change/</link>
       <pubDate>Tue, 03 Dec 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/threads-algorithm-change/</guid>
+      <guid>https://blog.pitchat.co/posts/threads-algorithm-change/</guid>
       <description>&lt;p&gt;Instagram 執行長 Mosseri 於 2024 年 11 月 21 日宣布將調整 Threads 推薦演算法的比例，優先推送用戶追蹤對象的內容。這項改變對創作者產生重大影響，特別是那些期望透過 Threads 打開知名度的內容創作者，將面臨更大的挑戰。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Threads 數據分析：提升您的社交媒體策略</title>
-      <link>http://localhost:1313/posts/threads-analysis/</link>
+      <link>https://blog.pitchat.co/posts/threads-analysis/</link>
       <pubDate>Fri, 25 Oct 2024 16:39:19 +0800</pubDate>
-      <guid>http://localhost:1313/posts/threads-analysis/</guid>
+      <guid>https://blog.pitchat.co/posts/threads-analysis/</guid>
       <description>&lt;p&gt;Threads 最近推出了官方的數據洞察功能，雖然提供的數據很有限，但這對於希望深入分析數據的用戶來說，無疑是一個重要的進展。本文將探討如何利用這些數據來優化您的社交媒體策略，特別是針對 Threads 數據分析 的應用。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Threads 排程發文攻略：輕鬆安排貼文時間的秘訣</title>
-      <link>http://localhost:1313/posts/threads-scheduler-guide/</link>
+      <link>https://blog.pitchat.co/posts/threads-scheduler-guide/</link>
       <pubDate>Wed, 25 Sep 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/threads-scheduler-guide/</guid>
+      <guid>https://blog.pitchat.co/posts/threads-scheduler-guide/</guid>
       <description>&lt;h1 id=&#34;threads-排程發文攻略輕鬆安排貼文時間的秘訣&#34;&gt;Threads 排程發文攻略：輕鬆安排貼文時間的秘訣&lt;/h1&gt;
 &lt;p&gt;你是否也在為 Threads（在台灣暱稱為「脆」）缺少排程發文功能而苦惱？別擔心，本文將為你揭示如何輕鬆實現 Threads 排程發文，讓你的社群經營更上一層樓！&lt;/p&gt;</description>
     </item>
     <item>
       <title>你也可以開始用 Threads 發廢文賺錢了！</title>
-      <link>http://localhost:1313/posts/threads-bonus-calculator/</link>
+      <link>https://blog.pitchat.co/posts/threads-bonus-calculator/</link>
       <pubDate>Fri, 09 Aug 2024 12:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/threads-bonus-calculator/</guid>
+      <guid>https://blog.pitchat.co/posts/threads-bonus-calculator/</guid>
       <description>&lt;p&gt;你也聽說了嗎？Meta 旗下的最新社群媒體 Threads 推出 Threads Bonus 獎勵計劃，讓一般的個人使用者也可以透過發串文來賺取分潤，並且最高可以領到 5000 美元（大約15萬台幣）。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Threads是什麼？品牌經營Threads必備的行銷工具</title>
-      <link>http://localhost:1313/posts/threads-management/</link>
+      <link>https://blog.pitchat.co/posts/threads-management/</link>
       <pubDate>Thu, 01 Aug 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/threads-management/</guid>
+      <guid>https://blog.pitchat.co/posts/threads-management/</guid>
       <description>&lt;p&gt;Threads，台灣年輕人又喜歡稱作「脆」，是最新的品牌經營利器，由Facebook的母公司Meta開發。台灣目前在Threads上是第二大的活躍用戶。&lt;/p&gt;</description>
     </item>
     <item>
       <title>你也在找免費的Threads抽獎工具嗎？</title>
-      <link>http://localhost:1313/posts/free-threads-lottery-tool-guide/</link>
+      <link>https://blog.pitchat.co/posts/free-threads-lottery-tool-guide/</link>
       <pubDate>Sun, 14 Jul 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/free-threads-lottery-tool-guide/</guid>
+      <guid>https://blog.pitchat.co/posts/free-threads-lottery-tool-guide/</guid>
       <description>&lt;p&gt;在社交媒體行銷中，抽獎活動是一種極為有效的方式來增加互動和吸引新粉絲。隨著Threads平台的興起，許多品牌和內容創作者都在尋找合適的工具來舉辦抽獎活動。今天我們要介紹一個免費且功能強大的Threads抽獎工具，它將幫助你輕鬆管理和執行抽獎活動。&lt;/p&gt;</description>
     </item>
     <item>
       <title>如何快速註冊Pitchat</title>
-      <link>http://localhost:1313/posts/how-to-register-pithcat/</link>
+      <link>https://blog.pitchat.co/posts/how-to-register-pithcat/</link>
       <pubDate>Sun, 14 Jul 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/how-to-register-pithcat/</guid>
+      <guid>https://blog.pitchat.co/posts/how-to-register-pithcat/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://pitchat.co&#34;&gt;Pitchat&lt;/a&gt; 是一個由台灣獨立開發者開發，專用於Threads行銷使用的輔助工具，內容涵蓋了&lt;strong&gt;Threads數據分析&lt;/strong&gt;、Threads抽獎工具、Threads排程發文與Threads內容發想的專業行銷工具。&lt;/p&gt;</description>
     </item>
   </channel>

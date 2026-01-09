@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="zh" dir="auto" data-theme="light">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>透明的抽獎流程：公平、效率、體驗的最佳化 | Pitchat</title>
 <meta name="keywords" content="">
 <meta name="description" content="在社群平台舉辦抽獎活動時，許多參與者會關心抽獎是否公平。然而，由於 API 限制、處理流程不透明等因素，完全公平的抽獎在實務上很難達成。
 Pitchat 採取不同的思路：與其追求難以達成的「絕對公平」，我們選擇透過「透明」來建立信任，實現「流程上的公平」。所有抽獎步驟都在你的瀏覽器中執行，過程即時可見；我們公開每個步驟的運作邏輯，讓你理解而非盲目相信。">
 <meta name="author" content="Pitchat">
-<link rel="canonical" href="http://localhost:1313/posts/how-pitchat-makes-lottery-transparent-/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.a5781257de4197b8e3d54346acdf1dd55a9ba4cb91dcace192fc1baf228c08b5.css" integrity="sha256-pXgSV95Bl7jj1UNGrN8d1VqbpMuR3KzhkvwbryKMCLU=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="canonical" href="https://blog.pitchat.co/posts/how-pitchat-makes-lottery-transparent-/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://blog.pitchat.co/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://blog.pitchat.co/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://blog.pitchat.co/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://blog.pitchat.co/apple-touch-icon.png">
+<link rel="mask-icon" href="https://blog.pitchat.co/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="zh" href="http://localhost:1313/posts/how-pitchat-makes-lottery-transparent-/">
+<link rel="alternate" hreflang="zh" href="https://blog.pitchat.co/posts/how-pitchat-makes-lottery-transparent-/">
 <noscript>
     <style>
         #theme-toggle,
@@ -35,13 +35,92 @@ Pitchat 採取不同的思路：與其追求難以達成的「絕對公平」，
     }
 
 </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0XK2GTG7KT"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0XK2GTG7KT');
+</script>
+
+<meta property="og:url" content="https://blog.pitchat.co/posts/how-pitchat-makes-lottery-transparent-/">
+  <meta property="og:site_name" content="Pitchat">
+  <meta property="og:title" content="透明的抽獎流程：公平、效率、體驗的最佳化">
+  <meta property="og:description" content="在社群平台舉辦抽獎活動時，許多參與者會關心抽獎是否公平。然而，由於 API 限制、處理流程不透明等因素，完全公平的抽獎在實務上很難達成。
+Pitchat 採取不同的思路：與其追求難以達成的「絕對公平」，我們選擇透過「透明」來建立信任，實現「流程上的公平」。所有抽獎步驟都在你的瀏覽器中執行，過程即時可見；我們公開每個步驟的運作邏輯，讓你理解而非盲目相信。">
+  <meta property="og:locale" content="zh-tw">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-09-08T08:08:07+01:00">
+    <meta property="article:modified_time" content="2025-09-08T08:08:07+01:00">
+    <meta property="og:image" content="https://blog.pitchat.co/cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://blog.pitchat.co/cover.png">
+<meta name="twitter:title" content="透明的抽獎流程：公平、效率、體驗的最佳化">
+<meta name="twitter:description" content="在社群平台舉辦抽獎活動時，許多參與者會關心抽獎是否公平。然而，由於 API 限制、處理流程不透明等因素，完全公平的抽獎在實務上很難達成。
+Pitchat 採取不同的思路：與其追求難以達成的「絕對公平」，我們選擇透過「透明」來建立信任，實現「流程上的公平」。所有抽獎步驟都在你的瀏覽器中執行，過程即時可見；我們公開每個步驟的運作邏輯，讓你理解而非盲目相信。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://blog.pitchat.co/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "透明的抽獎流程：公平、效率、體驗的最佳化",
+      "item": "https://blog.pitchat.co/posts/how-pitchat-makes-lottery-transparent-/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "透明的抽獎流程：公平、效率、體驗的最佳化",
+  "name": "透明的抽獎流程：公平、效率、體驗的最佳化",
+  "description": "在社群平台舉辦抽獎活動時，許多參與者會關心抽獎是否公平。然而，由於 API 限制、處理流程不透明等因素，完全公平的抽獎在實務上很難達成。\nPitchat 採取不同的思路：與其追求難以達成的「絕對公平」，我們選擇透過「透明」來建立信任，實現「流程上的公平」。所有抽獎步驟都在你的瀏覽器中執行，過程即時可見；我們公開每個步驟的運作邏輯，讓你理解而非盲目相信。\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "在社群平台舉辦抽獎活動時，許多參與者會關心抽獎是否公平。然而，由於 API 限制、處理流程不透明等因素，完全公平的抽獎在實務上很難達成。\nPitchat 採取不同的思路：與其追求難以達成的「絕對公平」，我們選擇透過「透明」來建立信任，實現「流程上的公平」。所有抽獎步驟都在你的瀏覽器中執行，過程即時可見；我們公開每個步驟的運作邏輯，讓你理解而非盲目相信。\n本文將詳細解說 Pitchat 的三階段抽獎流程：抽樣建立抽獎名單、條件篩選、隨機抽獎，以及我們如何在公平、效率、體驗間取得平衡。你將了解每個設計決策背後的理由，以及為什麼透明度比承諾更有價值。\n為什麼我們強調「透明」？ 當談到抽獎時，你的第一個反應會是什麼？可能會是「公平嗎」？這是合理的疑問。然而，實現「完全公平」的抽獎，在實務上面臨著許多難題。\n完全公平為何難以達成？ 理想的抽獎流程應該是這樣的：一次性獲取所有留言資料，篩選出符合資格的參與者，然後進行隨機抽獎。聽起來完美，但實踐中會遇到三大困難：\n官方 API 的限制\n社群平台的 API 存在一些限制，例如：呼叫頻率、分頁限制 無法一次獲取所有留言，需要逐頁讀取 整個過程隨著留言數越多越耗時越長 後端集中處理的問題\n如果在伺服器上集中處理抽獎，過程對用戶不可見 用戶可能需要等待長時間才能看到結果 用戶無法驗證抽獎的公平性，只能信任平台 篩選條件實作的潛在遺漏\n不同平台的 API 回傳格式不同 篩選邏輯的複雜性（關鍵字匹配、提及人數等） 邊界情況可能被忽略 這些因素都可能導致對「完全公平」的失準。因此，我們採取了不同的思路。\n我們的解決方案：「流程上的公平」 與其追求無法完全達成的「絕對公平」，我們選擇在三個維度尋求最佳化：\n維度 我們的做法 公平 透過開放的流程和演算法，讓用戶可以驗證和理解 效率 採用聰明的抽樣策略處理大量留言 體驗 即時的進度反饋、清晰的篩選條件 我們如何實現透明？ 透過以下方式實現完全透明 我們透過以下來實現「透明」，讓你不需要盲目信任我們。\n方式一：在瀏覽器中執行，過程即時可見 所有抽獎步驟都在你的瀏覽器中執行。\n這意味著什麼？\n整個抽獎過程不需要連接到我們的伺服器進行計算 你可以實時看到進度（「正在讀取留言」→「正在篩選」→「正在抽獎」） 如果懂技術的人願意，甚至可以打開瀏覽器開發者工具檢查程式碼邏輯 沒有「黑箱」，沒有隱藏的伺服器端操作 這種方式需要犧牲一點什麼？速度。但我們通過巧妙的抽樣策略解決了這個問題。\n方式二：公開說明實作邏輯 我們沒有只說「我們很公平」，而是詳細解釋「我們如何做到公平」。\n你正在閱讀的這篇文章，就是我們對透明度承諾的第一步。我們在這裡：\n說明為什麼完全公平很難達成 解釋三個階段分別做什麼 列舉每個篩選條件的具體工作方式 展示我們在公平、效率、體驗之間如何取得平衡 這讓非技術背景的使用者也能理解整個抽獎邏輯，而不是盲目信任。\n抽獎流程三階段詳解（以 Instagram 抽獎為例） 我們將抽獎過程分為三個清晰的階段。每個階段都有特定的目標和篩選條件。\n階段一：邊讀取邊過濾並抽樣建立抽獎名單 目標：從 Instagram API 讀取所有留言，同時應用第一層篩選和抽樣\n抽樣：公平地處理大量留言 設想一下，當一則 Instagram 貼文有數十萬甚至數百萬留言時，除了無法直接一次讀取所有資料外，還會遇到兩個問題：\n記憶體問題：無法在瀏覽器中同時保存百萬則留言 處理時間：即使能保存，處理百萬筆資料也會花費很長時間 我們的解決方案是採用 水塘抽樣（Reservoir Sampling） 演算法。\n它如何工作？\n簡單來說，我們邊讀取留言邊進行「公平抽樣」（注意：這裡的「留言」指的都是「有效留言」）：\n前 1,000 則有效留言：全部保留 第 1,001 則以後的有效留言：每則都有機率進入候選池，並可能替換掉現有的某一則留言 為什麼這樣是公平的？\n這個演算法經過數學證明，能保證一個關鍵特性：當處理完所有有效留言後，每一則有效留言最終被保留在候選池中的機率完全相等。\n舉例來說：\n假設 API 回傳 50,000 則原始留言，經篩選後有 10,000 則有效留言 無論是第 1 則、第 5,000 則還是第 10,000 則有效留言，每一則最終留在候選池中的機率都是 1,000÷10,000 = 10% 另外 40,000 則被篩選掉的原始留言機率為 0%（完全不會中獎） 如果有效留言總數是 100 萬則，每一則最終被保留的機率都是 1,000÷1,000,000 = 0.1%\n這確保了不會因為留言時間先後而在有效留言之間產生任何偏差。\n為什麼適合這個場景？\n公平性：每則有效留言被選中的機率完全相等，不會因為時間先後而有差別 記憶體效率：無論有多少留言，我們始終只在記憶體中保留約 1,000 則，節省資源 可接受的速度：避免了百萬筆資料的處理時間，讓結果在合理時間內產生 這是在「完美公平」（讀取所有留言）和「快速結果」（只抽少量樣本）之間的最佳平衡點。\n重要概念：什麼是「有效留言」？\n在進入詳細步驟前，先釐清一個重要概念：\n原始留言：從 Instagram API 取得的所有留言 有效留言：通過第一階段所有篩選條件（排除自己、重複留言、時間範圍）的留言 例如，API 可能回傳 50,000 則原始留言，但經過第一階段篩選後，可能只有 10,000 則是「有效留言」。被篩選掉的 40,000 則留言（自己的、重複的、超出時間範圍的）完全不會進入後續的抽樣和中獎流程。\n這個區分為什麼重要？ 因為後續的抽樣只在有效留言之間進行，確保每則有效留言都有相等的被選中機率。\n此階段涉及的操作：\n連續向 Instagram API 請求新一頁的留言 對每則留言應用即時篩選（下面會詳述） 對符合條件的留言進行公平抽樣 直到讀取完所有留言為止 本階段的三個篩選條件：\n排除自己 用途：確保主辦方自己不會中獎 工作方式：比較留言者的帳號與主辦方帳號 為什麼重要：維持抽獎的公正性 重複留言 用途：確保每個參與者只有一次中獎機會（基於第一則留言） 工作方式：記住已經出現過的所有用戶名，只保留每個用戶的第一則留言 為什麼重要：避免有人透過多次留言增加中獎機率 時間範圍 用途：只考慮特定時間段內的留言 工作方式：比較留言時間戳與設定的開始和結束時間 為什麼重要：確保抽獎在公告期間內的參與被納入考量 進度恢復機制： 如果你在抽獎過程中關閉了瀏覽器，Pitchat 會記住進度，下次繼續時可以從中斷處恢復，不需要重新讀取所有留言。\n階段二：篩選條件過濾 目標：在已讀取的留言基礎上，應用更複雜的篩選條件\n此階段涉及的操作：\n對階段一的候選留言逐一檢查 應用需要完整留言內容才能判斷的篩選條件 確認最終候選人數是否足以進行抽獎 本階段的四個篩選條件：\n封鎖名單 用途：排除指定的用戶（例如，不符合參與資格的人） 工作方式：如果留言者在封鎖名單中，則排除此留言 例子：排除非本地使用者、排除品牌帳號 關鍵字 用途：只納入包含特定關鍵字的留言 工作方式：檢查留言文本是否包含指定的關鍵字 兩種模式： 「任一」模式：留言只需包含其中一個關鍵字即可（OR 邏輯） 「全部」模式：留言必須包含所有指定的關鍵字（AND 邏輯） 例子： 關鍵字：「喜歡」、「推薦」（任一模式）→ 留言包含「喜歡」或「推薦」即可 關鍵字：「我喜歡」、「這個商品」（全部模式）→ 留言必須同時包含兩個詞語 提及人數 用途：確保參與者在留言中 @ 提及了足夠數量的人 工作方式：計算留言中出現的 @mention 數量 例子：設定「至少 2 個」→ 留言必須 @ 標記至少 2 個人 重複中獎 用途：控制是否同一人可以中多個獎項 工作方式：此設定影響第三階段的抽獎演算法（後面會詳述） 兩種模式： 允許：同一人可以中多個獎 不允許：同一人最多只能中一個獎 檢查候選人數： 在進入第三階段前，系統會確認是否有足夠的候選人來滿足獎項需求。例如，如果你要抽出 10 個獲獎者但只有 5 個符合條件的候選，系統會提醒你並拒絕抽獎。\n階段三：抽獎 目標：從符合條件的候選人中隨機選出獲獎者\n此階段涉及的操作：\n根據「重複中獎」設定選擇合適的演算法 隨機選出指定數量的獲獎者 將結果展示給用戶 兩種抽獎方式：\n模式 A：允許重複中獎 當設定為「允許重複中獎」時：\n工作方式很簡單：\n對於每一個要抽出的獎項，從候選人池中隨機選一個人 選出的人仍然留在池中，下一個獎項可能再選到他 簡單、快速 使用情境：\n不在意某人中多次 想要最大化中獎機會給活躍參與者 模式 B：不允許重複中獎 當設定為「不允許重複中獎」時：\n工作方式更複雜但更公平：\n先將所有候選人進行隨機排列（稱為「洗牌」） 依序從排列中選出第一個、第二個、第三個……獲獎者 每選出一個人，就標記他已中獎，之後不再考慮 使用情境：\n獎品有限，要讓更多人有中獎機會 為什麼採用這樣的設計？ 1. 在瀏覽器執行 → 透明且可驗證 透明：沒有伺服器端黑箱，用戶可以理解整個邏輯 可驗證：技術人員可以審查程式碼，確保沒有暗箱操作 即時反饋：用戶實時看到進度，而不是盲目等待 2. 分三階段處理 → 效率最佳化 第一階段：同步「讀取」和「篩選」，減少需要保存的資料量 第二階段：只對抽獎名單做條件篩選，減少計算 第三階段：直接從最終候選人中抽獎，邏輯清晰 這種分階段的方式讓系統既能處理大量資料，又保持高效率。\n3. 抽樣機制 → 在公平與效率間取得平衡 水塘抽樣演算法確保：\n即使有百萬則留言，也只需保留 1,000 則 每則留言被選中的機率完全相等 處理速度從「數小時」減少到「數分鐘」或「數秒」 4. 多層篩選 → 靈活滿足各種需求 七個不同的篩選條件可以組合使用：\n簡單抽獎：只開啟「排除自己」和「重複留言」 複雜抽獎：結合多個條件如「關鍵字」、「提及人數」、「時間範圍」 靈活性：不同類型的抽獎都能支援 5. 快取機制 → 加速抽獎體驗 快取機制在以下情況下能避免重複工作：\n調整篩選或獎品設定時：當你只改變第二階段或第三階段的設定時，可以直接使用快取結果，無需重新讀取留言。\n應對斷線或意外中斷時：當遇到斷線、瀏覽器意外關閉等不可控情況時，系統會保留已完成的第一階段結果，讓你重新開啟時可以直接從篩選和抽獎階段繼續，避免重複讀取留言的時間成本。\n系統實現方式：系統會暫存第一階段的抽獎名單（有效期 30 分鐘）。如果改變貼文或第一階段設定（排除自己、重複留言、時間範圍），系統會重新抓取最新留言。\n結語：透明度的力量 在任何涉及隨機選擇的系統中，透明度都是建立信任的基礎。不是因為平台說「我們很公平」，而是因為用戶能夠理解和驗證整個過程。\n我們對透明度的承諾體現在：\n不聲稱「絕對公平」，而是說明實現「流程上的公平」 展示完整的流程和邏輯，讓任何人都能理解 讓用戶實時看到發生了什麼，沒有隱藏的伺服器端黑箱 我們相信 透明度比承諾更有價值。當你理解了整個流程的每一步——從 API 讀取、第一階段篩選、水塘抽樣、到最終的隨機抽獎——你不需要盲目相信我們。相反，你可以基於理解而自信地相信這個系統。\n這就是 Pitchat 抽獎的核心理念。\nPitchat 提供包含 Instagram 抽獎、Threads 抽獎、Facebook 抽獎、YouTube 抽獎 還有 其他 社群平台的抽獎工具，滿足你對熱門社群平台的抽獎需求。\n想要讓輕鬆舉辦成功的抽獎活動，立即前往 Pitchat 官網，讓你的抽獎活動更有效率！\n",
+  "wordCount" : "4275",
+  "inLanguage": "zh",
+  "image":"https://blog.pitchat.co/cover.png","datePublished": "2025-09-08T08:08:07+01:00",
+  "dateModified": "2025-09-08T08:08:07+01:00",
+  "author":[{
+    "@type": "Person",
+    "name": "Pitchat"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://blog.pitchat.co/posts/how-pitchat-makes-lottery-transparent-/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Pitchat",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://blog.pitchat.co/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Pitchat (Alt + H)">
-                <img src="http://localhost:1313/pitchat.png" alt="" aria-label="logo"
+            <a href="https://blog.pitchat.co/" accesskey="h" title="Pitchat (Alt + H)">
+                <img src="https://blog.pitchat.co/pitchat.png" alt="" aria-label="logo"
                     height="30">Pitchat</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
@@ -79,7 +158,7 @@ Pitchat 採取不同的思路：與其追求難以達成的「絕對公平」，
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/" title="Pitchat">
+                <a href="https://blog.pitchat.co/" title="Pitchat">
                     <span>部落格</span>
                 </a>
             </li>
@@ -99,7 +178,12 @@ Pitchat 採取不同的思路：與其追求難以達成的「絕對公平」，
 </div>
   </header> 
 <figure class="entry-cover">
-            <img loading="eager" src="http://localhost:1313/posts/how-pitchat-makes-lottery-transparent-/cover.png" alt="">
+            <img loading="eager"
+                srcset='https://blog.pitchat.co/posts/how-pitchat-makes-lottery-transparent-/cover_hu_ccdb59e7904df6ac.png 360w,https://blog.pitchat.co/posts/how-pitchat-makes-lottery-transparent-/cover_hu_c09af9229eceb837.png 480w,https://blog.pitchat.co/posts/how-pitchat-makes-lottery-transparent-/cover_hu_b3846cd3a3af940c.png 720w,https://blog.pitchat.co/posts/how-pitchat-makes-lottery-transparent-/cover.png 1024w'
+                src="https://blog.pitchat.co/posts/how-pitchat-makes-lottery-transparent-/cover.png"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1024" height="1024"
+                alt="">
         
 </figure>
   <div class="post-content"><p>在社群平台舉辦抽獎活動時，許多參與者會關心抽獎是否公平。然而，由於 API 限制、處理流程不透明等因素，完全公平的抽獎在實務上很難達成。</p>
