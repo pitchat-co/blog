@@ -101,8 +101,8 @@ Pitchat 提供多種篩選條件，確保抽獎公平公正：
 
 除了「脆+IG」跨平台抽獎外，Pitchat 也提供各平台專屬的抽獎工具，立即使用加速社群互動吧
 
-- [Instagram 留言抽獎](https://app.pitchat.co/instagram) - 最簡單好用的 IG 抽獎工具
-- [YouTube 留言抽獎](https://app.pitchat.co/youtube) - 創作者必備的 YT 抽獎神器
-- [Facebook 留言抽獎](https://app.pitchat.co/facebook) - 粉絲團經營最強後盾
-- [Threads 留言抽獎](https://app.pitchat.co/threads) - 脆友互動首選，快速又公平
-- [自訂名單抽獎](https://app.pitchat.co/luck-draw) - 實體活動、尾牙抽獎的最佳夥伴
+- [Instagram 留言抽獎](https://app.pitchat.co/instagram?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=threads-ig-cross-platform-lottery) - 最簡單好用的 IG 抽獎工具
+- [YouTube 留言抽獎](https://app.pitchat.co/youtube?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=threads-ig-cross-platform-lottery) - 創作者必備的 YT 抽獎神器
+- [Facebook 留言抽獎](https://app.pitchat.co/facebook?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=threads-ig-cross-platform-lottery) - 粉絲團經營最強後盾
+- [Threads 留言抽獎](https://app.pitchat.co/threads?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=threads-ig-cross-platform-lottery) - 脆友互動首選，快速又公平
+- [自訂名單抽獎](https://app.pitchat.co/lucky-draw?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=threads-ig-cross-platform-lottery) - 實體活動、尾牙抽獎的最佳夥伴
