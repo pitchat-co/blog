@@ -1,5 +1,5 @@
 +++
-title = '2026抽獎幫手 脆+IG 跨平台抽獎一次設定，通通搞定！'
+title = '2026 抽獎幫手 脆+IG 跨平台抽獎一次設定，通通搞定！'
 date = 2026-01-05T10:46:07+08:00
 draft = false
 cover = { image = "cover.png" }

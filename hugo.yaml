@@ -2,7 +2,7 @@ baseURL: https://blog.pitchat.co/
 languageCode: zh-tw
 title: Pitchat
 copyright: "[2025 Pitchat](https://pitchat.co)"
-theme: ["PaperMod"]
+theme: ["PaperMod", "hugo-shortcode-gallery"]
 
 enableInlineShortcodes: true
 hasCJKLanguage: true
@@ -87,3 +87,9 @@ params:
       priority: 0.6
   
   googleAnalytics4: 'G-0XK2GTG7KT'
+  
+  # Gallery Settings
+  galleryLoadJQuery: true
+  galleryPreviewType: "blur"
+  galleryEmbedPreview: true
+  galleryThumbnailResizeOptions: "600x600 q90 Lanczos"
