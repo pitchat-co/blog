@@ -7,7 +7,7 @@ cover = { image = "cover.png" }
 
 你是否曾經在公司尾牙時，看著主持人手忙腳亂地翻找紙籤抽獎？或是在學校班級活動中，擔心手動抽籤的公平性受到質疑？傳統抽獎或抽籤方式不僅耗時費力，還容易出現爭議。隨著數位科技的發展，**線上抽獎系統**與**線上抽籤系統**成為現代活動的最佳解決方案，讓抽獎過程更公平、更有效率，也更專業。
 
-本文將完整介紹 **[Pitchat 免費線上抽獎系統](https://pitchat.co/lucky-draw?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=free-online-lottery-system-guide)** 的所有功能、適用場景及使用教學，無論你是企業人資、活動企劃、社群小編、老師，還是婚禮新人，都能找到最適合的抽獎與抽籤解決方案。讓我們一次搞懂如何運用線上抽獎系統，讓你的活動環節順暢又精彩！
+本文將完整介紹 **[Pitchat 免費線上抽獎系統](https://app.pitchat.co/lucky-draw?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=free-online-lottery-system-guide)** 的所有功能、適用場景及使用教學，無論你是企業人資、活動企劃、社群小編、老師，還是婚禮新人，都能找到最適合的抽獎與抽籤解決方案。讓我們一次搞懂如何運用線上抽獎系統，讓你的活動環節順暢又精彩！
 
 ## 什麼是線上抽獎系統？
 
@@ -216,7 +216,7 @@ cover = { image = "cover.png" }
 
 ### Step 1：登入
 
-1. 前往 [Pitchat 線上抽獎工具](https://pitchat.co?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=free-online-lottery-system-guide)
+1. 前往 [Pitchat 線上抽獎工具](https://app.pitchat.co?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=free-online-lottery-system-guide)
 2. 點擊「立即使用」或「登入」
 3. 使用 Email 接收 OTP（一次性密碼）快速登入
 4. **免費帳號即可使用**（100 人以內名單完全免費）
@@ -402,7 +402,7 @@ Pitchat 自訂名單抽獎提供靈活的方案選擇，無論你的活動規模
 
 不要再讓繁瑣的手動作業成為活動的負擔。立即使用 **Pitchat 線上抽獎系統**，體驗專業工具帶來的便利與效率！
 
-**👉 [立即免費使用 Pitchat 線上抽獎系統](https://pitchat.co/lucky-draw?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=free-online-lottery-system-guide)**
+**👉 [立即免費使用 Pitchat 線上抽獎系統](https://app.pitchat.co/lucky-draw?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=free-online-lottery-system-guide)**
 
 登入即可開始使用，讓我們一起讓活動環節變得更簡單、更公平、更有趣！
 
@@ -412,9 +412,9 @@ Pitchat 自訂名單抽獎提供靈活的方案選擇，無論你的活動規模
 
 除了自訂名單抽獎，Pitchat 還提供多種社群平台抽獎工具：
 
-- [Instagram 抽獎工具](https://pitchat.co/instagram?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=free-online-lottery-system-guide) - IG留言抽獎
-- [Facebook 抽獎工具](https://pitchat.co/facebook?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=free-online-lottery-system-guide) - 粉專貼文抽獎
-- [Threads 抽獎工具](https://pitchat.co/threads?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=free-online-lottery-system-guide) - 脆抽獎
-- [YouTube 抽獎工具](https://pitchat.co/youtube?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=free-online-lottery-system-guide) - YT影片留言抽獎
+- [Instagram 抽獎工具](https://app.pitchat.co/instagram?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=free-online-lottery-system-guide) - IG留言抽獎
+- [Facebook 抽獎工具](https://app.pitchat.co/facebook?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=free-online-lottery-system-guide) - 粉專貼文抽獎
+- [Threads 抽獎工具](https://app.pitchat.co/threads?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=free-online-lottery-system-guide) - 脆抽獎
+- [YouTube 抽獎工具](https://app.pitchat.co/youtube?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=free-online-lottery-system-guide) - YT影片留言抽獎
 
 有任何問題或建議？歡迎聯繫我們：[contact@pitchat.co](mailto:contact@pitchat.co)

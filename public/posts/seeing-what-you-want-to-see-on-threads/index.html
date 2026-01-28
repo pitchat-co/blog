@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="zh" dir="auto" data-theme="light">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>在脆 Threads 上看見想看見的 | Pitchat</title>
 <meta name="keywords" content="">
 <meta name="description" content="知道很多使用者其實不喜歡 Threads 的演算法，常常滑段時間後會覺得上面的發言比較偏頗，也許今天的你心血來潮希望看些有深度的內容，卻容易被迷因梗圖吸引注意力，回過神就突然發現版面上都是 Rickrolling，相信我這並不是你的錯，但其實也不是 Threads 演算法的錯。">
 <meta name="author" content="Pitchat">
-<link rel="canonical" href="https://blog.pitchat.co/posts/seeing-what-you-want-to-see-on-threads/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://blog.pitchat.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://blog.pitchat.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://blog.pitchat.co/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://blog.pitchat.co/apple-touch-icon.png">
-<link rel="mask-icon" href="https://blog.pitchat.co/safari-pinned-tab.svg">
+<link rel="canonical" href="http://localhost:1313/posts/seeing-what-you-want-to-see-on-threads/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a5781257de4197b8e3d54346acdf1dd55a9ba4cb91dcace192fc1baf228c08b5.css" integrity="sha256-pXgSV95Bl7jj1UNGrN8d1VqbpMuR3KzhkvwbryKMCLU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="zh" href="https://blog.pitchat.co/posts/seeing-what-you-want-to-see-on-threads/">
+<link rel="alternate" hreflang="zh" href="http://localhost:1313/posts/seeing-what-you-want-to-see-on-threads/">
 <noscript>
     <style>
         #theme-toggle,
@@ -34,90 +34,13 @@
     }
 
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0XK2GTG7KT"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-0XK2GTG7KT');
-</script>
-
-<meta property="og:url" content="https://blog.pitchat.co/posts/seeing-what-you-want-to-see-on-threads/">
-  <meta property="og:site_name" content="Pitchat">
-  <meta property="og:title" content="在脆 Threads 上看見想看見的">
-  <meta property="og:description" content="知道很多使用者其實不喜歡 Threads 的演算法，常常滑段時間後會覺得上面的發言比較偏頗，也許今天的你心血來潮希望看些有深度的內容，卻容易被迷因梗圖吸引注意力，回過神就突然發現版面上都是 Rickrolling，相信我這並不是你的錯，但其實也不是 Threads 演算法的錯。">
-  <meta property="og:locale" content="zh-tw">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-09-05T18:08:07+01:00">
-    <meta property="article:modified_time" content="2025-09-05T18:08:07+01:00">
-    <meta property="og:image" content="https://blog.pitchat.co/cover.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://blog.pitchat.co/cover.png">
-<meta name="twitter:title" content="在脆 Threads 上看見想看見的">
-<meta name="twitter:description" content="知道很多使用者其實不喜歡 Threads 的演算法，常常滑段時間後會覺得上面的發言比較偏頗，也許今天的你心血來潮希望看些有深度的內容，卻容易被迷因梗圖吸引注意力，回過神就突然發現版面上都是 Rickrolling，相信我這並不是你的錯，但其實也不是 Threads 演算法的錯。">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://blog.pitchat.co/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "在脆 Threads 上看見想看見的",
-      "item": "https://blog.pitchat.co/posts/seeing-what-you-want-to-see-on-threads/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "在脆 Threads 上看見想看見的",
-  "name": "在脆 Threads 上看見想看見的",
-  "description": "知道很多使用者其實不喜歡 Threads 的演算法，常常滑段時間後會覺得上面的發言比較偏頗，也許今天的你心血來潮希望看些有深度的內容，卻容易被迷因梗圖吸引注意力，回過神就突然發現版面上都是 Rickrolling，相信我這並不是你的錯，但其實也不是 Threads 演算法的錯。\n",
-  "keywords": [
-    
-  ],
-  "articleBody": "知道很多使用者其實不喜歡 Threads 的演算法，常常滑段時間後會覺得上面的發言比較偏頗，也許今天的你心血來潮希望看些有深度的內容，卻容易被迷因梗圖吸引注意力，回過神就突然發現版面上都是 Rickrolling，相信我這並不是你的錯，但其實也不是 Threads 演算法的錯。\n很多創作者嘗試過訓化 Threads 演算法，比如說盡可能的只閱讀英文內容或只和英文語系創作者互動，可惜結果都是只能維持一段時間，很快地又會因為自己的注意力回到 Rickrolling 。\n只能隨著 Threads 的演算法內容娛樂化嗎？ 以下提供幾個方法讓你能確定的掌握自己希望看見的內容。\n善用 Threads 的隱藏字詞 脆其實有個隱藏字詞的功能，可以過濾包含這些文字的串文，舉例我們觀察到台灣使用者普遍不太喜歡蝦皮的分銷連結，就可以設定「s.shopee.」作為隱藏字詞，那脆將精準隱藏包含蝦皮分銷連結的相關串文。\n功能位置在脆的「設定」→ 「內容偏好設定」→ 「隱藏字詞」。\n滑串文前發篇串文 這個是比較少人提及，但經測試也是蠻有效的方法，就是在滑串文前發篇自己希望關係內容，如果你希望了解人們對於某則重大新聞的看法，那就發篇該則新聞的概要，請注意你不需要表達對這則新聞的觀點，只要分享新聞核心內容，演算法自然會在短時間內推播其他相關串文給你。\n順便一提和 Threads 對話基本上效果較不明顯，像是「親愛的脆我希望看見 XXX 相關內容。」的串文經測試沒有特別的效果。\n只追蹤相關內容的創作者 這個其實也蠻有效的，就是只追蹤你感興趣的內容創作者，每次都切換到追蹤中的標籤閱讀，但是，人生最難過的就是這個但是！\n只有追蹤中的標籤是不夠的，當追蹤的創作者較多時串文同樣會不受控的隨機排序顯示，更別提脆的關鍵字標籤釘選功能，也經常出現看起來和追蹤關鍵字無關的串文。\n利用第三方工具找回注意力 為此 Pitchat 最新推出 Threads 的「貼文探索」，目前功能正處於測試階段，功能的目標是希望可以在沒有 Threads 演算法干擾的前提下，讓使用者盡可能最有效率的閱讀的目標串文。 現在最多可以同時追蹤三個 Threads 串文關鍵字以及三位 Threads 創作者的最新串文，Pitchat 的貼文探索會每隔一段時間自動透過官方提供的資料串接搜尋相關串文，並只保留顯示 72 小時內發出的串文。 最重要的是可以標記是否已回覆或已忽略該串文，記錄每天的閱讀數量，而非盲目的重新整理等待 Threads 餵食內容。\n由於官方串接資料現階段還存有許多限制，我們會盡力往核心目標靠近，如果大家有任何使用上的建議也請不吝嗇的聯繫我們給予建議。\n更多關於 Pitchat 的貼文探索，請前往 Pitchat官方網站。\n",
-  "wordCount" : "1003",
-  "inLanguage": "zh",
-  "image":"https://blog.pitchat.co/cover.png","datePublished": "2025-09-05T18:08:07+01:00",
-  "dateModified": "2025-09-05T18:08:07+01:00",
-  "author":[{
-    "@type": "Person",
-    "name": "Pitchat"
-  }],
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://blog.pitchat.co/posts/seeing-what-you-want-to-see-on-threads/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Pitchat",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://blog.pitchat.co/favicon.ico"
-    }
-  }
-}
-</script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://blog.pitchat.co/" accesskey="h" title="Pitchat (Alt + H)">
-                <img src="https://blog.pitchat.co/pitchat.png" alt="" aria-label="logo"
+            <a href="http://localhost:1313/" accesskey="h" title="Pitchat (Alt + H)">
+                <img src="http://localhost:1313/pitchat.png" alt="" aria-label="logo"
                     height="30">Pitchat</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
@@ -155,7 +78,7 @@
                 </a>
             </li>
             <li>
-                <a href="https://blog.pitchat.co/" title="Pitchat">
+                <a href="http://localhost:1313/" title="Pitchat">
                     <span>部落格</span>
                 </a>
             </li>
@@ -175,12 +98,7 @@
 </div>
   </header> 
 <figure class="entry-cover">
-            <img loading="eager"
-                srcset='https://blog.pitchat.co/posts/seeing-what-you-want-to-see-on-threads/cover_hu_f7f80875cc659cf1.png 360w,https://blog.pitchat.co/posts/seeing-what-you-want-to-see-on-threads/cover_hu_8fb314137a7ba1c7.png 480w,https://blog.pitchat.co/posts/seeing-what-you-want-to-see-on-threads/cover_hu_a7dc43bf0b0f946c.png 720w,https://blog.pitchat.co/posts/seeing-what-you-want-to-see-on-threads/cover.png 1011w'
-                src="https://blog.pitchat.co/posts/seeing-what-you-want-to-see-on-threads/cover.png"
-                sizes="(min-width: 768px) 720px, 100vw"
-                width="1011" height="596"
-                alt="">
+            <img loading="eager" src="http://localhost:1313/posts/seeing-what-you-want-to-see-on-threads/cover.png" alt="">
         
 </figure>
   <div class="post-content"><p>知道很多使用者其實不喜歡 <strong>Threads 的演算法</strong>，常常滑段時間後會覺得上面的發言比較偏頗，也許今天的你心血來潮希望看些有深度的內容，卻容易被迷因梗圖吸引注意力，回過神就突然發現版面上都是 Rickrolling，相信我這並不是你的錯，但其實也不是 <strong>Threads 演算法</strong>的錯。</p>
