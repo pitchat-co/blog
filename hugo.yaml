@@ -1,7 +1,7 @@
 baseURL: https://pitchat.co/blog/
 languageCode: zh-tw
 title: Pitchat
-copyright: "[2025 Pitchat](https://pitchat.co)"
+copyright: "[2026 Pitchat](https://pitchat.co)"
 theme: ["PaperMod", "hugo-shortcode-gallery"]
 
 enableInlineShortcodes: true
