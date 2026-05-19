@@ -1,5 +1,5 @@
 +++
-title = '最新推出 IG 自動回覆完整攻略：台灣網紅、行銷公司必學的 Instagram 留言自動化技術'
+title = '最新推出 IG 自動回覆完整攻略：Instagram 留言自動化工具'
 date = 2026-05-14T07:07:07+01:00
 draft = false
 cover = { image = "ig-auto-reply.png" }
