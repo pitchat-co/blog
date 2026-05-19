@@ -73,15 +73,7 @@ IG 自動回覆（Instagram Auto Reply）是一種透過 Instagram Messaging API
 - 按鈕（可連結至外部網站、購物車、報名頁面等）
 
 **範例私訊：**
-```
-感謝你的留言！
-
-[圖片]
-限時優惠特賣活動
-只到本週日，錯過等半年！
-
-[立即搶購 →] (按鈕連結至購物頁)
-```
+![AutoReplySetting](auto-reply-setting.png)
 
 ---
 
