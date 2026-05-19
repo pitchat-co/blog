@@ -69,7 +69,6 @@ IG 自動回覆（Instagram Auto Reply）是一種透過 Instagram Messaging API
 
 私訊內容可設計成 Instagram 支援的 Generic Template 格式，包含：
 - 自訂標題與說明文字
-- 封面圖片
 - 按鈕（可連結至外部網站、購物車、報名頁面等）
 
 **範例私訊：**
@@ -195,7 +194,7 @@ A：使用 Meta 官方 API 開發的合規系統不會有封號風險。PitChat 
 A：可以設定多條規則，各自對應不同的關鍵字和回覆內容，彈性非常高。
 
 **Q：私訊可以客製化嗎？**
-A：可以。支援 Instagram Generic Template 格式，自訂標題、說明、圖片與按鈕連結。
+A：可以。支援 Instagram Generic Template 格式，自訂標題、說明與按鈕連結。
 
 **Q：帳號無限方案可以管理幾個貼文？**
 A：不限篇數，同一帳號下的所有貼文都可以設定規則，30 天內無限使用。
@@ -213,7 +212,7 @@ A：可以，兩種回覆方式可以同時啟用，也可以單獨使用其中�
 
 現在就試試看，讓下一次活動的互動率翻倍！
 
-[點此進入 PitChat 工作區，立即開始設定你的 IG 自動回覆](https://app.pitchat.co/workspace)
+[點此進入 Pitchat 工作區，立即開始設定你的 IG 自動回覆](https://app.pitchat.co/workspace)
 
 ---
 
