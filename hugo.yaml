@@ -1,5 +1,5 @@
 baseURL: https://pitchat.co/blog/
-languageCode: zh-tw
+locale: zh-TW
 title: Pitchat
 copyright: "[2026 Pitchat](https://pitchat.co)"
 theme: ["PaperMod", "hugo-shortcode-gallery"]
@@ -24,7 +24,8 @@ sitemap:
 
 languages:
   zh:
-    languageName: "中文"
+    label: "中文"
+    locale: zh-TW
     weight: 1
     taxonomies:
       category: categories
