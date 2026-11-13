@@ -1,9 +1,11 @@
 +++
 title = 'IG 自動回覆設定教學：留言自動回覆、關鍵字觸發到私訊自動化一篇搞懂'
 description = '了解如何設定 IG 自動回覆，從關鍵字觸發、留言自動回覆到私訊自動化，完整介紹運作原理、設定流程與實戰應用情境，幫助社群經營者有效節省回覆時間。'
-date = 2026-05-14T07:07:07+01:00
+date = 2026-05-14T07:07:07+08:00
 draft = false
-cover = { image = "cover.webp" }
+categories = ["使用教學"]
+tags = ["Instagram", "自動回覆"]
+cover = { image = "cover.webp", alt = "插圖：左邊的小編被大量 IG 留言淹沒，右邊用自動回覆輕鬆處理留言與私訊" }
 +++
 
 你在滑 Instagram 的時候，一定常看到這樣的貼文——「想要折扣碼？在底下留言『+1』，小編私訊給你！」短短幾小時留言區就湧入上百則回覆，而且每個人似乎都真的收到了私訊。你有沒有想過，這些帳號是怎麼做到的？答案就是——**IG 自動回覆機器人**。
@@ -94,6 +96,8 @@ KOL 在合作貼文設定關鍵字觸發，自動私訊發送專屬折扣碼與�
 
 ---
 
+> 延伸閱讀：Threads 也能設定關鍵字自動回覆，請參考 [Threads（脆）關鍵字自動回覆教學]({{< ref "/posts/threads-keywords-auto-reply" >}})；如果活動是留言抽獎，可以參考 [IG 留言抽獎工具推薦]({{< ref "/posts/instagram-giveaway-tool" >}})。想找生活中實用的聊天機器人，可以看 [LINE 機器人推薦]({{< ref "/posts/line-bots-recommendation" >}})。
+
 ## 方案與費用
 
 | 方案 | 費用 | 適用範圍 | 使用期間 | 私訊數量 |
@@ -130,8 +134,8 @@ Pitchat 透過 Meta 官方授權與 API 運作，不需提供帳號密碼。正�
 
 只需要幾分鐘的設定，就能讓系統自動接住每一則粉絲互動。從免費試用開始，親自體驗自動回覆帶來的流程改善。
 
-[前往 Pitchat IG 自動回覆，開始免費試用](https://app.pitchat.co/autoreply?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=ig-auto-reply)
+[前往 Pitchat IG 自動回覆，開始免費試用](https://pitchat.co/app/autoreply?r=blog)
 
 ---
 
-*想了解更多 IG 自動化的實用功能？歡迎前往 [Pitchat 官網](https://pitchat.co?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=ig-auto-reply) 探索更多資訊。*
+*想了解更多 IG 自動化的實用功能？歡迎前往 [Pitchat 官網](https://pitchat.co/?r=blog) 探索更多資訊。*

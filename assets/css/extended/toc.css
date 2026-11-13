@@ -1,0 +1,6 @@
+/* The table of contents is open by default (TocOpen in hugo.yaml).
+   Show only each post's top heading level so long posts keep a short TOC;
+   PaperMod nests lower levels in inner lists. */
+.toc .inner ul ul {
+    display: none;
+}

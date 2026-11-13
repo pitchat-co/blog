@@ -1,0 +1,21 @@
+# Site-specific strings, merged with themes/PaperMod/i18n/zh-tw.yaml.
+- id: related_posts
+  translation: "相關文章"
+
+- id: updated_on
+  translation: "更新於 {{ .Date }}"
+
+- id: not_found_title
+  translation: "你來得很巧，這裡剛好什麼都沒有。"
+
+- id: not_found_text
+  translation: "找不到這個頁面，去別的地方逛逛吧。"
+
+- id: not_found_home
+  translation: "回到部落格首頁"
+
+- id: not_found_search
+  translation: "搜尋文章"
+
+- id: not_found_categories
+  translation: "瀏覽分類"

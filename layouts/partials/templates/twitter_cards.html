@@ -1,0 +1,40 @@
+{{- /* Copy of PaperMod layouts/_partials/templates/twitter_cards.html (theme commit 1181196). Changes: cover image URL comes from partial "cover-url.html"; twitter:image:alt from cover.alt (or site.Params.imagesAlt for the site-wide fallback image). Re-check against the theme when updating PaperMod. */ -}}
+{{- if .Params.cover.image -}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ partial "cover-url.html" . }}">
+{{- with .Params.cover.alt }}
+<meta name="twitter:image:alt" content="{{ . }}">
+{{- end }}
+{{- else }}
+{{- $images := partial "templates/_funcs/get-page-images" . }}
+{{- with index $images 0 }}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ .Permalink }}">
+  {{- with site.Params.imagesAlt }}
+  <meta name="twitter:image:alt" content="{{ . }}">
+  {{- end }}
+{{- else }}
+  <meta name="twitter:card" content="summary">
+{{- end }}
+{{- end }}
+
+{{- with or .Title site.Title site.Params.title | plainify }}
+  <meta name="twitter:title" content="{{ . }}">
+{{- end }}
+
+{{- with or .Description .Summary site.Params.description | plainify | htmlUnescape }}
+  <meta name="twitter:description" content="{{ trim . "\n\r\t " }}">
+{{- end }}
+
+{{- $twitterSite := "" }}
+{{- with site.Params.social }}
+  {{- if reflect.IsMap . }}
+    {{- with .twitter }}
+      {{- $content := . }}
+      {{- if not (strings.HasPrefix . "@") }}
+        {{- $content = printf "@%v" . }}
+      {{- end }}
+      <meta name="twitter:site" content="{{ $content }}">
+    {{- end }}
+  {{- end }}
+{{- end }}

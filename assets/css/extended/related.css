@@ -1,0 +1,40 @@
+/* Related articles after the post body (layouts/partials/extend_post_content.html). */
+.related-posts {
+    margin-top: var(--content-gap);
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--code-bg);
+}
+
+.related-posts-title {
+    margin-bottom: 0.4rem;
+    color: var(--secondary);
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.related-posts li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0 1rem;
+    padding: 0.4rem 0;
+    line-height: 1.5;
+}
+
+.related-posts li + li {
+    border-top: 1px solid var(--border);
+}
+
+.related-posts a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+}
+
+.related-posts time {
+    color: var(--secondary);
+    font-size: 0.85rem;
+    white-space: nowrap;
+}

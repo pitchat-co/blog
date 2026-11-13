@@ -3,12 +3,14 @@ title = '轉盤抽獎免費工具教學｜隨機轉盤、隨機抽籤一鍵搞�
 description = '轉盤抽獎怎麼用？本文介紹隨機轉盤與隨機抽籤的常見情境，並示範如何用 Pitchat 免費工具完成直播抽獎與日常隨機選擇，搭配音效特效與投影視窗，讓抽籤更有現場感。'
 date = "2026-06-07T10:00:00+08:00"
 draft = false
-cover = { image = "cover.webp" }
+categories = ["抽獎工具"]
+tags = ["免費工具"]
+cover = { image = "cover.webp", alt = "插圖：直播主、彩色抽獎轉盤、禮物與名單，示意轉盤抽獎的使用情境" }
 +++
 
 直播到一半想抽個幸運觀眾，卻臨時找不到順手的工具？或是和同事討論半天「中午到底要吃什麼」，誰都不想做決定？這些「需要隨機選一個」的時刻，其實用一個**轉盤抽獎**工具就能輕鬆解決。把所有選項放進一個會旋轉的圓盤，按下開始、等待慢慢停下——比起閉著眼睛點名單，這個過程更有儀式感。
 
-這篇文章會帶你了解**轉盤抽獎、轉盤抽籤、隨機轉盤、隨機抽籤**這類工具到底怎麼用、適合哪些情境，並實際示範如何用 **[Pitchat 轉盤抽獎](https://app.pitchat.co/spin-wheel?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=spin-wheel-random-picker-guide)** 在幾分鐘內完成一場小型抽籤。無論你是實況主、小編、活動主辦人，還是只是想擺脫選擇困難，都能找到適合自己的用法。
+這篇文章會帶你了解**轉盤抽獎、轉盤抽籤、隨機轉盤、隨機抽籤**這類工具到底怎麼用、適合哪些情境，並實際示範如何用 **[Pitchat 轉盤抽獎](https://pitchat.co/app/spin-wheel?r=blog)** 在幾分鐘內完成一場小型抽籤。無論你是實況主、小編、活動主辦人，還是只是想擺脫選擇困難，都能找到適合自己的用法。
 
 ## 什麼是轉盤抽獎？和隨機抽籤有什麼關係
 
@@ -30,7 +32,9 @@ cover = { image = "cover.webp" }
 
 這大概是轉盤抽獎最受歡迎的場景。實況主在 YouTube、Twitch、Instagram、Facebook 直播時，把參與觀眾的名字輸入轉盤，現場旋轉抽出幸運兒。搭配旋轉音效與中獎特效，能瞬間拉高直播的互動氣氛；用投影/分享畫面的方式，線上觀眾也能一起看著轉盤停下，過程公開又熱鬧。
 
-> **小提醒**：轉盤抽獎每一次旋轉都是獨立的，所有項目機率均等，因此同一個人有可能在不同次被重複抽到。如果你需要「一次抽出多位、且彼此不重複」的得獎者，建議改用後面會介紹的[自訂名單抽獎](https://app.pitchat.co/lucky-draw?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=spin-wheel-random-picker-guide)。
+> 如果要抽的是 YouTube 影片底下的留言，可以參考 [YT 留言抽獎教學]({{< ref "/posts/youtube-giveaway-tool" >}})。
+
+> **小提醒**：轉盤抽獎每一次旋轉都是獨立的，所有項目機率均等，因此同一個人有可能在不同次被重複抽到。如果你需要「一次抽出多位、且彼此不重複」的得獎者，建議改用後面會介紹的[自訂名單抽獎](https://pitchat.co/app/lucky-draw?r=blog)。
 
 ### 2. 選擇困難救星：今天吃什麼、去哪玩、要不要
 
@@ -67,7 +71,7 @@ cover = { image = "cover.webp" }
 
 轉盤提供三種可自由開關的效果：轉動時的「噠噠」音效、抽出結果時的中獎歡呼，以及結果出現後的煙火特效。在直播或現場活動中打開這些效果，氣氛會明顯不同；不需要時也能一鍵關閉，保持安靜。
 
-![Pitchat 轉盤抽獎操作介面](interface.gif)
+![Pitchat 轉盤抽獎操作介面](interface.webp)
 
 ### 投影視窗與名單同步
 
@@ -87,7 +91,7 @@ cover = { image = "cover.webp" }
 
 ### Step 1：登入並建立活動
 
-前往 [Pitchat 轉盤抽獎](https://app.pitchat.co/spin-wheel?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=spin-wheel-random-picker-guide)，用 Email 收取一次性密碼（OTP）即可快速登入，接著建立一個轉盤活動。
+前往 [Pitchat 轉盤抽獎](https://pitchat.co/app/spin-wheel?r=blog)，用 Email 收取一次性密碼（OTP）即可快速登入，接著建立一個轉盤活動。
 
 ### Step 2：輸入轉盤項目
 
@@ -119,7 +123,9 @@ Pitchat 同時提供「轉盤抽獎」與「自訂名單抽獎」兩種工具，
 | 視覺特色 | 旋轉動畫、儀式感強 | 多種顯示模式、進階篩選 |
 | 適合場景 | 小型、即時、現場互動 | 中大型、規則較嚴謹的活動 |
 
-簡單來說：**項目少、講求現場氣氛、即時隨機**就用轉盤抽獎；**人數多、需要多組獎項或避免重複中獎**，就用 [自訂名單抽獎](https://app.pitchat.co/lucky-draw?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=spin-wheel-random-picker-guide)。想完整了解後者，可以參考這篇 [免費線上抽獎系統指南](https://app.pitchat.co/lucky-draw?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=spin-wheel-random-picker-guide)。
+簡單來說：**項目少、講求現場氣氛、即時隨機**就用轉盤抽獎；**人數多、需要多組獎項或避免重複中獎**，就用 [自訂名單抽獎](https://pitchat.co/app/lucky-draw?r=blog)。想完整了解後者，可以參考這篇 [免費線上抽獎系統指南](https://pitchat.co/app/lucky-draw?r=blog)。
+
+> 延伸閱讀：名單抽獎的完整功能與使用場景，請參考[免費線上抽獎系統指南]({{< ref "/posts/free-online-lottery-system-guide" >}})。
 
 ## 常見問題 FAQ
 
@@ -155,14 +161,14 @@ Pitchat 同時提供「轉盤抽獎」與「自訂名單抽獎」兩種工具，
 
 下次直播前想炒熱氣氛，或午餐又陷入選擇困難時，不妨打開 Pitchat 轉盤試試——幾分鐘就能搞定一場有儀式感的隨機抽籤。
 
-**👉 [免費使用 Pitchat 轉盤抽獎](https://app.pitchat.co/spin-wheel?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=spin-wheel-random-picker-guide)**
+**👉 [免費使用 Pitchat 轉盤抽獎](https://pitchat.co/app/spin-wheel?r=blog)**
 
 ---
 
 ### 延伸閱讀
 
-- [自訂名單抽獎](https://app.pitchat.co/lucky-draw?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=spin-wheel-random-picker-guide) — 最多一萬人、支援多組獎項
-- [Instagram 抽獎工具](https://app.pitchat.co/instagram?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=spin-wheel-random-picker-guide) — IG 留言抽獎
-- [Facebook 抽獎工具](https://app.pitchat.co/facebook?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=spin-wheel-random-picker-guide) — 粉專貼文抽獎
-- [Threads 抽獎工具](https://app.pitchat.co/threads?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=spin-wheel-random-picker-guide) — 脆抽獎
-- [YouTube 抽獎工具](https://app.pitchat.co/youtube?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=spin-wheel-random-picker-guide) — YT 影片留言抽獎
+- [自訂名單抽獎](https://pitchat.co/app/lucky-draw?r=blog) — 最多一萬人、支援多組獎項
+- [Instagram 抽獎工具](https://pitchat.co/app/instagram?r=blog) — IG 留言抽獎
+- [Facebook 抽獎工具](https://pitchat.co/app/facebook?r=blog) — 粉專貼文抽獎
+- [Threads 抽獎工具](https://pitchat.co/app/threads?r=blog) — 脆抽獎
+- [YouTube 抽獎工具](https://pitchat.co/app/youtube?r=blog) — YT 影片留言抽獎

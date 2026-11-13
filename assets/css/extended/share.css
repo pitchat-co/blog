@@ -1,0 +1,38 @@
+/* Share area: "分享至：" label and copy-link button (layouts/partials/share_icons.html). */
+.share-buttons {
+    align-items: center;
+}
+
+.share-buttons .share-label {
+    align-items: center;
+    color: var(--secondary);
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.share-copy {
+    display: inline-flex;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.share-copy .share-copied-icon,
+.share-copy.copied .share-copy-icon {
+    display: none;
+}
+
+.share-copy.copied .share-copied-icon {
+    display: inline;
+}
+
+.share-copy-status {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}

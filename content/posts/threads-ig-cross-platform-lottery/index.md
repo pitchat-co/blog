@@ -1,9 +1,12 @@
 +++
 title = '2026 抽獎幫手 脆+IG 跨平台抽獎一次設定，通通搞定！'
+description = 'Threads 和 Instagram 都有粉絲，抽獎要選哪個平台？本文介紹脆＋IG 跨平台抽獎：一次選取兩個平台的貼文、自動合併留言並套用相同的篩選條件，附完整的設定步驟教學。'
 date = 2026-01-05T10:46:07+08:00
 draft = false
-cover = { image = "cover.jpg" }
-tags = ["Threads抽獎", "IG抽獎", "跨平台抽獎", "脆+IG", "Pitchat", "社群行銷", "抽獎工具"]
+categories = ["抽獎工具"]
+aliases = ["/tags/跨平台抽獎/", "/tags/跨平台抽獎/page/1/", "/tags/脆+ig/", "/tags/脆+ig/page/1/"]
+tags = ["Threads", "Instagram"]
+cover = { image = "cover.jpg", alt = "插圖：Threads 與 Instagram 圖示分別連到中間的抽獎轉盤，示意跨平台合併抽獎" }
 +++
 
 你是否曾經在舉辦抽獎活動時煩惱：「Threads 跟 Instagram 都有粉絲，到底要選哪個平台辦活動？」現在，這個問題有解了！Pitchat 推出業界首創的「**脆+ig 跨平台一次抽獎**」功能，讓你同時從 Threads 和 Instagram 兩個平台的貼文中抽出幸運兒，不用再二擇一！
@@ -30,6 +33,8 @@ Pitchat 的「**脆+ig 跨平台一次抽獎**」功能完美解決這些痛點�
 - **全平台**：同時抽取 Threads + Instagram 兩邊的留言
 
 選擇「全平台」後，分別選取你要抽獎的 Threads 串文和 Instagram 貼文，系統會自動合併兩邊的留言池。
+
+> 延伸閱讀：只想抽單一平台？可以參考 [Threads 留言抽獎教學]({{< ref "/posts/free-threads-lottery-tool-guide" >}}) 或 [IG 留言抽獎工具推薦]({{< ref "/posts/instagram-giveaway-tool" >}})；想了解抽獎如何確保公平，請看[透明的抽獎流程]({{< ref "/posts/how-pitchat-makes-lottery-transparent" >}})。
 
 ### 抽獎條件 - 智慧篩選
 
@@ -101,8 +106,8 @@ Pitchat 提供多種篩選條件，確保抽獎公平公正：
 
 除了「脆+IG」跨平台抽獎外，Pitchat 也提供各平台專屬的抽獎工具，立即使用加速社群互動吧
 
-- [Instagram 留言抽獎](https://app.pitchat.co/instagram?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=threads-ig-cross-platform-lottery) - 最簡單好用的 IG 抽獎工具
-- [YouTube 留言抽獎](https://app.pitchat.co/youtube?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=threads-ig-cross-platform-lottery) - 創作者必備的 YT 抽獎神器
-- [Facebook 留言抽獎](https://app.pitchat.co/facebook?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=threads-ig-cross-platform-lottery) - 粉絲團經營最強後盾
-- [Threads 留言抽獎](https://app.pitchat.co/threads?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=threads-ig-cross-platform-lottery) - 脆友互動首選，快速又公平
-- [自訂名單抽獎](https://app.pitchat.co/lucky-draw?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=threads-ig-cross-platform-lottery) - 實體活動、尾牙抽獎的最佳夥伴
+- [Instagram 留言抽獎](https://pitchat.co/app/instagram?r=blog) - 最簡單好用的 IG 抽獎工具
+- [YouTube 留言抽獎](https://pitchat.co/app/youtube?r=blog) - 創作者必備的 YT 抽獎神器
+- [Facebook 留言抽獎](https://pitchat.co/app/facebook?r=blog) - 粉絲團經營最強後盾
+- [Threads 留言抽獎](https://pitchat.co/app/threads?r=blog) - 脆友互動首選，快速又公平
+- [自訂名單抽獎](https://pitchat.co/app/lucky-draw?r=blog) - 實體活動、尾牙抽獎的最佳夥伴

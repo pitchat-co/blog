@@ -1,8 +1,11 @@
 +++
 title = 'Threads (脆) 關鍵字自動回覆：提升互動效率的智能解決方案'
+description = 'Threads（脆）留言太多回不完？本文介紹 Pitchat 的 Threads 關鍵字自動回覆：四種回覆模式、設定步驟與回覆管理方式，讓粉絲留言特定關鍵字後自動收到回應，並分享實用的設定建議。'
 date = 2025-04-02T08:07:07+08:00
 draft = false
-cover = { image = "threads-auto-reply-cover.png" }
+categories = ["Threads"]
+tags = ["Threads", "自動回覆"]
+cover = { image = "threads-auto-reply-cover.png", alt = "Pitchat Threads 發文編輯器截圖：開啟排程發送，右側選單標示 Auto Reply 自動回覆" }
 +++
 
 在現今競爭激烈的社群媒體環境中，**Threads (脆) 關鍵字自動回覆**功能已成為提升帳號互動率的必備工具。Pitchat 的自動回覆功能讓您即使不在線上，也能與粉絲保持良好互動，有效提升帳號活躍度和參與度。
@@ -133,6 +136,8 @@ A: 系統會自動控制回覆頻率，避免過於頻繁的回覆影響用戶�
 
 **Q: 如何避免對其他創作者的留言自動回覆？**
 A: 可以在關鍵字設定中加入排除條件，避免對特定類型的留言回覆。
+
+> 延伸閱讀：經營 Instagram 的話，可以參考 [IG 自動回覆設定教學]({{< ref "/posts/ig-auto-reply" >}})；搭配 [Threads 排定發文]({{< ref "/posts/threads-scheduler-guide" >}})，貼文發布後就能自動開始回覆。生活中實用的聊天機器人，可以參考 [LINE 機器人推薦]({{< ref "/posts/line-bots-recommendation" >}})。
 
 ## 結論
 

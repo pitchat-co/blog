@@ -1,0 +1,21 @@
+# Site-specific strings, merged with themes/PaperMod/i18n/en.yaml.
+- id: related_posts
+  translation: "Related articles"
+
+- id: updated_on
+  translation: "Updated {{ .Date }}"
+
+- id: not_found_title
+  translation: "Perfect timing. There’s nothing here."
+
+- id: not_found_text
+  translation: "We couldn’t find this page. Go take a look around somewhere else."
+
+- id: not_found_home
+  translation: "Back to the blog"
+
+- id: not_found_search
+  translation: "Search articles"
+
+- id: not_found_categories
+  translation: "Browse categories"

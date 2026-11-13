@@ -1,0 +1,5 @@
+/* Content images carry width/height (layouts/_markup/render-image.html) so the
+   browser can reserve space; keep the aspect ratio when max-width scales them down. */
+.md-content img[width][height] {
+    height: auto;
+}

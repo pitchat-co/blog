@@ -13,6 +13,7 @@ buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
 defaultContentLanguage: zh
+defaultContentLanguageInSubdir: false
 
 # disableKinds: ["sitemap"]
 
@@ -32,12 +33,83 @@ languages:
       tag: tags
     menus:
       main:
+        - name: 搜尋
+          pageRef: /search
+          weight: 1
+        - name: 標籤
+          pageRef: /tags
+          weight: 2
+        - name: 分類
+          pageRef: /categories
+          weight: 3
+        - name: 彙整
+          pageRef: /archives
+          weight: 4
         - name: 首頁
           url: "https://pitchat.co"
+          weight: 5
+  en:
+    label: "English"
+    locale: en
+    weight: 2
+    title: Pitchat
+    taxonomies:
+      category: categories
+      tag: tags
+    menus:
+      main:
+        # PaperMod passes menu URLs through absLangURL, so pageRef would
+        # double the /en/ prefix; use URLs relative to the language root.
+        - name: Search
+          url: "search/"
           weight: 1
-        - name: 部落格
-          pageRef: /
+        - name: Tags
+          url: "tags/"
           weight: 2
+        - name: Categories
+          url: "categories/"
+          weight: 3
+        - name: Archives
+          url: "archives/"
+          weight: 4
+        - name: Home
+          url: "https://pitchat.co"
+          weight: 5
+    params:
+      imagesAlt: "Pitchat logo"
+      # English readers: LINE is rarely used outside Asia; X and LinkedIn matter more
+      ShareButtons: ["facebook", "x", "linkedin", "threads"]
+      shareLabel: "Share on:"
+      copyLinkLabel: "Copy link"
+      copiedLabel: "Link copied"
+      description: Pitchat is a marketing toolkit built for Threads by an independent developer in Taiwan. It brings together Threads analytics, giveaway tools, scheduled posting and content ideas to help you manage and improve your Threads marketing strategy.
+      homeInfoParams:
+        Title: Pitchat - Threads Marketing Software
+        Content: Pitchat is a marketing toolkit built for Threads by an independent developer in Taiwan. It brings together Threads analytics, giveaway tools, scheduled posting and content ideas to help you manage and improve your Threads marketing strategy.
+      socialIcons:
+        - name: "threads"
+          url: "https://www.threads.net/@pitchat.co"
+        - name: "instagram"
+          url: "https://www.instagram.com/pitchat.co/"
+        - name: "facebook"
+          title: "Messenger"
+          url: "https://www.messenger.com/t/119696284562783"
+        - name: "rss"
+          title: "RSS"
+          url: "https://pitchat.co/blog/en/index.xml"
+
+# 文章結尾的「相關文章」（layouts/partials/extend_post_content.html）：同分類優先，其次共同標籤，再依日期遠近
+related:
+  includeNewer: true
+  threshold: 0
+  toLower: true
+  indices:
+    - name: categories
+      weight: 100
+    - name: tags
+      weight: 80
+    - name: date
+      weight: 10
 
 outputs:
   home:
@@ -47,11 +119,36 @@ outputs:
 
 params:
   author: ["Pitchat"]
+  description: Pitchat 是一個專為 Threads 行銷設計的輔助工具，由台灣獨立開發者開發。這款軟體提供了全面的行銷功能，包括 Threads 數據分析、Threads 抽獎工具、Threads 排程發文與 Threads 內容發想等，幫助您有效管理和優化 Threads 行銷策略。
 
   label:
       icon: "pitchat.png"
 
+  # 沒有封面圖的頁面（首頁、分類、標籤、彙整）使用的分享預覽圖，1200×630
+  # 由主站 pitchat-frontend/public/opengraph-image.png 延伸成橫式
+  images: ["og-image.png"]
+  imagesAlt: "Pitchat 標誌"     # 上面預設分享圖的替代文字（og:image:alt）
+
   defaultTheme: light
+  displayFullLangName: true
+
+  # 文章閱讀功能
+  ShowToc: true
+  TocOpen: true              # 目錄預設展開；只顯示最上層標題（assets/css/extended/toc.css）
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowPageNums: true         # 列表頁的上一頁／下一頁顯示頁碼，例如「2/3」
+
+  # 分享與 RSS
+  ShowShareButtons: true
+  # 分享按鈕依這裡的順序顯示（複製連結固定在最前面）：依台灣常用程度排序
+  ShareButtons: ["line", "facebook", "threads", "x", "linkedin"]
+  ShowRssButtonInSectionTermList: true
+  shareLabel: "分享至："
+  copyLinkLabel: "複製連結"
+  copiedLabel: "已複製連結"
 
   meta:
       favicon: true
@@ -76,7 +173,11 @@ params:
     - name: "instagram"
       url: "https://www.instagram.com/pitchat.co/"
     - name: "facebook"
+      title: "Messenger"
       url: "https://www.messenger.com/t/119696284562783"
+    - name: "rss"
+      title: "RSS"
+      url: "https://pitchat.co/blog/index.xml"
 
   sitemap:
     # 為不同類型的頁面設定不同的更新頻率
@@ -87,6 +188,14 @@ params:
       changefreq: 'monthly'
       priority: 0.6
   
+  # 結構化資料（JSON-LD）：品牌帳號與 logo（Google 要求 logo 至少 112px，所以不用 favicon）
+  schema:
+    logo: "pitchat.png"
+    sameAs:
+      - "https://pitchat.co"
+      - "https://www.threads.net/@pitchat.co"
+      - "https://www.instagram.com/pitchat.co/"
+
   googleAnalytics4: 'G-0XK2GTG7KT'
   
   # Gallery Settings

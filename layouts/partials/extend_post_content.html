@@ -1,0 +1,19 @@
+{{- /* Related articles after the post body (PaperMod's extend_post_content hook).
+       Ranking comes from the `related` config in hugo.yaml: same category first, then shared tags, then date. */ -}}
+{{- if .IsPage }}
+{{- with first 3 (site.RegularPages.Related .) }}
+<nav class="related-posts" aria-labelledby="related-posts-title">
+  <h2 id="related-posts-title" class="related-posts-title">{{ i18n "related_posts" }}</h2>
+  <ul>
+    {{- range . }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      {{- if not .Date.IsZero }}
+      <time datetime="{{ .Date | time.Format "2006-01-02" }}">{{ .Date | time.Format (default ":date_long" site.Params.DateFormat) }}</time>
+      {{- end }}
+    </li>
+    {{- end }}
+  </ul>
+</nav>
+{{- end }}
+{{- end }}

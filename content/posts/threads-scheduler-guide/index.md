@@ -1,11 +1,12 @@
 +++
-title = 'Threads 排程發文攻略：輕鬆安排貼文時間的秘訣'
-date = 2024-09-25T07:07:07+01:00
+title = 'Threads（脆）排定發文教學：預約貼文發布時間的完整步驟'
+description = 'Threads（脆）怎麼排定發文、預約貼文的發布時間？本文一步步示範用 Pitchat 設定預約發文：登入平台、撰寫貼文、上傳媒體、選擇日期與時間，讓貼文在你設定的時段自動發布。'
+date = 2024-09-25T07:07:07+08:00
 draft = false
-cover = { image = "post-editor.png" }
+categories = ["Threads"]
+tags = ["Threads", "發文工具"]
+cover = { image = "post-editor.png", alt = "Pitchat 預約發文編輯畫面截圖：輸入貼文內容、上傳媒體，並設定預約發送的日期與時間" }
 +++
-# Threads 排程發文攻略：輕鬆安排貼文時間的秘訣
-
 你是否也在為 Threads（在台灣暱稱為「脆」）缺少排程發文功能而苦惱？別擔心，本文將為你揭示如何輕鬆實現 Threads 排程發文，讓你的社群經營更上一層樓！
 
 ## 為什麼需要 Threads（脆）排程發文？
@@ -16,12 +17,12 @@ cover = { image = "post-editor.png" }
 
 ### 步驟一：登入 Pitchat 平台
 
-1. 訪問 [Pitchat 官網](https://pitchat.co)。
+1. 訪問 [Pitchat 官網的 Threads 排定發文頁面](https://pitchat.co/scheduled-threads)。
 2. 使用你的 Threads（脆）帳號授權登入。
 
 ![Threads（脆）授權登入 Pitchat](register2.png)
 
-> 新手小提醒：需要詳細的註冊教學嗎？請查看這篇[Pitchat 註冊指南](https://blog.pitchat.co/posts/how-to-register-pithcat/)。
+> 新手小提醒：需要詳細的註冊教學嗎？請查看這篇[Pitchat 註冊指南](https://pitchat.co/blog/posts/how-to-register-pithcat/)。
 
 ### 步驟二：進入排程貼文功能
 
@@ -65,6 +66,8 @@ cover = { image = "post-editor.png" }
 3. **最佳時機**：針對不同時區的粉絲，在最佳時間點發布內容。
 4. **內容品質**：有更多時間打磨內容，確保每篇貼文都達到最高水準。
 5. **數據分析**：通過觀察不同時間發布的貼文表現，優化你的內容策略。
+
+> 延伸閱讀：排定的貼文也可以[同步發布到 Instagram 與 Facebook]({{< ref "/posts/threads-instagram-sync-posting" >}})，或搭配[關鍵字自動回覆]({{< ref "/posts/threads-keywords-auto-reply" >}})，在貼文發布後自動回應留言。
 
 ## 掌握 Threads（脆）排程發文，成為社群達人
 

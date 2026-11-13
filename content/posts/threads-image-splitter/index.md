@@ -1,11 +1,14 @@
 +++
-title = '提升您的品牌影響力：深入了解 Threads 行銷策略'
-date = 2024-12-13T12:07:07+01:00
+title = 'Threads 圖片分割器：免費把一張圖切成多張，做出無縫拼接的輪播貼文'
+description = '想在 Threads 發出左右滑動、畫面無縫相連的多圖貼文？Pitchat 的 Threads 圖片分割器可以免費把一張圖縱向切成多張。本文示範新增與移動分割線、預覽和下載的操作，以及怎麼用分割圖讓貼文更吸睛。'
+date = 2024-12-13T12:07:07+08:00
 draft = false
-cover = { image = "cover.png" }
+categories = ["Threads"]
+tags = ["Threads", "發文工具", "免費工具"]
+cover = { image = "cover.png", alt = "Pitchat Threads 圖片分割器首頁截圖，畫面中央是「選擇圖片」按鈕" }
 +++
 
-在當今社交媒體競爭激烈的環境中，品牌如何有效地吸引目標受眾成為成功的關鍵。**Threads 行銷**作為一種創新的行銷策略，正迅速崛起，成為品牌推廣的利器。本文將深入探討 Threads 行銷的優勢，並介紹由專業行銷工具 Pitchat 開發的 [**Threads 圖片分割器**](https://pitchat.co/threads/image-split)，助您輕鬆提升行銷效果。
+在當今社交媒體競爭激烈的環境中，品牌如何有效地吸引目標受眾成為成功的關鍵。**[Threads 行銷]({{< ref "/posts/threads-marketing" >}})**作為一種創新的行銷策略，正迅速崛起，成為品牌推廣的利器。本文將深入探討 Threads 行銷的優勢，並介紹由專業行銷工具 Pitchat 開發的 [**Threads 圖片分割器**](https://pitchat.co/threads/image-split)，助您輕鬆提升行銷效果。
 
 ---
 
@@ -21,7 +24,7 @@ Threads 是由 Meta 推出的一款專注於即時交流的社交平台，類似
 
 ### Threads 圖片分割器的優點
 
-![Threads（脆）圖片分割器操作](operation.gif)
+![Threads（脆）圖片分割器操作](operation.webp)
 
 - **輕鬆縱向切割圖片**  
   無需繁瑣操作，只需簡單的捏合手勢，即可將圖片縱向切割，適應 Threads 貼文格式。
@@ -38,7 +41,7 @@ Threads 是由 Meta 推出的一款專注於即時交流的社交平台，類似
 - **指定線條刪除**  
 可選擇性刪除不需要的分割線，靈活調整圖片布局。
 
-![Threads（脆）圖片分割器預覽下載](preview.gif)
+![Threads（脆）圖片分割器預覽下載](preview.webp)
 
 - **即時預覽**  
   即時查看分割後的圖片效果，快速調整，節省時間。
@@ -50,6 +53,8 @@ Threads 是由 Meta 推出的一款專注於即時交流的社交平台，類似
   也可選擇單張下載，適應不同的使用需求。
 
 ---
+
+> 延伸閱讀：分割好的圖片可以搭配 [Threads 與 Instagram 同步發文]({{< ref "/posts/threads-instagram-sync-posting" >}})，一次發布到多個平台。
 
 ## 如何利用 Threads 圖片分割器提升行銷效果
 

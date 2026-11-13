@@ -1,0 +1,25 @@
+{{- /*
+Absolute URL of a page's cover image, for og:image, twitter:image and JSON-LD.
+
+PaperMod resolves .Params.cover.image against the site root unless
+cover.relative is true, which breaks page-bundle covers (they are published
+next to the post, e.g. /blog/posts/<slug>/cover.jpg). This partial uses the
+same lookup as PaperMod's cover.html: the page bundle first, then global
+resources, and only then falls back to PaperMod's original behaviour.
+Translations share the bundle's image, so they get the published URL too.
+*/ -}}
+{{- $url := "" }}
+{{- with .Params.cover.image }}
+  {{- $cover := ($.Resources.ByType "image").GetMatch (printf "*%s*" .) }}
+  {{- if not $cover }}
+    {{- $cover = (resources.ByType "image").GetMatch (printf "*%s*" .) }}
+  {{- end }}
+  {{- if $cover }}
+    {{- $url = $cover.Permalink }}
+  {{- else if eq $.Params.cover.relative true }}
+    {{- $url = path.Join $.RelPermalink . | absURL }}
+  {{- else }}
+    {{- $url = . | absURL }}
+  {{- end }}
+{{- end }}
+{{- return $url }}

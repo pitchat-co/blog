@@ -1,0 +1,18 @@
+{{- /* Pitchat 404 page (replaces PaperMod's one-line "404"): explanation and ways back in. Styles: assets/css/extended/404.css. */ -}}
+{{- define "main" }}
+<div class="not-found-page">
+  <p class="not-found-code" aria-hidden="true">404</p>
+  {{- /* Keep each clause together so narrow screens wrap after "，" rather than mid-phrase. */}}
+  <h1 class="not-found-title">{{ partial "clauses.html" (i18n "not_found_title") }}</h1>
+  <p class="not-found-text">{{ partial "clauses.html" (i18n "not_found_text") }}</p>
+  <nav class="not-found-actions" aria-label="{{ i18n "not_found_title" }}">
+    <a class="not-found-button primary" href="{{ site.Home.RelPermalink }}">{{ i18n "not_found_home" }}</a>
+    {{- with site.GetPage "/search" }}
+    <a class="not-found-button" href="{{ .RelPermalink }}">{{ i18n "not_found_search" }}</a>
+    {{- end }}
+    {{- with site.GetPage "/categories" }}
+    <a class="not-found-button" href="{{ .RelPermalink }}">{{ i18n "not_found_categories" }}</a>
+    {{- end }}
+  </nav>
+</div>
+{{- end }}{{/* end main */ -}}
