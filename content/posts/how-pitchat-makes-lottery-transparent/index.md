@@ -1,13 +1,17 @@
 +++
 title = '透明的抽獎流程：公平、效率、體驗的最佳化'
-date = 2025-09-08T08:08:07+01:00
+description = '社群抽獎怎麼證明公平？本文公開 Pitchat 的三階段抽獎流程：抽樣建立名單、條件篩選與隨機抽獎，說明每個設計背後的考量，以及如何用透明的流程兼顧公平、效率與使用體驗。'
+# Keep the published URL, which ends in "-" because the folder name used to end in a space.
+url = '/posts/how-pitchat-makes-lottery-transparent-/'
+date = 2025-09-08T08:08:07+08:00
 draft = false
-cover = { image = "cover.png" }
+categories = ["抽獎工具"]
+cover = { image = "cover.png", alt = "等角插圖：抽獎轉盤旁的檢核清單與名單，象徵透明的抽獎流程" }
 +++
 
 在社群平台舉辦抽獎活動時，許多參與者會關心抽獎是否公平。然而，由於 API 限制、處理流程不透明等因素，完全公平的抽獎在實務上很難達成。
 
-[Pitchat](https://app.pitchat.co?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=how-pitchat-makes-lottery-transparent) 採取不同的思路：與其追求難以達成的「絕對公平」，我們選擇透過「透明」來建立信任，實現「流程上的公平」。所有抽獎步驟都在你的瀏覽器中執行，過程即時可見；我們公開每個步驟的運作邏輯，讓你理解而非盲目相信。
+[Pitchat](https://pitchat.co/app?r=blog) 採取不同的思路：與其追求難以達成的「絕對公平」，我們選擇透過「透明」來建立信任，實現「流程上的公平」。所有抽獎步驟都在你的瀏覽器中執行，過程即時可見；我們公開每個步驟的運作邏輯，讓你理解而非盲目相信。
 
 本文將詳細解說 Pitchat 的三階段抽獎流程：抽樣建立抽獎名單、條件篩選、隨機抽獎，以及我們如何在公平、效率、體驗間取得平衡。你將了解每個設計決策背後的理由，以及為什麼透明度比承諾更有價值。
 
@@ -84,7 +88,7 @@ cover = { image = "cover.png" }
 
 ---
 
-## 抽獎流程三階段詳解（以 [Instagram 抽獎](https://app.pitchat.co/instagram?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=how-pitchat-makes-lottery-transparent)為例）
+## 抽獎流程三階段詳解（以 [Instagram 抽獎](https://pitchat.co/app/instagram?r=blog)為例）
 
 我們將抽獎過程分為三個清晰的階段。每個階段都有特定的目標和篩選條件。
 
@@ -324,6 +328,8 @@ cover = { image = "cover.png" }
 
 ---
 
-Pitchat 提供包含 **[Instagram 抽獎](https://app.pitchat.co/instagram?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=how-pitchat-makes-lottery-transparent)**、**[Threads 抽獎](https://app.pitchat.co/threads?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=how-pitchat-makes-lottery-transparent)、[Facebook 抽獎](https://app.pitchat.co/facebook?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=how-pitchat-makes-lottery-transparent)、[YouTube 抽獎](https://app.pitchat.co/youtube?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=how-pitchat-makes-lottery-transparent)** 還有 [其他](https://app.pitchat.co/giveaway?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=how-pitchat-makes-lottery-transparent) 社群平台的抽獎工具，滿足你對熱門社群平台的抽獎需求。
+Pitchat 提供包含 **[Instagram 抽獎](https://pitchat.co/app/instagram?r=blog)**、**[Threads 抽獎](https://pitchat.co/app/threads?r=blog)、[Facebook 抽獎](https://pitchat.co/app/facebook?r=blog)、[YouTube 抽獎](https://pitchat.co/app/youtube?r=blog)** 還有 [其他](https://pitchat.co/app/giveaway?r=blog) 社群平台的抽獎工具，滿足你對熱門社群平台的抽獎需求。
 
-想要讓輕鬆舉辦成功的抽獎活動，立即前往 [Pitchat 官網](https://app.pitchat.co?r=blog&utm_source=blog&utm_medium=blog&utm_campaign=how-pitchat-makes-lottery-transparent)，讓你的抽獎活動更有效率！
+想要輕鬆舉辦[成功的抽獎活動]({{< ref "/posts/threads-marketing-lottery-tips" >}})，立即前往 [Pitchat 官網](https://pitchat.co/app?r=blog)，讓你的抽獎活動更有效率！
+
+> 延伸閱讀：[IG 留言抽獎工具推薦]({{< ref "/posts/instagram-giveaway-tool" >}})、[免費線上抽獎系統指南]({{< ref "/posts/free-online-lottery-system-guide" >}})、[轉盤抽獎教學]({{< ref "/posts/spin-wheel-random-picker-guide" >}})。

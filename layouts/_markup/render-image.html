@@ -1,0 +1,71 @@
+{{- /* Copied from PaperMod 1181196 layouts/_markup/render-image.html.
+       Pitchat changes:
+       - PNG/JPEG page resources become resized WebP with a srcset (480/720/1080/1440, never wider
+         than the original); src is the largest version up to 1080px. The content column is 720px wide.
+       - width/height (and decoding=async) for every raster resource, so the browser reserves space.
+       GIF and WebP (possibly animated) are served as-is; SVG and external images are untouched. */ -}}
+{{- $u := urls.Parse .Destination -}}
+{{- $src := $u.String -}}
+{{- $width := "" -}}
+{{- $height := "" -}}
+{{- $srcset := "" -}}
+{{- $sizes := "" -}}
+{{- if not $u.IsAbs -}}
+  {{- $path := strings.TrimPrefix "./" $u.Path }}
+  {{- with or (.PageInner.Resources.Get $path) (resources.Get $path) -}}
+    {{- $src = .RelPermalink -}}
+    {{- $img := . -}}
+    {{- if and (eq .MediaType.MainType "image") (ne .MediaType.SubType "svg") -}}
+      {{- with try (dict "w" .Width "h" .Height) -}}
+        {{- if not .Err -}}
+          {{- $width = string .Value.w -}}
+          {{- $height = string .Value.h -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if and $width (in (slice "png" "jpeg") $img.MediaType.SubType) -}}
+      {{- $hint := cond (eq $img.MediaType.SubType "png") "drawing" "photo" -}}
+      {{- $widths := slice -}}
+      {{- range slice 480 720 1080 1440 -}}
+        {{- if lt . $img.Width -}}{{- $widths = $widths | append . -}}{{- end -}}
+      {{- end -}}
+      {{- if le $img.Width 1440 -}}{{- $widths = $widths | append $img.Width -}}{{- end -}}
+      {{- $set := slice -}}
+      {{- $main := "" -}}
+      {{- range $widths -}}
+        {{- $r := $img.Resize (printf "%dx webp q82 %s" . $hint) -}}
+        {{- $set = $set | append (printf "%s %dw" $r.RelPermalink $r.Width) -}}
+        {{- if or (not $main) (le $r.Width 1080) -}}{{- $main = $r -}}{{- end -}}
+      {{- end -}}
+      {{- with $main -}}
+        {{- $src = .RelPermalink -}}
+        {{- $width = string .Width -}}
+        {{- $height = string .Height -}}
+      {{- end -}}
+      {{- if gt (len $set) 1 -}}
+        {{- $srcset = delimit $set ", " -}}
+        {{- $sizes = "(min-width: 768px) 720px, 100vw" -}}
+      {{- end -}}
+    {{- end -}}
+    {{- with $u.RawQuery -}}
+      {{- $src = printf "%s?%s" $src . -}}
+    {{- end -}}
+    {{- with $u.Fragment -}}
+      {{- $src = printf "%s#%s" $src . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $attributes := merge .Attributes (dict "alt" .Text "src" $src "title" (.Title | transform.HTMLEscape) "loading" "lazy") -}}
+{{- with $width -}}
+  {{- $attributes = merge $attributes (dict "width" $width "height" $height "decoding" "async") -}}
+{{- end -}}
+{{- with $srcset -}}
+  {{- $attributes = merge $attributes (dict "srcset" $srcset "sizes" $sizes) -}}
+{{- end -}}
+<img
+  {{- range $k, $v := $attributes -}}
+    {{- if $v -}}
+      {{- printf " %s=%q" $k $v | safeHTMLAttr -}}
+    {{- end -}}
+  {{- end -}}>
+{{- /**/ -}}

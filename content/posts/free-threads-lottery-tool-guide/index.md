@@ -1,8 +1,11 @@
 +++
 title = '你也在找免費的Threads抽獎工具嗎？'
-date = 2024-07-14T07:07:07+01:00
+description = '想在 Threads（脆）舉辦留言抽獎卻不知道從何開始？本文介紹免費抽獎工具的主要功能與使用技巧，從選擇貼文、設定排除條件與獎品，到發布中獎名單，一次學會完整步驟。'
+date = 2024-07-14T07:07:07+08:00
 draft = false
-cover = { image = "lottery1.png" }
+categories = ["抽獎工具"]
+tags = ["Threads", "免費工具"]
+cover = { image = "lottery1.png", alt = "Pitchat Threads 回覆抽獎介面截圖：選擇貼文、設定抽獎條件與獎品，右側顯示抽獎結果" }
 +++
 在社交媒體行銷中，抽獎活動是一種極為有效的方式來增加互動和吸引新粉絲。隨著Threads平台的興起，許多品牌和內容創作者都在尋找合適的工具來舉辦抽獎活動。今天我們要介紹一個免費且功能強大的Threads抽獎工具，它將幫助你輕鬆管理和執行抽獎活動。
 
@@ -61,13 +64,15 @@ cover = { image = "lottery1.png" }
 
 1. 訪問 [Pitchat 服務首頁](https://pitchat.co)
 2. 點擊「登入」按鈕
-3. 如果你還沒有帳號，請參考我們的 [註冊教學](https://blog.pitchat.co/posts/how-to-register-pithcat/) 來創建一個新帳號
+3. 如果你還沒有帳號，請參考我們的 [註冊教學](https://pitchat.co/blog/posts/how-to-register-pithcat/) 來創建一個新帳號
 4. 登入後，你就可以開始使用這個強大的Threads抽獎工具了！
 
 ## 結語
 
 這個免費的Threads抽獎工具不僅簡化了抽獎流程，還能夠幫助你提高粉絲互動、增加關注度。無論你是小型創作者還是大品牌，都能輕鬆舉辦專業級的抽獎活動。現在就開始使用這個工具，讓你的Threads營銷策略更上一層樓吧！
 
-記住，成功的抽獎活動不僅在於工具，更在於你如何與粉絲互動。善用這個工具，結合有趣的內容和吸引人的獎品，相信你一定能夠在Threads平台上創造出令人驚艷的營銷活動！
+記住，[成功的抽獎活動]({{< ref "/posts/threads-marketing-lottery-tips" >}})不僅在於工具，更在於你如何與粉絲互動。善用這個工具，結合有趣的內容和吸引人的獎品，相信你一定能夠在Threads平台上創造出令人驚艷的營銷活動！
+
+> 延伸閱讀：同時經營 Threads 和 Instagram？可以試試[脆＋IG 跨平台抽獎]({{< ref "/posts/threads-ig-cross-platform-lottery" >}})，一次合併兩邊的留言。
 
 [立即開始你的第一次Threads抽獎活動](https://pitchat.co/threads/lottery)

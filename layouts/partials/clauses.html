@@ -1,0 +1,8 @@
+{{- /* Splits a Chinese sentence at "，" into inline-block spans so each clause stays on one line
+       (used by layouts/404.html). Text without "，" is returned unchanged. */ -}}
+{{- $parts := split . "，" -}}
+{{- if gt (len $parts) 1 -}}
+  {{- range $i, $p := $parts }}<span class="clause">{{ $p }}{{ if lt (add $i 1) (len $parts) }}，{{ end }}</span>{{ end -}}
+{{- else -}}
+  {{- . -}}
+{{- end -}}

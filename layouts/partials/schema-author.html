@@ -1,0 +1,7 @@
+{{- /* JSON-LD author object for schema_json.html (returned as a dict; the caller jsonifies it).
+       The site's own name ("Pitchat") is an organization, not a person; any other author stays a Person. */ -}}
+{{- $author := dict "@type" "Person" "name" . -}}
+{{- if eq . site.Title -}}
+  {{- $author = dict "@type" "Organization" "name" . "url" "https://pitchat.co" -}}
+{{- end -}}
+{{- return $author -}}

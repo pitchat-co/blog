@@ -1,0 +1,41 @@
+{{- /* Copied from PaperMod 1181196 layouts/_partials/post_meta.html.
+       Pitchat changes: "updated on" date and categories after the date. */ -}}
+{{- $meta := slice }}
+
+{{- if not .Date.IsZero -}}
+    {{- $meta = $meta | append (printf "<span title='%s'>%s</span>" (.Date | time.Format "2006-01-02T15:04:05-07:00") (.Date | time.Format (default ":date_long" site.Params.DateFormat))) }}
+{{- end }}
+
+{{- /* Pitchat: "updated on" date, only when front matter lastmod is on a later day than the publish date. */ -}}
+{{- if and (not .Date.IsZero) (not .Lastmod.IsZero) (gt (.Lastmod | time.Format "2006-01-02") (.Date | time.Format "2006-01-02")) -}}
+    {{- $meta = $meta | append (printf "<span title='%s'>%s</span>" (.Lastmod | time.Format "2006-01-02T15:04:05-07:00") (i18n "updated_on" (dict "Date" (.Lastmod | time.Format (default ":date_long" site.Params.DateFormat))))) }}
+{{- end }}
+
+{{- /* Pitchat: categories after the date. In list cards the whole entry is a link to the post, so these links only work on the post page. */ -}}
+{{- with .GetTerms "categories" }}
+    {{- $links := slice }}
+    {{- range . }}
+        {{- $links = $links | append (printf "<a href=\"%s\">%s</a>" .RelPermalink (.LinkTitle | htmlEscape)) }}
+    {{- end }}
+    {{- $meta = $meta | append (printf "<span class=\"post-meta-categories\">%s</span>" (delimit $links ", ")) }}
+{{- end }}
+
+{{- if (.Param "ShowReadingTime") -}}
+    {{- $meta = $meta | append (printf "<span>%s</span>" (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
+{{- end }}
+
+{{- if (.Param "ShowWordCount") -}}
+    {{- $meta = $meta | append (printf "<span>%s</span>" (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
+{{- end }}
+
+{{- if not (.Param "hideAuthor") -}}
+    {{- with (partial "author.html" .) }}
+        {{- $meta = $meta | append (printf "<span>%s</span>" .) }}
+    {{- end }}
+{{- end }}
+
+{{/* Combine all meta information into a single string with separators and render it as HTML.*/}}
+
+{{- with $meta }}
+    {{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
+{{- end -}}

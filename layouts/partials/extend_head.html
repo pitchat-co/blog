@@ -1,0 +1,9 @@
+{{- /* PaperMod outputs hreflang for each translation; add x-default pointing at the default-language version. */ -}}
+{{- if .IsTranslated }}
+{{- $default := hugo.Sites.Default.Language.Name }}
+{{- range .AllTranslations }}
+{{- if eq .Language.Name $default }}
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+{{- end }}
+{{- end }}
+{{- end }}

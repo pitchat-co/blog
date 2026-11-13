@@ -1,0 +1,9 @@
+/* Categories in the post meta line (layouts/partials/post_meta.html). */
+.post-meta-categories a {
+    color: inherit;
+}
+
+.post-header .post-meta-categories a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+}

@@ -1,8 +1,11 @@
 +++
 title = '2026 最新免費 Threads 抽獎攻略'
-date = 2026-02-10T08:08:07+01:00
+description = '想辦一場參與度高的 Threads 抽獎活動？本文整理 6 個關鍵動作：設定參與門檻、善用一起中獎、提高抽獎透明度、開獎前暖身、照顧沒中獎的參與者，並說明如何免費使用抽獎工具。'
+date = 2026-02-10T08:08:07+08:00
 draft = false
-cover = { image = "cover.png" }
+categories = ["抽獎工具"]
+tags = ["Threads"]
+cover = { image = "cover.png", alt = "Pitchat Threads 抽獎介面截圖：設定排除帳號、包含關鍵字、標記朋友與時間條件，右側顯示中獎留言" }
 +++
 
 想在 Threads 上舉辦抽獎活動卻不知道怎麼開始嗎？別擔心！今天就來分享一些實戰經驗，教你如何設計一場成功的 **Threads 抽獎**活動。
@@ -21,7 +24,7 @@ cover = { image = "cover.png" }
 
 ### 3. 增加抽獎透明度
 
-雖然很多人會直接用抽獎工具抽完就公布結果，但我們發現有些參與者會質疑公平性。建議你用專業的第三方 **Threads 抽獎工具**，並且錄影整個抽獎過程 - 這樣不僅增加可信度，也讓你的品牌形象更加專業。
+雖然很多人會直接用抽獎工具抽完就公布結果，但我們發現有些參與者會質疑公平性（可以參考我們如何用[透明的抽獎流程]({{< ref "/posts/how-pitchat-makes-lottery-transparent" >}})建立信任）。建議你用專業的第三方 **[Threads 抽獎工具](https://pitchat.co/app/threads?r=blog)**，並且錄影整個抽獎過程 - 這樣不僅增加可信度，也讓你的品牌形象更加專業。
 
 ### 4. 開獎前的暖身很重要
 
@@ -43,6 +46,8 @@ cover = { image = "cover.png" }
 請中獎者分享開箱照片或使用心得吧！這不只讓他們更了解你的產品品質，也能向其他人證明你的抽獎活動是真實可信的。
 
 ---
+
+> 延伸閱讀：抽獎工具的操作步驟，請參考 [Threads 留言抽獎教學]({{< ref "/posts/free-threads-lottery-tool-guide" >}})；粉絲同時在 IG 的話，可以用[脆＋IG 跨平台抽獎]({{< ref "/posts/threads-ig-cross-platform-lottery" >}})。
 
 ## 如何免費使用 Threads 抽獎工具？
 

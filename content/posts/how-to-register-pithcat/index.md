@@ -1,10 +1,13 @@
 +++
 title = '如何快速註冊Pitchat'
-date = 2024-07-14T07:07:07+01:00
+description = '幾個步驟完成 Pitchat 註冊。本文說明免費版可以查看的 Threads 數據項目、完整的註冊流程，以及為什麼經營 Threads 帳號需要數據分析，註冊後就能開始追蹤貼文表現。'
+date = 2024-07-14T07:07:07+08:00
 draft = false
-cover = { image = "register1.png" }
+categories = ["使用教學"]
+aliases = ["/posts/my-first-post/"]
+cover = { image = "register1.png", alt = "Pitchat 首頁截圖：標語「經營 Threads 行銷的優雅選擇」與數據分析、排程發文、回覆抽獎等功能列表" }
 +++
-[Pitchat](https://pitchat.co) 是一個由台灣獨立開發者開發，專用於Threads行銷使用的輔助工具，內容涵蓋了**Threads數據分析**、Threads抽獎工具、Threads排程發文與Threads內容發想的專業行銷工具。
+[Pitchat](https://pitchat.co) 是一個由台灣獨立開發者開發，專用於[Threads]({{< ref "/posts/threads-management" >}})行銷使用的輔助工具，內容涵蓋了**[Threads數據分析]({{< ref "/posts/threads-analysis" >}})**、[Threads抽獎工具](https://pitchat.co/app/threads?r=blog)、[Threads排程發文]({{< ref "/posts/threads-scheduler-guide" >}})與Threads內容發想的專業行銷工具。
 
 ## 免費版本功能
 
