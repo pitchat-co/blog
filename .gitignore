@@ -1,1 +1,9 @@
 .DS_Store
+
+# Hugo build output (Cloudflare Pages builds these on deploy)
+/public/
+/resources/
+.hugo_build.lock
+
+# IDE settings
+.idea/

@@ -3,14 +3,13 @@
 ## 本機預覽
 
 ```bash
-HUGO_RESOURCEDIR="$TMPDIR/pitchat-resources" hugo server --renderToMemory
+hugo server
 ```
 
-- `--renderToMemory`：不把輸出寫進 `public/`。少了這個參數，`hugo server` 會改動 `public/` 裡幾百個檔案，還會帶入 livereload 腳本；萬一被 commit，就會部署上線。
-- `HUGO_RESOURCEDIR`：處理過的圖片寫到暫存資料夾，不會在 `resources/_gen` 產生大量新檔。
 - 預覽網址：`http://localhost:1313/blog/`
+- `public/`（輸出網頁）和 `resources/`（處理過的圖片）都是 build 產物，已列在 `.gitignore`，不進 git。本機產生多少都不影響線上。
 
-上線由 Cloudflare Pages 負責：push 到 `main` 後自動執行 `hugo --minify`，不需要在本機 build `public/`。
+上線由 Cloudflare Pages 負責：push 到 `main` 後自動執行 `hugo --minify`，每次都從原始檔重新產生整個網站。刪除或改名的圖片與頁面會在下次部署後從線上消失，不需要另外清理。
 
 ## 新增文章
 
