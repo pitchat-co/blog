@@ -18,12 +18,7 @@
 
 ## 部署
 
-**停止 commit `public/` 和 `resources/`。** Cloudflare Pages 每次都會重新 build，但新的輸出是疊在 repo 裡已 commit 的 `public/` 上，所以：
-- 刪除或改名的頁面會一直留在線上
-- 本機 server 的輸出容易被誤 commit 並上線
-- 兩個資料夾合計約 175MB，會讓 repo 越來越大
-
-先前 12 個殘留網址都已改由 build 產生（真實頁面或轉址）。建議等這批改動上線並確認後，另開分支：
-- `git rm -r --cached public resources`，並在 `.gitignore` 加入 `public/`、`resources/`、`.hugo_build.lock`
-- 上線後比對 `baseline-live-urls.txt` 與分類、標籤、轉址頁，確認沒有網址消失
-- `public/posts/threads-` 是 0 byte 的殘留檔，移除 `public/` 後會一併消失
+`public/`、`resources/`、`.hugo_build.lock`、`.idea/` 已在 `chore/untrack-build-output` 分支取消追蹤並列入 `.gitignore`。合併上線後要確認：
+- `https://pitchat.co/blog/posts/threads-image-splitter/operation.gif` 回 404（舊檔已不在線上）
+- 比對 `baseline-live-urls.txt` 與分類、標籤、轉址頁，確認沒有網址消失
+- 會消失的只有 build 不再產生的舊檔：已刪除或改名的原圖、舊版 CSS／JS、舊命名的縮圖、15 個舊標籤的 RSS，以及 0 byte 的 `public/posts/threads-`
