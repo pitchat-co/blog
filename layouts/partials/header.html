@@ -82,7 +82,7 @@
                             {{- with where $page.Translations "Lang" .Lang }}{{ $href = (index . 0).Permalink }}{{ end }}
                             {{- end }}
                             <li>
-                                <a href="{{ $href }}" lang="{{ .Language.LanguageCode | default .Lang }}" hreflang="{{ .Language.LanguageCode | default .Lang }}"
+                                <a href="{{ $href }}" lang="{{ .Language.Locale | default .Lang }}" hreflang="{{ .Language.Locale | default .Lang }}"
                                     {{- if $isCurrent }} aria-current="true"{{ end }}>
                                     <span>{{ .Language.Label | default (.Lang | title) }}</span>
                                     {{- if $isCurrent }}
