@@ -19,3 +19,6 @@
 
 - id: not_found_categories
   translation: "瀏覽分類"
+
+- id: change_language
+  translation: "切換語言"
