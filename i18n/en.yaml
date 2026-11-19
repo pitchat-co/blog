@@ -19,3 +19,6 @@
 
 - id: not_found_categories
   translation: "Browse categories"
+
+- id: change_language
+  translation: "Change language"

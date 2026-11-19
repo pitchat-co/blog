@@ -1,0 +1,63 @@
+/* Language switcher: globe icon in the header that opens a dropdown menu.
+   Markup lives in layouts/partials/header.html. */
+
+.lang-switch {
+    position: relative;
+}
+
+.lang-switch summary {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0.4rem;
+    min-height: inherit;
+    cursor: pointer;
+    list-style: none;
+    border-radius: var(--radius);
+}
+
+.lang-switch summary::-webkit-details-marker {
+    display: none;
+}
+
+.lang-switch summary:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+}
+
+.lang-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    min-width: 9rem;
+    margin: 0;
+    padding: 0.35rem;
+    list-style: none;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.lang-dropdown a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.45rem 0.7rem;
+    font-size: 0.95rem;
+    line-height: 1.3;
+    color: var(--primary);
+    border-radius: calc(var(--radius) - 3px);
+    white-space: nowrap;
+}
+
+.lang-dropdown a:hover,
+.lang-dropdown a:focus-visible {
+    background: var(--code-bg);
+    outline: none;
+}
+
+.lang-dropdown a[aria-current="true"] {
+    font-weight: 600;
+}
