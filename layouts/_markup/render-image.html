@@ -3,7 +3,8 @@
        - PNG/JPEG page resources become resized WebP with a srcset (480/720/1080/1440, never wider
          than the original); src is the largest version up to 1080px. The content column is 720px wide.
        - width/height (and decoding=async) for every raster resource, so the browser reserves space.
-       GIF and WebP (possibly animated) are served as-is; SVG and external images are untouched. */ -}}
+       GIF and WebP (possibly animated) are served as-is; external images are untouched.
+       - SVG is served as-is, with width/height read from its root <svg> element. */ -}}
 {{- $u := urls.Parse .Destination -}}
 {{- $src := $u.String -}}
 {{- $width := "" -}}
@@ -20,6 +21,17 @@
         {{- if not .Err -}}
           {{- $width = string .Value.w -}}
           {{- $height = string .Value.h -}}
+        {{- end -}}
+      {{- end -}}
+    {{- else if eq .MediaType.SubType "svg" -}}
+      {{- /* SVG: take width/height from the root <svg> element when both are plain numbers */ -}}
+      {{- with findRE `<svg[^>]*>` .Content 1 -}}
+        {{- $tag := index . 0 -}}
+        {{- $w := findRESubmatch `\swidth="(\d+)"` $tag 1 -}}
+        {{- $h := findRESubmatch `\sheight="(\d+)"` $tag 1 -}}
+        {{- if and $w $h -}}
+          {{- $width = index (index $w 0) 1 -}}
+          {{- $height = index (index $h 0) 1 -}}
         {{- end -}}
       {{- end -}}
     {{- end -}}

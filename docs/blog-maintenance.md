@@ -34,13 +34,15 @@ hugo server
 - 標題層級：內文不要用 `#`（文章標題已經是 H1），段落用 `##`、子段落用 `###`。目錄只顯示每篇最上層的標題，所以段落如果都寫成 `###`、只有一個 `##`，目錄就只會剩一項。
 - `description`：每篇都要寫。寫出讀者能得到什麼，不重複標題；不寫具體成效數字、價格，也不宣稱和 Meta 官方合作。主要曝光落在主站或 `/app` 工具頁的查詢（例如 ig抽獎、threads抽獎、抽獎系統），文章不要拿來當主要關鍵字，改用教學或比較的角度，並連到該工具頁（詳見 seo-workspace 的 seo-context、blog-profile）。
 - `cover.alt`：描述封面畫面，例如「Pitchat 預約發文編輯畫面截圖：…」，搜尋引擎和螢幕閱讀器都會用到。
-- 文章之間的連結：寫成 `[文字]({{< ref "/posts/<資料夾名稱>" >}})`，目標文章不存在時 build 會報錯；網址特殊的文章（例如結尾有 `-` 的那篇）也會自動解析成正確網址。每篇新文章至少連到 2 篇相關文章，也回頭在 2 篇舊文章中加上連到新文章的連結。提到工具時連到主站或 `/app` 的工具頁（只帶 `?r=blog`，不加 `utm_*`）。
+- 文章之間的連結：寫成 `[文字]({{< ref "/posts/<資料夾名稱>" >}})`，目標文章不存在時 build 會報錯；文章改網址時也會自動解析成新網址。每篇新文章至少連到 2 篇相關文章，也回頭在 2 篇舊文章中加上連到新文章的連結。提到工具時連到主站或 `/app` 的工具頁（只帶 `?r=blog`，不加 `utm_*`）。
 - `lastmod`：內容有實質更新（改寫段落、更新資訊）時才填。日期晚於 `date` 時，標題下方會顯示「更新於 …」，結構化資料的 `dateModified` 和 sitemap 的 `<lastmod>` 也會跟著更新。修錯字、改連結不用填。
 - 標籤清單（每個標籤至少要有 2 篇文章，新文章優先從這裡挑；沒有合適的就不加，靠分類歸類）：Threads、Instagram、社群媒體、演算法、數據分析、自動回覆、發文工具、免費工具。要新增標籤時，至少要有 2 篇文章適用，並在 `content/tags/<標籤>/_index.md` 寫一段描述。
 - 移除或改名標籤時，用 `aliases` 把舊標籤頁 `/tags/<舊標籤小寫>/` 轉到最接近的頁面，避免搜尋結果出現 404。目前的轉址寫在 `content/tags/*/_index.md`、`content/categories/抽獎工具/_index.md`，以及 line-bots-recommendation、threads-ig-cross-platform-lottery 兩篇文章。
 - 內文圖片照常放 PNG 或 JPEG 即可，build 時會自動產生縮小的 WebP（`render-image.html`），不需要自己壓縮或縮圖。原圖寬度建議至少 1440px，高解析螢幕才會清楚。
 - 動畫圖片用動態 WebP，不要用 GIF（同樣的畫面通常小 50～75%）。轉檔：`gif2webp -lossy -q 75 -m 6 -mt 原檔.gif -o 新檔.webp`（`brew install webp`），轉完和原檔比對畫質。
 - 文章改名或搬移時，在新文章加 `aliases = ["/posts/舊網址/"]`，讓舊網址轉到新網址。
+- 流程圖、示意圖用 SVG：檔案小、放大不會糊，數字和文字也比 AI 生成的圖準確。根元素要寫數字的 `width`、`height`（`render-image.html` 會讀來保留版面空間），版面寬度 600px、字級至少 15px，手機上才讀得到。圖中有文字時，中英文各做一份並用語言後綴命名，例如 `three-stages.zh.svg`、`three-stages.en.svg`，Hugo 只會把對應語言的檔案輸出到該語言的頁面。
+- how-pitchat-makes-lottery-transparent 的 4 組 SVG 由 `scripts/diagrams/how-pitchat-makes-lottery-transparent.py` 產生，修改圖片時改這支程式再重新產生，不要直接改 SVG：`python3 scripts/diagrams/how-pitchat-makes-lottery-transparent.py content/posts/how-pitchat-makes-lottery-transparent`
 
 ## 英文文章
 
@@ -65,7 +67,7 @@ PaperMod 是 git submodule（`themes/PaperMod`，目前釘在 `1181196`）。下
 | `layouts/baseof.html` | `layouts/baseof.html` | `<html lang>` 改用 locale（`zh-TW`／`en`） |
 | `layouts/partials/share_icons.html` | `layouts/_partials/share_icons.html` | 開頭加「分享至：」與複製連結按鈕；新增 LINE、Threads 分享按鈕；按鈕依 `ShareButtons` 設定的順序顯示（主題原本是固定順序） |
 | `layouts/partials/post_meta.html` | `layouts/_partials/post_meta.html` | 日期後面加上「更新於」（`lastmod` 晚於 `date` 才顯示）和分類連結（首頁卡片也會顯示，但卡片整塊是文章連結，只有文章頁能點進分類） |
-| `layouts/_markup/render-image.html` | `layouts/_markup/render-image.html` | 內文 PNG／JPEG 自動轉成 480～1440px 的 WebP 並輸出 `srcset`；所有點陣圖加上 `width`、`height`、`decoding="async"`。GIF 和 WebP（可能是動畫）照原檔輸出 |
+| `layouts/_markup/render-image.html` | `layouts/_markup/render-image.html` | 內文 PNG／JPEG 自動轉成 480～1440px 的 WebP 並輸出 `srcset`；所有點陣圖加上 `width`、`height`、`decoding="async"`。GIF 和 WebP（可能是動畫）照原檔輸出；SVG 照原檔輸出，`width`、`height` 讀自 SVG 根元素 |
 | `layouts/partials/templates/opengraph.html` | `layouts/_partials/templates/opengraph.html` | `og:image` 改用 `cover-url.html`；加上 `og:image:alt`（取自 `cover.alt`，沒有封面時用 `params.imagesAlt`） |
 | `layouts/partials/templates/twitter_cards.html` | `layouts/_partials/templates/twitter_cards.html` | `twitter:image` 改用 `cover-url.html`；加上 `twitter:image:alt`（同上） |
 | `layouts/partials/templates/schema_json.html` | `layouts/_partials/templates/schema_json.html` | JSON-LD 圖片改用 `cover-url.html`；logo 改讀 `params.schema.logo`（`pitchat.png`），沒設才用 favicon；作者改由 `schema-author.html` 產生 |
@@ -111,6 +113,6 @@ git -C themes/PaperMod checkout origin/master
 
 ## 已知的特殊設定
 
-- `content/posts/how-pitchat-makes-lottery-transparent/`：網址固定為 `/posts/how-pitchat-makes-lottery-transparent-/`（結尾有 `-`，是舊資料夾名稱留下的），由 front matter 的 `url` 指定，請勿移除。
+- `content/posts/how-pitchat-makes-lottery-transparent/`：舊網址 `/posts/how-pitchat-makes-lottery-transparent-/`（結尾的 `-` 是舊資料夾名稱的空格留下的）已改為 `/posts/how-pitchat-makes-lottery-transparent/`，front matter 的 `aliases` 讓舊網址轉到新網址，請勿移除。
 - 英文選單使用相對網址（`search/` 等），不用 `pageRef`：PaperMod 會再加一次語言前綴，變成 `/en/blog/en/...`。
 - `static/og-image.png`（1200×630）：沒有封面圖的頁面（首頁、分類、標籤、彙整、搜尋）的分享預覽圖，由 `hugo.yaml` 的 `params.images` 指定。來源是主站 `pitchat-frontend/public/opengraph-image.png`，四周裁掉 32px 後置中，兩側延伸背景色。主站換圖時要一起更新。

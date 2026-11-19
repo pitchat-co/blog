@@ -41,7 +41,7 @@ Instagram 的 API 會不定期調整。免費工具缺乏持續的資源投入�
 
 Pitchat 將核心價值聚焦於公平、效率、體驗的最佳化，提供專業的抽獎工具，同時給予你未來的多平台佈局空間。
 
-> 延伸閱讀：[透明的抽獎流程：公平、效率、體驗的最佳化](https://pitchat.co/blog/posts/how-pitchat-makes-lottery-transparent-/)
+> 延伸閱讀：[透明的抽獎流程：公平、效率、體驗的最佳化]({{< ref "/posts/how-pitchat-makes-lottery-transparent" >}})
 
 > 延伸閱讀：粉絲同時在 Threads 和 IG？可以用[脆＋IG 跨平台抽獎]({{< ref "/posts/threads-ig-cross-platform-lottery" >}})一次合併兩邊的留言；Facebook 粉專的活動則可以參考 [FB 留言抽獎流程]({{< ref "/posts/facebook-giveaway-tool" >}})。
 
