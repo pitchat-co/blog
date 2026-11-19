@@ -56,7 +56,7 @@ cover = { image = "cover.png", alt = "等角插圖：大型抽獎轉盤、禮物
 
 [Pitchat](https://pitchat.co/app?r=blog) 提供了專業的社群抽獎工具，支援 YouTube、Instagram、Threads、Facebook 等多平台。
 
-> 延伸閱讀：[透明的抽獎流程：公平、效率、體驗的最佳化](https://pitchat.co/blog/posts/how-pitchat-makes-lottery-transparent-/)
+> 延伸閱讀：[透明的抽獎流程：公平、效率、體驗的最佳化]({{< ref "/posts/how-pitchat-makes-lottery-transparent" >}})
 
 ### 透明公開的抽獎邏輯
 

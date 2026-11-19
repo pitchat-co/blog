@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="902" viewBox="0 0 600 902" role="img">
+<title>Overview of Pitchat&#x27;s three-stage giveaway draw</title>
+<defs>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#EEF3FB" stroke-width="1"/></pattern>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2563EB"/></marker>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}</style>
+</defs>
+<rect width="600" height="902" rx="16" fill="#fff"/>
+<rect width="600" height="902" rx="16" fill="url(#grid)" stroke="#D6E2FA" stroke-width="1.5"/>
+<rect x="145.25" y="24" width="309.5" height="60" rx="10" fill="#EEF3FE" stroke="#2563EB" stroke-width="1.5"/>
+<text x="300" y="50" font-size="18" fill="#1E3A8A" font-weight="700" text-anchor="middle">Instagram API</text>
+<text x="300" y="72" font-size="15" fill="#5B6577" font-weight="400" text-anchor="middle">Returns comments page by page</text>
+<line x1="300" y1="84" x2="300" y2="120" stroke="#2563EB" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="24" y="124" width="552" height="662" rx="14" fill="#F8FAFF" stroke="#2563EB" stroke-width="2"/>
+<path d="M24 160 H576" stroke="#C3D5FB" stroke-width="1.5"/>
+<circle cx="46" cy="142" r="5.5" fill="#F87171"/>
+<circle cx="64" cy="142" r="5.5" fill="#FBBF24"/>
+<circle cx="82" cy="142" r="5.5" fill="#34D399"/>
+<text x="300" y="148" font-size="15" fill="#1E3A8A" font-weight="700" text-anchor="middle">Everything runs in your browser</text>
+<rect x="48" y="180" width="504" height="144" rx="12" fill="#fff" stroke="#C3D5FB" stroke-width="1.5"/>
+<circle cx="82" cy="216" r="17" fill="#2563EB"/>
+<text x="82" y="222" font-size="17" fill="#fff" font-weight="700" text-anchor="middle">1</text>
+<text x="110" y="222" font-size="19" fill="#1F2937" font-weight="700" text-anchor="start">Stage 1 · Read and sample</text>
+<text x="110" y="248" font-size="15" fill="#5B6577" font-weight="400" text-anchor="start">Filter as comments arrive; sample about 1,000</text>
+<rect x="110" y="266" width="142.84999999999997" height="34" rx="17" fill="#EEF3FE" stroke="#C3D5FB" stroke-width="1.5"/><text x="181.42499999999998" y="288" font-size="13.5" fill="#1E3A8A" font-weight="500" text-anchor="middle">Exclude yourself</text>
+<rect x="260.84999999999997" y="266" width="161.74999999999994" height="34" rx="17" fill="#EEF3FE" stroke="#C3D5FB" stroke-width="1.5"/><text x="341.7249999999999" y="288" font-size="13.5" fill="#1E3A8A" font-weight="500" text-anchor="middle">Duplicate comments</text>
+<rect x="430.5999999999999" y="266" width="99.64999999999998" height="34" rx="17" fill="#EEF3FE" stroke="#C3D5FB" stroke-width="1.5"/><text x="480.4249999999999" y="288" font-size="13.5" fill="#1E3A8A" font-weight="500" text-anchor="middle">Time range</text>
+<line x1="300" y1="324" x2="300" y2="374" stroke="#2563EB" stroke-width="2" marker-end="url(#ah)"/>
+<text x="314" y="355" font-size="15" fill="#2563EB" font-weight="600" text-anchor="start">Candidate pool (about 1,000)</text>
+<rect x="48" y="378" width="504" height="144" rx="12" fill="#fff" stroke="#C3D5FB" stroke-width="1.5"/>
+<circle cx="82" cy="414" r="17" fill="#2563EB"/>
+<text x="82" y="420" font-size="17" fill="#fff" font-weight="700" text-anchor="middle">2</text>
+<text x="110" y="420" font-size="19" fill="#1F2937" font-weight="700" text-anchor="start">Stage 2 · Filter</text>
+<text x="110" y="446" font-size="15" fill="#5B6577" font-weight="400" text-anchor="start">Apply detailed filters; check there are enough people</text>
+<rect x="110" y="464" width="90.69999999999999" height="34" rx="17" fill="#EEF3FE" stroke="#C3D5FB" stroke-width="1.5"/><text x="155.35" y="486" font-size="14.5" fill="#1E3A8A" font-weight="500" text-anchor="middle">Blocklist</text>
+<rect x="208.7" y="464" width="96.49999999999999" height="34" rx="17" fill="#EEF3FE" stroke="#C3D5FB" stroke-width="1.5"/><text x="256.95" y="486" font-size="14.5" fill="#1E3A8A" font-weight="500" text-anchor="middle">Keywords</text>
+<rect x="313.2" y="464" width="90.69999999999999" height="34" rx="17" fill="#EEF3FE" stroke="#C3D5FB" stroke-width="1.5"/><text x="358.54999999999995" y="486" font-size="14.5" fill="#1E3A8A" font-weight="500" text-anchor="middle">Mentions</text>
+<rect x="411.9" y="464" width="122.59999999999998" height="34" rx="17" fill="#EEF3FE" stroke="#C3D5FB" stroke-width="1.5"/><text x="473.2" y="486" font-size="14.5" fill="#1E3A8A" font-weight="500" text-anchor="middle">Multiple wins</text>
+<line x1="300" y1="522" x2="300" y2="572" stroke="#2563EB" stroke-width="2" marker-end="url(#ah)"/>
+<text x="314" y="553" font-size="15" fill="#2563EB" font-weight="600" text-anchor="start">Qualifying candidates</text>
+<rect x="48" y="576" width="504" height="188" rx="12" fill="#fff" stroke="#C3D5FB" stroke-width="1.5"/>
+<circle cx="82" cy="612" r="17" fill="#2563EB"/>
+<text x="82" y="618" font-size="17" fill="#fff" font-weight="700" text-anchor="middle">3</text>
+<text x="110" y="618" font-size="19" fill="#1F2937" font-weight="700" text-anchor="start">Stage 3 · Draw</text>
+<text x="110" y="644" font-size="15" fill="#5B6577" font-weight="400" text-anchor="start">Pick winners based on the multiple-wins setting</text>
+<rect x="110" y="662" width="420.5000000000002" height="34" rx="17" fill="#EEF3FE" stroke="#C3D5FB" stroke-width="1.5"/><text x="320.2500000000001" y="684" font-size="15" fill="#1E3A8A" font-weight="500" text-anchor="middle">Multiple wins allowed → random pick, may repeat</text>
+<rect x="110" y="706" width="371.00000000000017" height="34" rx="17" fill="#EEF3FE" stroke="#C3D5FB" stroke-width="1.5"/><text x="295.5000000000001" y="728" font-size="15" fill="#1E3A8A" font-weight="500" text-anchor="middle">Not allowed → shuffle, then pick in order</text>
+<line x1="300" y1="786" x2="300" y2="824" stroke="#2563EB" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="220.0" y="828" width="160" height="50" rx="25" fill="#1E3A8A" stroke="none" stroke-width="1.5"/>
+<path d="M245.0 841 h18 v6 a9 9 0 0 1 -18 0 z" fill="#fff"/><path d="M245.0 843 h-5 a5 5 0 0 0 5 7 M263.0 843 h5 a5 5 0 0 1 -5 7" fill="none" stroke="#fff" stroke-width="2"/><rect x="252.0" y="855" width="4" height="5" fill="#fff"/><rect x="247.0" y="860" width="14" height="3" rx="1" fill="#fff"/>
+<text x="314" y="859" font-size="18" fill="#fff" font-weight="700" text-anchor="middle">Winners</text>
+</svg>

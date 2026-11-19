@@ -38,7 +38,7 @@ Pitchat 採用了企業級的資料處理架構。無論你的活動累積了多
 
 Pitchat 堅持「流程透明」的設計哲學。我們不僅提供公開的抽獎運算邏輯，更讓你能一鍵產出包含詳細資訊的得獎名單。這種對公平性的堅持，能有效幫助品牌建立公信力，讓粉絲更願意參與未來的每一場活動。
 
-> 延伸閱讀：[Pitchat 如何透過透明流程，為品牌建立信任](https://pitchat.co/blog/posts/how-pitchat-makes-lottery-transparent-/)
+> 延伸閱讀：[Pitchat 如何透過透明流程，為品牌建立信任]({{< ref "/posts/how-pitchat-makes-lottery-transparent" >}})
 
 > 延伸閱讀：同時經營其他平台？可以參考 [IG 留言抽獎工具推薦]({{< ref "/posts/instagram-giveaway-tool" >}})、[YouTube 留言抽獎教學]({{< ref "/posts/youtube-giveaway-tool" >}})。
 
