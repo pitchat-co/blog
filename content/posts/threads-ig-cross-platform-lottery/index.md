@@ -34,7 +34,7 @@ Pitchat 的「**脆+ig 跨平台一次抽獎**」功能完美解決這些痛點�
 
 選擇「全平台」後，分別選取你要抽獎的 Threads 串文和 Instagram 貼文，系統會自動合併兩邊的留言池。
 
-> 延伸閱讀：只想抽單一平台？可以參考 [Threads 留言抽獎教學]({{< ref "/posts/free-threads-lottery-tool-guide" >}}) 或 [IG 留言抽獎工具推薦]({{< ref "/posts/instagram-giveaway-tool" >}})；想了解抽獎如何確保公平，請看[透明的抽獎流程]({{< ref "/posts/how-pitchat-makes-lottery-transparent" >}})。
+> 延伸閱讀：只想抽單一平台？可以參考 [Threads 留言抽獎教學]({{< ref "/posts/free-threads-lottery-tool-guide" >}}) 或 [IG 留言抽獎工具推薦]({{< ref "/posts/instagram-giveaway-tool" >}})；在 YouTube 辦抽獎，可以看 [YouTube 留言抽獎的規則與開獎教學]({{< ref "/posts/youtube-giveaway-tool" >}})；想了解抽獎如何確保公平，請看[透明的抽獎流程]({{< ref "/posts/how-pitchat-makes-lottery-transparent" >}})。
 
 ### 抽獎條件 - 智慧篩選
 
