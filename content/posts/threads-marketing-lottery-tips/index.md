@@ -47,7 +47,7 @@ cover = { image = "cover.png", alt = "Pitchat Threads 抽獎介面截圖：設�
 
 ---
 
-> 延伸閱讀：抽獎工具的操作步驟，請參考 [Threads 留言抽獎教學]({{< ref "/posts/free-threads-lottery-tool-guide" >}})；粉絲同時在 IG 的話，可以用[脆＋IG 跨平台抽獎]({{< ref "/posts/threads-ig-cross-platform-lottery" >}})。
+> 延伸閱讀：抽獎工具的操作步驟，請參考 [Threads 留言抽獎教學]({{< ref "/posts/free-threads-lottery-tool-guide" >}})；粉絲同時在 IG 的話，可以用[脆＋IG 跨平台抽獎]({{< ref "/posts/threads-ig-cross-platform-lottery" >}})；想把抽獎放進品牌整體的經營，可以參考 [Threads 行銷策略]({{< ref "/posts/threads-marketing" >}})。
 
 ## 如何免費使用 Threads 抽獎工具？
 

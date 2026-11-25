@@ -5,7 +5,7 @@ date = 2024-12-03T07:07:07+08:00
 draft = false
 categories = ["科技趨勢"]
 tags = ["Threads", "社群媒體", "演算法"]
-cover = { image = "cover.jpg", alt = "黑底的 Threads 標誌，四周環繞印有 THREADS 字樣的緞帶" }
+cover = { image = "cover.webp", alt = "插圖：手機動態中，來自追蹤帳號的貼文比例增加、推薦的陌生帳號貼文變少，上方的調節器偏向追蹤內容，示意 Threads 推薦演算法的調整" }
 +++
 Instagram 執行長 Mosseri 於 2024 年 11 月 21 日宣布將調整 Threads 推薦演算法的比例，優先推送用戶追蹤對象的內容。這項改變對創作者產生重大影響，特別是那些期望透過 Threads 打開知名度的內容創作者，將面臨更大的挑戰。
 
@@ -31,7 +31,7 @@ Instagram 執行長 Mosseri 於 2024 年 11 月 21 日宣布將調整 Threads �
 2. **提升內容品質**：製作具有話題性和分享價值的內容，以在有限的觸及中獲得最大效益。
 3. **發展多平台策略**：避免過度依賴單一平台，建議同時經營其他社群媒體。
 
-> 延伸閱讀：[Threads 行銷實戰指南]({{< ref "/posts/threads-marketing" >}})整理了適合這個平台的內容策略；如果你想讓自己的動態更貼近興趣，可以參考[在脆 Threads 上看見想看見的]({{< ref "/posts/seeing-what-you-want-to-see-on-threads" >}})。
+> 延伸閱讀：[Threads 行銷完整指南]({{< ref "/posts/threads-marketing" >}})整理了品牌經營策略與台灣案例；如果你想讓自己的動態更貼近興趣，可以參考[在脆 Threads 上看見想看見的]({{< ref "/posts/seeing-what-you-want-to-see-on-threads" >}})。
 
 ## Threads 的未來發展
 

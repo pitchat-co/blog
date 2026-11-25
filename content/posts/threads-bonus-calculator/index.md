@@ -41,4 +41,4 @@ cover = { image = "threads-bonus.png", alt = "Threads 帳號價值估算的手�
 
 最後推薦給你一個簡易版的估值計算工具 [Pitchat 價值精算](https://pitchat.co/)，我們的計算方式僅僅是拿你最近的60則貼文進行估算，僅供參考。
 
-> 延伸閱讀：[Threads 演算法改變了什麼？]({{< ref "/posts/threads-algorithm-change" >}})
+> 延伸閱讀：[Threads 演算法改變了什麼？]({{< ref "/posts/threads-algorithm-change" >}})、[品牌經營 Threads 的做法]({{< ref "/posts/threads-marketing" >}})
