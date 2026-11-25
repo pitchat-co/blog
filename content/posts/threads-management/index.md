@@ -40,3 +40,5 @@ Threads 和 Instagram 是帳號連結的關係，如果品牌原本在 IG 就有
 
 這邊推薦 [Pitchat](https://pitchat.co)，提供 Threads 貼文數據、排程貼文和留言抽獎等功能，可以協助品牌經營 Threads。
 請參考我們的[註冊教學]({{< ref "/posts/how-to-register-pithcat" >}})來建立一個新帳號。
+
+> 延伸閱讀：Threads 動態都是不想看的內容？可以看 [Threads 不想看的內容怎麼隱藏]({{< ref "/posts/seeing-what-you-want-to-see-on-threads" >}})。
