@@ -65,12 +65,13 @@ PaperMod 是 git submodule（`themes/PaperMod`，目前釘在 `1181196`）。下
 | 覆寫檔 | 主題原檔 | 修改內容 |
 |---|---|---|
 | `layouts/baseof.html` | `layouts/baseof.html` | `<html lang>` 改用 locale（`zh-TW`／`en`） |
+| `layouts/partials/head.html` | `layouts/_partials/head.html` | 首頁 `<title>` 改讀 `content/_index.md`（英文 `_index.en.md`）的 `seoTitle`；沒設時照主題原樣只輸出網站名稱 |
 | `layouts/partials/share_icons.html` | `layouts/_partials/share_icons.html` | 開頭加「分享至：」與複製連結按鈕；新增 LINE、Threads 分享按鈕；按鈕依 `ShareButtons` 設定的順序顯示（主題原本是固定順序） |
 | `layouts/partials/post_meta.html` | `layouts/_partials/post_meta.html` | 日期後面加上「更新於」（`lastmod` 晚於 `date` 才顯示）和分類連結（首頁卡片也會顯示，但卡片整塊是文章連結，只有文章頁能點進分類） |
 | `layouts/_markup/render-image.html` | `layouts/_markup/render-image.html` | 內文 PNG／JPEG 自動轉成 480～1440px 的 WebP 並輸出 `srcset`；所有點陣圖加上 `width`、`height`、`decoding="async"`。GIF 和 WebP（可能是動畫）照原檔輸出；SVG 照原檔輸出，`width`、`height` 讀自 SVG 根元素 |
-| `layouts/partials/templates/opengraph.html` | `layouts/_partials/templates/opengraph.html` | `og:image` 改用 `cover-url.html`；加上 `og:image:alt`（取自 `cover.alt`，沒有封面時用 `params.imagesAlt`） |
-| `layouts/partials/templates/twitter_cards.html` | `layouts/_partials/templates/twitter_cards.html` | `twitter:image` 改用 `cover-url.html`；加上 `twitter:image:alt`（同上） |
-| `layouts/partials/templates/schema_json.html` | `layouts/_partials/templates/schema_json.html` | JSON-LD 圖片改用 `cover-url.html`；logo 改讀 `params.schema.logo`（`pitchat.png`），沒設才用 favicon；作者改由 `schema-author.html` 產生 |
+| `layouts/partials/templates/opengraph.html` | `layouts/_partials/templates/opengraph.html` | `og:image` 改用 `cover-url.html`；加上 `og:image:alt`（取自 `cover.alt`，沒有封面時用 `params.imagesAlt`）；首頁 `og:title` 讀 `seoTitle` |
+| `layouts/partials/templates/twitter_cards.html` | `layouts/_partials/templates/twitter_cards.html` | `twitter:image` 改用 `cover-url.html`；加上 `twitter:image:alt`（同上）；首頁 `twitter:title` 讀 `seoTitle` |
+| `layouts/partials/templates/schema_json.html` | `layouts/_partials/templates/schema_json.html` | JSON-LD 圖片改用 `cover-url.html`；logo 改讀 `params.schema.logo`（`pitchat.png`），沒設才用 favicon；作者改由 `schema-author.html` 產生；首頁 Organization 的 `url` 改讀 `params.schema.url`（官網 `https://pitchat.co`），`description` 截斷長度 180 → 300，並在後面加一段 `Blog`（名稱取自 `homeInfoParams.Title`，也就是首頁 H1，沒設時用網站名稱；描述取自 `content/_index*.md`） |
 
 以下是本站自己的檔案，不是複製來的，更新主題時不用比對：
 - `layouts/partials/cover-url.html`：封面圖的實際網址
@@ -86,6 +87,8 @@ PaperMod 是 git submodule（`themes/PaperMod`，目前釘在 `1181196`）。下
 - `layouts/404.html`、`assets/css/extended/404.css`：404 頁（說明，以及回首頁／搜尋／分類按鈕），取代 PaperMod 只有「404」三個字的頁面。文字在 `i18n/*.yaml` 的 `not_found_*`
 - `layouts/partials/clauses.html`：把中文句子依「，」拆成不斷行的片段，窄螢幕時在逗號後換行（404 頁使用）
 - `i18n/zh-tw.yaml`、`i18n/en.yaml`：本站新增的介面文字，會和主題的翻譯檔合併
+
+首頁的搜尋標題與描述寫在 `content/_index.md`、`content/_index.en.md` 的 `seoTitle`、`description`；首頁畫面上的標題與介紹文字在 `hugo.yaml` 的 `homeInfoParams`（中文在 `params`，英文在 `languages.en.params`）。`homeInfoParams.Title` 同時是結構化資料 `Blog` 的 `name`，要維持部落格名稱（「Pitchat 部落格」「Pitchat Blog」），不要改成含關鍵字的標語；標語寫在 `seoTitle`。首頁不用 `title`，因為它也會改到 RSS 的標題。`hugo.yaml` 的 `description`（中文在 `params`，英文在 `languages.en.params`）是品牌描述，用在首頁結構化資料的 Organization，也是沒寫 description 的頁面的預設值，不要寫成部落格的描述。
 
 分享區塊的文字在 `hugo.yaml` 的 `shareLabel`、`copyLinkLabel`、`copiedLabel`（中文在 `params`，英文在 `languages.en.params`）。按鈕順序也在 `hugo.yaml` 的 `ShareButtons`：中文依台灣常用程度（LINE、Facebook、Threads、X、LinkedIn），英文版不放 LINE（Facebook、X、LinkedIn、Threads）。複製連結固定在最前面。
 

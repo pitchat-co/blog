@@ -82,10 +82,12 @@ languages:
       shareLabel: "Share on:"
       copyLinkLabel: "Copy link"
       copiedLabel: "Link copied"
-      description: Pitchat is a marketing toolkit built for Threads by an independent developer in Taiwan. It brings together Threads analytics, giveaway tools, scheduled posting and content ideas to help you manage and improve your Threads marketing strategy.
+      # Brand description: Organization description in the home page JSON-LD, and the fallback for pages without a description.
+      # The home page search description lives in content/_index.en.md.
+      description: "Pitchat is a social media toolkit built in Taiwan: comment pickers for Instagram, Facebook, Threads and YouTube, a random picker, a spin wheel, Threads analytics and scheduling, and Instagram Auto Replies."
       homeInfoParams:
-        Title: Pitchat - Threads Marketing Software
-        Content: Pitchat is a marketing toolkit built for Threads by an independent developer in Taiwan. It brings together Threads analytics, giveaway tools, scheduled posting and content ideas to help you manage and improve your Threads marketing strategy.
+        Title: Pitchat Blog
+        Content: Pitchat is a social media toolkit built by an independent developer in Taiwan. Here we explain how to run fair, transparent comment giveaways on Instagram, Threads, Facebook and YouTube, and share practical guides to the tools we build.
       socialIcons:
         - name: "threads"
           url: "https://www.threads.net/@pitchat.co"
@@ -119,7 +121,9 @@ outputs:
 
 params:
   author: ["Pitchat"]
-  description: Pitchat 是一個專為 Threads 行銷設計的輔助工具，由台灣獨立開發者開發。這款軟體提供了全面的行銷功能，包括 Threads 數據分析、Threads 抽獎工具、Threads 排程發文與 Threads 內容發想等，幫助您有效管理和優化 Threads 行銷策略。
+  # 品牌描述：首頁結構化資料 Organization 的 description，也是沒寫 description 的頁面的預設值。
+  # 首頁的搜尋描述另寫在 content/_index.md。
+  description: Pitchat 是台灣獨立開發者打造的社群經營工具，提供 Instagram、Facebook、Threads、YouTube 留言抽獎，線上抽獎與轉盤，Threads 數據分析與排程發文，以及 Instagram 自動回覆。
 
   label:
       icon: "pitchat.png"
@@ -164,8 +168,8 @@ params:
       includeMatches: true
 
   homeInfoParams:
-    Title: Pitchat - Threads行銷軟體服務
-    Content: Pitchat 是一個專為 Threads 行銷設計的輔助工具，由台灣獨立開發者開發。這款軟體提供了全面的行銷功能，包括 Threads 數據分析、Threads 抽獎工具、Threads 排程發文與 Threads 內容發想等，幫助您有效管理和優化 Threads 行銷策略。
+    Title: Pitchat 部落格
+    Content: Pitchat 是台灣獨立開發者打造的社群經營工具。這裡分享 IG、FB、Threads、YouTube 留言抽獎的規劃與公平開獎方法，Threads 演算法與品牌行銷案例，以及 IG 自動回覆、轉盤、線上抽獎等工具的實用教學。
 
   socialIcons: 
     - name: "threads"
@@ -190,9 +194,9 @@ params:
   
   # 結構化資料（JSON-LD）：品牌帳號與 logo（Google 要求 logo 至少 112px，所以不用 favicon）
   schema:
+    url: "https://pitchat.co"   # Organization 的官網（沒設才用 blog 首頁網址）
     logo: "pitchat.png"
     sameAs:
-      - "https://pitchat.co"
       - "https://www.threads.net/@pitchat.co"
       - "https://www.instagram.com/pitchat.co/"
 

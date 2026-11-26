@@ -1,11 +1,11 @@
-{{- /* Copy of PaperMod layouts/_partials/templates/opengraph.html (theme commit 1181196). Changes: cover image URL comes from partial "cover-url.html"; og:image:alt from cover.alt (or site.Params.imagesAlt for the site-wide fallback image). Re-check against the theme when updating PaperMod. */ -}}
+{{- /* Copy of PaperMod layouts/_partials/templates/opengraph.html (theme commit 1181196). Changes: cover image URL comes from partial "cover-url.html"; og:image:alt from cover.alt (or site.Params.imagesAlt for the site-wide fallback image); og:title on the home page uses seoTitle from content/_index*.md when set. Re-check against the theme when updating PaperMod. */ -}}
 <meta property="og:url" content="{{ .Permalink }}">
 
 {{- with or site.Title site.Params.title | plainify }}
   <meta property="og:site_name" content="{{ . }}">
 {{- end }}
 
-{{- with or .Title site.Title site.Params.title | plainify }}
+{{- with or (and .IsHome .Params.seotitle) .Title site.Title site.Params.title | plainify }}
   <meta property="og:title" content="{{ . }}">
 {{- end }}
 

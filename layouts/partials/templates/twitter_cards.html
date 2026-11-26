@@ -1,4 +1,4 @@
-{{- /* Copy of PaperMod layouts/_partials/templates/twitter_cards.html (theme commit 1181196). Changes: cover image URL comes from partial "cover-url.html"; twitter:image:alt from cover.alt (or site.Params.imagesAlt for the site-wide fallback image). Re-check against the theme when updating PaperMod. */ -}}
+{{- /* Copy of PaperMod layouts/_partials/templates/twitter_cards.html (theme commit 1181196). Changes: cover image URL comes from partial "cover-url.html"; twitter:image:alt from cover.alt (or site.Params.imagesAlt for the site-wide fallback image); twitter:title on the home page uses seoTitle from content/_index*.md when set. Re-check against the theme when updating PaperMod. */ -}}
 {{- if .Params.cover.image -}}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ partial "cover-url.html" . }}">
@@ -18,7 +18,7 @@
 {{- end }}
 {{- end }}
 
-{{- with or .Title site.Title site.Params.title | plainify }}
+{{- with or (and .IsHome .Params.seotitle) .Title site.Title site.Params.title | plainify }}
   <meta name="twitter:title" content="{{ . }}">
 {{- end }}
 

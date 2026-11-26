@@ -1,12 +1,12 @@
-{{- /* Copy of PaperMod layouts/_partials/templates/schema_json.html (theme commit 1181196). Changes: cover image URL comes from partial "cover-url.html"; logo reads site.Params.schema.logo before the favicon; author goes through partial "schema-author.html" (Organization when the name is the site title). Re-check against the theme when updating PaperMod. */ -}}
+{{- /* Copy of PaperMod layouts/_partials/templates/schema_json.html (theme commit 1181196). Changes: cover image URL comes from partial "cover-url.html"; logo reads site.Params.schema.logo before the favicon; author goes through partial "schema-author.html" (Organization when the name is the site title); home page: Organization url reads site.Params.schema.url before the blog home, description truncates at 300 instead of 180, and a Blog entity follows the Organization (name from homeInfoParams.Title, i.e. the home H1, falling back to the site title; description from content/_index*.md; publisher). Re-check against the theme when updating PaperMod. */ -}}
 {{ if .IsHome }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "{{- ( site.Params.schema.publisherType | default "Organization") | title -}}",
   "name": {{ site.Title }},
-  "url": {{ site.Home.Permalink }},
-  "description": {{ site.Params.description | plainify | truncate 180 | safeHTML }},
+  "url": {{ site.Params.schema.url | default site.Home.Permalink }},
+  "description": {{ site.Params.description | plainify | truncate 300 | safeHTML }},
   {{- if (eq site.Params.schema.publisherType "Person") }}
   "image": {{ site.Params.schema.logo | default site.Params.assets.favicon | default "favicon.ico" | absURL }},
   {{- else }}
@@ -19,6 +19,24 @@
       {{ range $i, $e := site.Params.SocialIcons }}{{ if $i }}, {{ end }}{{ trim $e.url " " | safeURL }}{{ end }}
     {{- end}}
   ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": {{ site.Params.homeInfoParams.Title | default site.Title }},
+  "url": {{ .Permalink }},
+  {{- with .Description }}
+  "description": {{ . | plainify }},
+  {{- end }}
+  "inLanguage": {{ site.Language.Locale }},
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.Title }},
+    "url": {{ site.Params.schema.url | default site.Home.Permalink }},
+    "logo": {{ site.Params.schema.logo | default site.Params.assets.favicon | default "favicon.ico" | absURL }}
+  }
 }
 </script>
 {{- else if (or .IsPage .IsSection) }}
